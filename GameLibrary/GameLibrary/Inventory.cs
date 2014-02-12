@@ -13,6 +13,8 @@ namespace GameLibrary
         public Inventory()
         {
             this.items = new List<Item>();
+
+            // test
         }
     }
 }
