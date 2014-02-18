@@ -18,6 +18,26 @@ namespace DeBugger
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        GraphicsDevice device;
+
+        Texture2D backgroundTexture;
+        int screenWidth;    
+        int screenHeight;
+
+        private SpriteFont font;
+
+        private AnimatedSprite animatedSprite;
+        Texture2D enemyOne;
+        Texture2D enemyTwo;
+
+        public struct EnemyData
+        {
+            public Vector2 Position;
+            public bool IsAlive;
+            public Color Color;
+            public float Angle;
+            public float Power;
+        }
 
         public Game1()
         {
@@ -25,15 +45,13 @@ namespace DeBugger
             Content.RootDirectory = "Content";
         }
 
-        /// <summary>
-        /// Allows the game to perform any initialization it needs to before starting to run.
-        /// This is where it can query for any required services and load any non-graphic
-        /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
-        /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            graphics.PreferredBackBufferWidth = 800;
+            graphics.PreferredBackBufferHeight = 480;
+            graphics.IsFullScreen = false;
+            graphics.ApplyChanges();
+            Window.Title = "DeBugger by Team Kurt Vonnegut";
 
             base.Initialize();
         }
@@ -46,8 +64,19 @@ namespace DeBugger
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            device = graphics.GraphicsDevice;
 
-            // TODO: use this.Content to load your game content here
+            screenWidth = device.PresentationParameters.BackBufferWidth;
+            screenHeight = device.PresentationParameters.BackBufferHeight;
+
+            backgroundTexture = Content.Load<Texture2D>("Images\\background");
+            font = Content.Load<SpriteFont>("Info");
+
+            Texture2D texture = Content.Load<Texture2D>("Images\\SmileyWalk");
+            animatedSprite = new AnimatedSprite(texture, 4, 4);
+
+            enemyOne = Content.Load<Texture2D>("Images\\beetle");
+            enemyTwo = Content.Load<Texture2D>("Images\\bug");
         }
 
         /// <summary>
@@ -70,9 +99,20 @@ namespace DeBugger
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            // TODO: Add your update logic here
+            animatedSprite.Update();
+            ProcessKeyboard();
 
             base.Update(gameTime);
+        }
+
+        private void ProcessKeyboard()
+        {
+            KeyboardState keybState = Keyboard.GetState();
+            if (keybState.IsKeyDown(Keys.Down))
+            {
+
+            }
+                
         }
 
         /// <summary>
@@ -83,9 +123,28 @@ namespace DeBugger
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            DrawBackground();
+            spriteBatch.Draw(enemyOne, new Vector2(200, 200), Color.White);
+            spriteBatch.Draw(enemyTwo, new Vector2(300, 200), Color.White);
+            DrawEnemies();
+            spriteBatch.End();
+
+            animatedSprite.Draw(spriteBatch, new Vector2(50, 50));
 
             base.Draw(gameTime);
+        }
+
+        private void DrawBackground()
+        {
+            Rectangle screenRectangle = new Rectangle(0, 0, screenWidth, screenHeight);
+            spriteBatch.Draw(backgroundTexture, screenRectangle, Color.White);
+        }
+
+        private void DrawEnemies()
+        {
+            spriteBatch.DrawString(font, "Level:", new Vector2(650, 400), Color.Red);
+            spriteBatch.DrawString(font, "Score:", new Vector2(650, 430), Color.Red);
         }
     }
 }
