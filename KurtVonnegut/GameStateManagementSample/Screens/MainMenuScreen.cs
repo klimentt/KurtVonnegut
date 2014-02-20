@@ -28,7 +28,7 @@ namespace GameStateManagementSample
         /// <summary>
         /// Constructor fills in the menu contents.
         /// </summary>
-        public MainMenuScreen() : base("Main Menu")
+        public MainMenuScreen() : base("DeBugger")
         {
             // Create our menu entries.
             MenuEntry playGameMenuEntry = new MenuEntry("Play Game");

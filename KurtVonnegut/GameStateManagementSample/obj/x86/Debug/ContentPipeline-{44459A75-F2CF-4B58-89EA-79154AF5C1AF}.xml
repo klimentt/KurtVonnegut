@@ -155,13 +155,13 @@
       <Time>2014-02-19T23:29:12.399408+02:00</Time>
     </Item>
     <Item>
-      <Source>testSong.wav</Source>
-      <Name>testSong</Name>
+      <Source>Sounds\backgroundMusic.wav</Source>
+      <Name>Sounds\backgroundMusic</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\testSong.xnb</Output>
-      <Time>2014-02-20T17:35:08.0554838+02:00</Time>
+      <Output>D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\backgroundMusic.xnb</Output>
+      <Time>2014-02-20T20:25:00.5733617+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

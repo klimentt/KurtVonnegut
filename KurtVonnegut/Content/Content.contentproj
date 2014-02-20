@@ -124,8 +124,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="testSong.wav">
-      <Name>testSong</Name>
+    <Compile Include="Sounds\backgroundMusic.wav">
+      <Name>backgroundMusic</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>

@@ -83,6 +83,7 @@ namespace GameStateManagement
             {
                 this.Gestures.Add(TouchPanel.ReadGesture());
             }
+
         }
         
         /// <summary>

@@ -48,4 +48,4 @@ D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\
 D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\GameStateManagementSample.exe
 D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\GameStateManagementSample.pdb
-D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\testSong.xnb
+D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\backgroundMusic.xnb

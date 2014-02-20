@@ -113,7 +113,7 @@ namespace GameStateManagement
             this.BlankTexture = content.Load<Texture2D>("blank");
             
             // Load Background Music
-            this.backgroundMusic = content.Load<SoundEffect>("testSong");
+            this.backgroundMusic = content.Load<SoundEffect>("Sounds\\backgroundMusic");
             this.backgroundMusic.Play();
             
             // Tell each of the screens to load their content.

@@ -13,6 +13,7 @@
 using System;
 using GameStateManagement;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace GameStateManagementSample
 {
@@ -27,6 +28,8 @@ namespace GameStateManagementSample
         private readonly GraphicsDeviceManager graphics;
         private readonly ScreenManager screenManager;
         private readonly ScreenFactory screenFactory;
+
+        SpriteBatch spriteBatch;
         
         /// <summary>
         /// The main game constructor.
@@ -38,6 +41,7 @@ namespace GameStateManagementSample
             this.IsMouseVisible = true;
             this.graphics = new GraphicsDeviceManager(this);
             this.TargetElapsedTime = TimeSpan.FromTicks(333333);
+            this.Window.Title = "DeBugger by Team Kurt Vonnegut"; // Add Window Title
 
             #if WINDOWS_PHONE
             graphics.IsFullScreen = true;
@@ -92,6 +96,8 @@ namespace GameStateManagementSample
             // The real drawing happens inside the screen manager component.
             base.Draw(gameTime);
         }
+
+     
         #if WINDOWS_PHONE
         /// <summary>
         /// Helper method to the initialize the game to be a portrait game.
