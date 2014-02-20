@@ -18,6 +18,9 @@ using Microsoft.Xna.Framework.Input.Touch;
 using System.IO;
 using System.IO.IsolatedStorage;
 using System.Xml.Linq;
+using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Audio;
+
 #endregion
 
 namespace GameStateManagement
@@ -47,6 +50,10 @@ namespace GameStateManagement
 
         bool traceEnabled;
 
+        // Required for music
+        SoundEffect backgroundMusic;
+        //test
+                
         #endregion
 
         #region Properties
@@ -132,6 +139,10 @@ namespace GameStateManagement
             spriteBatch = new SpriteBatch(GraphicsDevice);
             font = content.Load<SpriteFont>("menufont");
             blankTexture = content.Load<Texture2D>("blank");
+
+           // Load Background Music
+            backgroundMusic = content.Load<SoundEffect>("testSong");
+            backgroundMusic.Play();
 
             // Tell each of the screens to load their content.
             foreach (GameScreen screen in screens)
