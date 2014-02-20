@@ -1,18 +1,22 @@
 #region File Description
+
 //-----------------------------------------------------------------------------
 // BackgroundScreen.cs
 //
 // Microsoft XNA Community Game Platform
 // Copyright (C) Microsoft Corporation. All rights reserved.
 //-----------------------------------------------------------------------------
+
 #endregion
 
 #region Using Statements
+
 using System;
+using GameStateManagement;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using GameStateManagement;
+
 #endregion
 
 namespace GameStateManagementSample
@@ -22,28 +26,26 @@ namespace GameStateManagementSample
     /// It draws a background image that remains fixed in place regardless
     /// of whatever transitions the screens on top of it may be doing.
     /// </summary>
-    class BackgroundScreen : GameScreen
+    internal class BackgroundScreen : GameScreen
     {
         #region Fields
 
-        ContentManager content;
-        Texture2D backgroundTexture;
+        private ContentManager content;
+        private Texture2D backgroundTexture;
 
         #endregion
-
+        
         #region Initialization
-
-
+        
         /// <summary>
         /// Constructor.
         /// </summary>
         public BackgroundScreen()
         {
-            TransitionOnTime = TimeSpan.FromSeconds(0.5);
-            TransitionOffTime = TimeSpan.FromSeconds(0.5);
+            this.TransitionOnTime = TimeSpan.FromSeconds(0.5);
+            this.TransitionOffTime = TimeSpan.FromSeconds(0.5);
         }
-
-
+        
         /// <summary>
         /// Loads graphics content for this screen. The background texture is quite
         /// big, so we use our own local ContentManager to load it. This allows us
@@ -55,28 +57,27 @@ namespace GameStateManagementSample
         {
             if (!instancePreserved)
             {
-                if (content == null)
-                    content = new ContentManager(ScreenManager.Game.Services, "Content");
+                if (this.content == null)
+                {
+                    this.content = new ContentManager(this.ScreenManager.Game.Services, "Content");
+                }
 
-                backgroundTexture = content.Load<Texture2D>("background");
+                this.backgroundTexture = this.content.Load<Texture2D>("background");
             }
         }
-
-
+        
         /// <summary>
         /// Unloads graphics content for this screen.
         /// </summary>
         public override void Unload()
         {
-            content.Unload();
+            this.content.Unload();
         }
 
-
         #endregion
-
+        
         #region Update and Draw
-
-
+        
         /// <summary>
         /// Updates the background screen. Unlike most screens, this should not
         /// transition off even if it has been covered by another screen: it is
@@ -85,30 +86,27 @@ namespace GameStateManagementSample
         /// Update method wanting to transition off.
         /// </summary>
         public override void Update(GameTime gameTime, bool otherScreenHasFocus,
-                                                       bool coveredByOtherScreen)
+            bool coveredByOtherScreen)
         {
             base.Update(gameTime, otherScreenHasFocus, false);
         }
-
-
+        
         /// <summary>
         /// Draws the background screen.
         /// </summary>
         public override void Draw(GameTime gameTime)
         {
-            SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
-            Viewport viewport = ScreenManager.GraphicsDevice.Viewport;
+            SpriteBatch spriteBatch = this.ScreenManager.SpriteBatch;
+            Viewport viewport = this.ScreenManager.GraphicsDevice.Viewport;
             Rectangle fullscreen = new Rectangle(0, 0, viewport.Width, viewport.Height);
-
+            
             spriteBatch.Begin();
-
-            spriteBatch.Draw(backgroundTexture, fullscreen,
-                             new Color(TransitionAlpha, TransitionAlpha, TransitionAlpha));
-
+            
+            spriteBatch.Draw(this.backgroundTexture, fullscreen,
+new Color(this.TransitionAlpha, this.TransitionAlpha, this.TransitionAlpha));
+            
             spriteBatch.End();
         }
-
-
         #endregion
     }
 }

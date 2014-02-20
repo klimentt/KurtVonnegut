@@ -1,10 +1,12 @@
 ﻿#region File Description
+
 //-----------------------------------------------------------------------------
 // InputAction.cs
 //
 // Microsoft XNA Community Game Platform
 // Copyright (C) Microsoft Corporation. All rights reserved.
 //-----------------------------------------------------------------------------
+
 #endregion
 
 using System;
@@ -30,12 +32,13 @@ namespace GameStateManagement
         private readonly Buttons[] buttons;
         private readonly Keys[] keys;
         private readonly bool newPressOnly;
-
+        
         // These delegate types map to the methods on InputState. We use these to simplify the evalute method
         // by allowing us to map the appropriate delegates and invoke them, rather than having two separate code paths.
         private delegate bool ButtonPress(Buttons button, PlayerIndex? controllingPlayer, out PlayerIndex player);
+        
         private delegate bool KeyPress(Keys key, PlayerIndex? controllingPlayer, out PlayerIndex player);
-
+        
         /// <summary>
         /// Initializes a new InputAction.
         /// </summary>
@@ -52,7 +55,7 @@ namespace GameStateManagement
 
             this.newPressOnly = newPressOnly;
         }
-
+        
         /// <summary>
         /// Evaluates the action against a given InputState.
         /// </summary>
@@ -65,7 +68,7 @@ namespace GameStateManagement
             // Figure out which delegate methods to map from the state which takes care of our "newPressOnly" logic
             ButtonPress buttonTest;
             KeyPress keyTest;
-            if (newPressOnly)
+            if (this.newPressOnly)
             {
                 buttonTest = state.IsNewButtonPress;
                 keyTest = state.IsNewKeyPress;
@@ -75,19 +78,23 @@ namespace GameStateManagement
                 buttonTest = state.IsButtonPressed;
                 keyTest = state.IsKeyPressed;
             }
-
+            
             // Now we simply need to invoke the appropriate methods for each button and key in our collections
-            foreach (Buttons button in buttons)
+            foreach (Buttons button in this.buttons)
             {
                 if (buttonTest(button, controllingPlayer, out player))
+                {
                     return true;
+                }
             }
-            foreach (Keys key in keys)
+            foreach (Keys key in this.keys)
             {
                 if (keyTest(key, controllingPlayer, out player))
+                {
                     return true;
+                }
             }
-
+            
             // If we got here, the action is not matched
             player = PlayerIndex.One;
             return false;

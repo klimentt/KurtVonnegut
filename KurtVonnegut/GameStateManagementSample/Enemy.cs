@@ -1,22 +1,12 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace GameStateManagementSample
 {
     public class Enemy
     {
-        private const float DEF_SPEED = 2.0f;
-        private const int HEALTH = 10;
-        private const int DAMAGE = 50;
-        private const int SCORE_VALUE = 50;
-
-        // The speed at which the enemy moves
-        private float enemyMoveSpeed;
-
         // Animation representing the enemy
         public Animation EnemyAnimation;
 
@@ -35,71 +25,80 @@ namespace GameStateManagementSample
         // The amount of score the enemy will give to the player
         public int Value;
 
+        private const float DEF_SPEED = 2.0f;
+        private const int HEALTH = 10;
+        private const int DAMAGE = 50;
+        private const int SCORE_VALUE = 50;
+
+        // The speed at which the enemy moves
+        private float enemyMoveSpeed;
+
         // Get the width of the enemy ship
         public int Width
         {
-            get { return EnemyAnimation.FrameWidth; }
+            get
+            {
+                return this.EnemyAnimation.FrameWidth;
+            }
         }
 
         // Get the height of the enemy ship
         public int Height
         {
-            get { return EnemyAnimation.FrameHeight; }
+            get
+            {
+                return this.EnemyAnimation.FrameHeight;
+            }
         }
-
-
 
         public void Initialize(Animation animation, Vector2 position)
         {
             // Load the enemy ship texture
-            EnemyAnimation = animation;
+            this.EnemyAnimation = animation;
 
             // Set the position of the enemy
-            Position = position;
+            this.Position = position;
 
             // We initialize the enemy to be active so it will be update in the game
-            Active = true;
-
+            this.Active = true;
 
             // Set the health of the enemy
-            Health = HEALTH;
+            this.Health = HEALTH;
 
             // Set the amount of damage the enemy can do
-            Damage = DAMAGE;
+            this.Damage = DAMAGE;
 
             // Set how fast the enemy moves
-            enemyMoveSpeed = DEF_SPEED;
-
+            this.enemyMoveSpeed = DEF_SPEED;
 
             // Set the score value of the enemy
-            Value = SCORE_VALUE;
-
+            this.Value = SCORE_VALUE;
         }
 
         public void Update(GameTime gameTime)
         {
             // The enemy always moves to the left so decrement it's x position
-            Position.X -= enemyMoveSpeed;
+            this.Position.X -= this.enemyMoveSpeed;
 
             // Update the position of the Animation
-            EnemyAnimation.Position = Position;
+            this.EnemyAnimation.Position = this.Position;
 
             // Update Animation
-            EnemyAnimation.Update(gameTime);
+            this.EnemyAnimation.Update(gameTime);
 
             // If the enemy is past the screen or its health reaches 0 then deactivate it
-            if (Position.X < -Width || Health <= 0)
+            if (this.Position.X < -this.Width || this.Health <= 0)
             {
                 // By setting the Active flag to false, the game will remove this objet from the
                 // active game list
-                Active = false;
+                this.Active = false;
             }
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             // Draw the animation
-            EnemyAnimation.Draw(spriteBatch);
+            this.EnemyAnimation.Draw(spriteBatch);
         }
     }
 }

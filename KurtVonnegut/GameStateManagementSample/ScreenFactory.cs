@@ -1,15 +1,18 @@
+
 #region File Description
+
 //-----------------------------------------------------------------------------
 // ScreenFactory.cs
 //
 // Microsoft XNA Community Game Platform
 // Copyright (C) Microsoft Corporation. All rights reserved.
 //-----------------------------------------------------------------------------
+
 #endregion
 
 using System;
 using GameStateManagement;
-
+    
 namespace GameStateManagementSample
 {
     /// <summary>
@@ -22,7 +25,6 @@ namespace GameStateManagementSample
         {
             // All of our screens have empty constructors so we can just use Activator
             return Activator.CreateInstance(screenType) as GameScreen;
-
             // If we had more complex screens that had constructors or needed properties set,
             // we could do that before handing the screen back to the ScreenManager. For example
             // you might have something like this:

@@ -1,10 +1,13 @@
+
 #region File Description
+
 //-----------------------------------------------------------------------------
 // Game.cs
 //
 // Microsoft XNA Community Game Platform
 // Copyright (C) Microsoft Corporation. All rights reserved.
 //-----------------------------------------------------------------------------
+
 #endregion
 
 using System;
@@ -21,38 +24,38 @@ namespace GameStateManagementSample
     /// </summary>
     public class GameStateManagementGame : Microsoft.Xna.Framework.Game
     {
-        GraphicsDeviceManager graphics;
-        ScreenManager screenManager;
-        ScreenFactory screenFactory;
-
+        private readonly GraphicsDeviceManager graphics;
+        private readonly ScreenManager screenManager;
+        private readonly ScreenFactory screenFactory;
+        
         /// <summary>
         /// The main game constructor.
         /// </summary>
         public GameStateManagementGame()
         {
-            Content.RootDirectory = "Content";
+            this.Content.RootDirectory = "Content";
+            
+            this.IsMouseVisible = true;
+            this.graphics = new GraphicsDeviceManager(this);
+            this.TargetElapsedTime = TimeSpan.FromTicks(333333);
 
-            IsMouseVisible = true;
-            graphics = new GraphicsDeviceManager(this);
-            TargetElapsedTime = TimeSpan.FromTicks(333333);
-
-#if WINDOWS_PHONE
+            #if WINDOWS_PHONE
             graphics.IsFullScreen = true;
-
+            
             // Choose whether you want a landscape or portait game by using one of the two helper functions.
             InitializeLandscapeGraphics();
             // InitializePortraitGraphics();
-#endif
-
+            #endif
+            
             // Create the screen factory and add it to the Services
-            screenFactory = new ScreenFactory();
-            Services.AddService(typeof(IScreenFactory), screenFactory);
-
+            this.screenFactory = new ScreenFactory();
+            this.Services.AddService(typeof(IScreenFactory), this.screenFactory);
+            
             // Create the screen manager component.
-            screenManager = new ScreenManager(this);
-            Components.Add(screenManager);
-
-#if WINDOWS_PHONE
+            this.screenManager = new ScreenManager(this);
+            this.Components.Add(this.screenManager);
+            
+            #if WINDOWS_PHONE
             // Hook events on the PhoneApplicationService so we're notified of the application's life cycle
             Microsoft.Phone.Shell.PhoneApplicationService.Current.Launching += 
                 new EventHandler<Microsoft.Phone.Shell.LaunchingEventArgs>(GameLaunching);
@@ -60,37 +63,36 @@ namespace GameStateManagementSample
                 new EventHandler<Microsoft.Phone.Shell.ActivatedEventArgs>(GameActivated);
             Microsoft.Phone.Shell.PhoneApplicationService.Current.Deactivated += 
                 new EventHandler<Microsoft.Phone.Shell.DeactivatedEventArgs>(GameDeactivated);
-#else
+            #else
             // On Windows and Xbox we just add the initial screens
-            AddInitialScreens();
-#endif
+            this.AddInitialScreens();
+            #endif
         }
-
+        
         private void AddInitialScreens()
         {
             // Activate the first screens.
-            screenManager.AddScreen(new BackgroundScreen(), null);
-
+            this.screenManager.AddScreen(new BackgroundScreen(), null);
+            
             // We have different menus for Windows Phone to take advantage of the touch interface
-#if WINDOWS_PHONE
+            #if WINDOWS_PHONE
             screenManager.AddScreen(new PhoneMainMenuScreen(), null);
-#else
-            screenManager.AddScreen(new MainMenuScreen(), null);
-#endif
+            #else
+            this.screenManager.AddScreen(new MainMenuScreen(), null);
+            #endif
         }
-
+        
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>
         protected override void Draw(GameTime gameTime)
         {
-            graphics.GraphicsDevice.Clear(Color.Black);
-
+            this.graphics.GraphicsDevice.Clear(Color.Black);
+            
             // The real drawing happens inside the screen manager component.
             base.Draw(gameTime);
         }
-
-#if WINDOWS_PHONE
+        #if WINDOWS_PHONE
         /// <summary>
         /// Helper method to the initialize the game to be a portrait game.
         /// </summary>
@@ -99,7 +101,6 @@ namespace GameStateManagementSample
             graphics.PreferredBackBufferWidth = 480;
             graphics.PreferredBackBufferHeight = 800;
         }
-
         /// <summary>
         /// Helper method to initialize the game to be a landscape game.
         /// </summary>
@@ -108,12 +109,10 @@ namespace GameStateManagementSample
             graphics.PreferredBackBufferWidth = 800;
             graphics.PreferredBackBufferHeight = 480;
         }
-
         void GameLaunching(object sender, Microsoft.Phone.Shell.LaunchingEventArgs e)
         {
             AddInitialScreens();
         }
-
         void GameActivated(object sender, Microsoft.Phone.Shell.ActivatedEventArgs e)
         {
             // Try to deserialize the screen manager
@@ -123,12 +122,11 @@ namespace GameStateManagementSample
                 AddInitialScreens();
             }
         }
-
         void GameDeactivated(object sender, Microsoft.Phone.Shell.DeactivatedEventArgs e)
         {
             // Serialize the screen manager when the game deactivated
             screenManager.Deactivate();
         }
-#endif
+        #endif
     }
 }

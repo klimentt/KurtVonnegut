@@ -1,9 +1,7 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace GameStateManagementSample
 {
@@ -15,13 +13,19 @@ namespace GameStateManagementSample
 
         public int Width
         {
-            get { return Texture.Width; }
+            get
+            {
+                return this.Texture.Width;
+            }
         }
 
         // Get the height of the projectile ship
         public int Height
         {
-            get { return Texture.Height; }
+            get
+            {
+                return this.Texture.Height;
+            }
         }
 
         public void Initialize(Texture2D texture, Vector2 position)
