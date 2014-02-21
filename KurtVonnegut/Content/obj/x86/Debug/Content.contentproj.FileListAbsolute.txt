@@ -1,2 +1,0 @@
-C:\Users\Nikki\Desktop\GameStateManagementSample\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
-D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
