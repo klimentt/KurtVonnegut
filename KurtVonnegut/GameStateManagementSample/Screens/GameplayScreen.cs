@@ -40,7 +40,7 @@ namespace GameStateManagementSample
         
         //enemy
         private Texture2D enemyTexture;
-        private readonly List<Enemy> enemies;
+        private readonly List<RotatingEnemy> enemies;
         // The rate at which the enemies appear
         private readonly TimeSpan enemySpawnTime;
         private TimeSpan previousSpawnTime;
@@ -100,7 +100,7 @@ namespace GameStateManagementSample
             this.player = new Player();
             
             // Initialize the enemies list
-            this.enemies = new List<Enemy>();
+            this.enemies = new List<RotatingEnemy>();
             // Set the time keepers to zero
             this.previousSpawnTime = TimeSpan.Zero;
             // Used to determine how fast enemy respawns
@@ -346,13 +346,13 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount , this.enemyTexture.Height, enemyFrameCount, 30, Color.White, 1f, true);
             
             // Randomly generate the position of the enemy
-            Vector2 position = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2,  GameplayScreen.Random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
+            Vector2 position = new Vector2(GameplayScreen.Random.Next(250, this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2),  GameplayScreen.Random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
             
             // Create an enemy
-            Enemy enemy = new Enemy();
+            RotatingEnemy enemy = new RotatingEnemy();
             
             // Initialize the enemy
-            enemy.Initialize(enemyAnimation, position);
+            enemy.Initialize(enemyAnimation, position, 0, 300);
 
             // Add the enemy to the active enemies list
             this.enemies.Add(enemy);
@@ -388,6 +388,18 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                         this.xp -= this.enemies[i].Value;
                     }
                     this.enemies.RemoveAt(i);
+                }
+            }
+            //check if player is in aggrorange
+            for (int i = 0; i < enemies.Count; i++)
+            {
+                if (Vector2.Distance(this.enemies[i].Position, this.player.Position) <= this.enemies[i].AggroRange)
+                {
+                    enemies[i].IsInAggroRange = true;
+                }
+                if (enemies[i].IsInAggroRange)
+                {
+                    enemies[i].RotateTowards(player.Position);
                 }
             }
         }
@@ -489,6 +501,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.projectileTexture, new Vector2(tur.Position.X, tur.Position.Y), tur);
             this.projectiles.Add(projectile);
         }
+
         private void UpdateProjectiles()
         {
             // Update the Projectiles

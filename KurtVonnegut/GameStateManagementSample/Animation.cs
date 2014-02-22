@@ -113,12 +113,12 @@ namespace GameStateManagementSample
                 (int)(this.FrameHeight * this.scale));
         }
 
-        public void Draw(SpriteBatch spriteBatch, Player player)
+        public void Draw(SpriteBatch spriteBatch, IRotatable rotatingObject)
         {
             // Only draw the animation when we are active
             if (this.Active)
             {
-                spriteBatch.Draw(this.spriteStrip, this.destinationRect, this.sourceRect, Color.White, player.Rotation, new Vector2(this.FrameWidth / 2, this.FrameHeight / 2), SpriteEffects.None, 0f);
+                spriteBatch.Draw(this.spriteStrip, this.destinationRect, this.sourceRect, Color.White, rotatingObject.Rotation, new Vector2(this.FrameWidth / 2, this.FrameHeight / 2), SpriteEffects.None, 0f);
             }
         }
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,15 +14,18 @@ namespace GameStateManagementSample
         protected new const int DAMAGE = 50;
         protected new const int XP_VALUE = 50;
         public float Rotation { get; set; }
+        public float AggroRange { get; set; }
 
         public bool IsInAggroRange { get; set; }
 
-        public void Initialize(Animation animation, Vector2 position, float rotation)
+        public void Initialize(Animation animation, Vector2 position, float rotation, float aggroRange)
         {
+            this.AggroRange = aggroRange;
             this.Rotation = rotation;
             this.IsInAggroRange = false;
             base.Initialize(animation, position);
         }
+
         public override void Update(GameTime gameTime)
         {
             if (IsInAggroRange)
@@ -48,6 +52,10 @@ namespace GameStateManagementSample
             }
         }
 
+        public override void Draw(SpriteBatch spriteBatch)
+        {
+            this.EnemyAnimation.Draw(spriteBatch, this);
+        }
         public void RotateTowards(Vector2 position)
         {
             float distanceX = this.Position.X - this.Width / 2 - position.X;
