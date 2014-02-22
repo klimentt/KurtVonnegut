@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace GameStateManagementSample
 {
-    public class Player : IRotatable
+    public class Player : IRotatable, IFireble
     {
         
 
@@ -21,7 +21,7 @@ namespace GameStateManagementSample
         //constructors
 
         // The rate of fire of the projectile laser
-        public TimeSpan FireTime { get; private set; }
+        public TimeSpan FireTime { get; set; }
         public TimeSpan PreviousFireTime { get; set; }
         // Position of the Player relative to the upper left side of the screen
         public Vector2 Position;

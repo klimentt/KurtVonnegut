@@ -68,6 +68,7 @@
     <Compile Include="Animation.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="GameStateManagementGame.cs" />
+    <Compile Include="IFireble.cs" />
     <Compile Include="IRotatable.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />

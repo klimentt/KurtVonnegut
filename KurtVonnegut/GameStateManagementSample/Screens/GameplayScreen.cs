@@ -46,7 +46,7 @@ namespace GameStateManagementSample
         private TimeSpan previousSpawnTime;
 
         // A random number generator
-        private readonly Random random;
+        public static Random random;
         
         //projectiles
         private Texture2D projectileTexture;
@@ -54,7 +54,8 @@ namespace GameStateManagementSample
         
         //solid objects
         private Texture2D solidTexture;
-        private readonly List<Solid> solids;
+        private List<Solid> solids;
+        private List<Turret> turrets;
         
         //handle effects
         private Texture2D explosionTexture;
@@ -114,9 +115,13 @@ namespace GameStateManagementSample
             //initialize solid objects
             this.solids = new List<Solid>();
             this.solids.Add(new Solid());//TODO: temporary
+
+            //initialize turrets
+            this.turrets = new List<Turret>();
+            this.turrets.Add(new Turret());
             
             // Initialize our random number generator
-            this.random = new Random();
+            GameplayScreen.random = new Random();
             
             this.score = 0;
         }
@@ -162,6 +167,9 @@ namespace GameStateManagementSample
                 this.solidTexture = this.content.Load<Texture2D>("solid");
 
                 this.solids[0].Initialize(this.solidTexture, new Vector2(400,300), 1);
+
+                //add turret that uses the same texture from solid
+                this.turrets[0].Initialize(this.solidTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
                 
                 this.font = this.content.Load<SpriteFont>("gameFont");
                 
@@ -225,6 +233,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 
                 //Update the player
                 this.player.Update(this.currentKeyboardState, this.currentMouseState, this.ScreenManager, gameTime, this.solids);
+                //fire projectiles from player when needed
                 if (this.currentKeyboardState.IsKeyDown(Keys.Space))
                 {
                     if (gameTime.TotalGameTime - this.player.PreviousFireTime > this.player.FireTime)
@@ -233,9 +242,22 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                         this.player.PreviousFireTime = gameTime.TotalGameTime;
                         
                         // Add the projectile, but add it to the front and center of the player
-                        this.AddProjectile(player.Position + new Vector2(-player.Width / 2, -player.Height / 2));
+                        this.AddPlayerProjectile(player.Position + new Vector2(-player.Width / 2, -player.Height / 2));
                     }
                 }
+
+                foreach (var tur in this.turrets)
+                {
+                    if (gameTime.TotalGameTime - tur.PreviousFireTime > tur.FireTime)
+                    {
+                        // Reset our current time
+                        tur.PreviousFireTime = gameTime.TotalGameTime;
+
+                        // Add the projectile, but add it to the front and center of the player
+                        this.AddTurretProjectile(tur);
+                    }
+                }
+                
                 //collision detection update
                 this.UpdateCollision();
                 //update enemies and add new ones/remove old
@@ -269,17 +291,25 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             
             // TODO: Add your drawing code here
             this.spriteBatch.Begin();
+
+            //draw projectiles
+            for (int i = 0; i < this.projectiles.Count; i++)
+            {
+                this.projectiles[i].Draw(this.spriteBatch);
+            }
+            //draw turrets 
+            foreach (var tur in this.turrets)
+            {
+                tur.Draw(this.spriteBatch);
+            }
+            //draw solids
             foreach (var solid in this.solids)
             {
                 solid.Draw(this.spriteBatch);
             }
             //Draw player
             this.player.Draw(this.spriteBatch);
-            //draw projectiles
-            for (int i = 0; i < this.projectiles.Count; i++)
-            {
-                this.projectiles[i].Draw(this.spriteBatch);
-            }
+            
             // Draw the Enemies
             for (int i = 0; i < this.enemies.Count; i++)
             {
@@ -316,7 +346,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount , this.enemyTexture.Height, enemyFrameCount, 30, Color.White, 1f, true);
             
             // Randomly generate the position of the enemy
-            Vector2 position = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2, this.random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
+            Vector2 position = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2,  GameplayScreen.random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
             
             // Create an enemy
             Enemy enemy = new Enemy();
@@ -446,13 +476,19 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             }
         }
         
-        private void AddProjectile(Vector2 position)
+        private void AddPlayerProjectile(Vector2 position)
         {
             Projectile projectile = new Projectile();
             projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.projectileTexture, position, this.player);
             this.projectiles.Add(projectile);
         }
-        
+
+        private void AddTurretProjectile(Turret tur)
+        {
+            Projectile projectile = new Projectile();
+            projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.projectileTexture, new Vector2(tur.Position.X, tur.Position.Y), tur);
+            this.projectiles.Add(projectile);
+        }
         private void UpdateProjectiles()
         {
             // Update the Projectiles
