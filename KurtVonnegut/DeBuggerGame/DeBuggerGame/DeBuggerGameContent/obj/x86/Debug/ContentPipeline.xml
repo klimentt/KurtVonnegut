@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\wallpaperBackground.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\wallpaperBackground.xnb</Output>
       <Time>2014-02-21T23:31:28+02:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\circuitBoard.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\circuitBoard.xnb</Output>
       <Time>2014-02-21T23:31:28+02:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant.xnb</Output>
       <Time>2014-02-22T10:14:46.3028116+02:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant_ghost.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant_ghost.xnb</Output>
       <Time>2014-02-22T10:14:55.7833538+02:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly_ghost.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly_ghost.xnb</Output>
       <Time>2014-02-22T10:15:08.9891092+02:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth_ghost.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth_ghost.xnb</Output>
       <Time>2014-02-22T10:15:19.3447015+02:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly.xnb</Output>
       <Time>2014-02-22T10:15:24.0479705+02:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth.xnb</Output>
       <Time>2014-02-22T10:15:28.1222035+02:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure_walk.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure_walk.xnb</Output>
       <Time>2014-02-22T10:17:25.6679267+02:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure_walk.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure_walk.xnb</Output>
       <Time>2014-02-22T10:17:28.4310848+02:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\banana.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\banana.xnb</Output>
       <Time>2014-02-22T11:38:58.8918031+02:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\keyboard.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\keyboard.xnb</Output>
       <Time>2014-02-22T11:48:38.2079381+02:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\mouse.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\mouse.xnb</Output>
       <Time>2014-02-22T12:08:15.2772626+02:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\coffee.xnb</Output>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\coffee.xnb</Output>
       <Time>2014-02-22T12:31:41.658703+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -133,10 +133,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
