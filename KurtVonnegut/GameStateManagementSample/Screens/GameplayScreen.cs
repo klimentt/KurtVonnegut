@@ -113,7 +113,7 @@ namespace GameStateManagementSample
 
             //initialize solid objects
             this.solids = new List<Solid>();
-            this.solids.Add(new Solid());
+            this.solids.Add(new Solid());//TODO: temporary
             
             // Initialize our random number generator
             this.random = new Random();
@@ -142,7 +142,8 @@ namespace GameStateManagementSample
                 //player
                 Animation playerAnimation = new Animation();
                 Texture2D playerTexture = this.content.Load<Texture2D>("shipAnimation");
-                playerAnimation.Initialize(playerTexture, Vector2.Zero, 115, 69, 8, 30, Color.White, 1f, true);
+                int playerFrames = 8;
+                playerAnimation.Initialize(playerTexture, Vector2.Zero, playerTexture.Width / playerFrames, playerTexture.Height, playerFrames, 30, Color.White, 1f, true);
 
                 Vector2 playerPosition = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y +
                                                                                                                  this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
@@ -311,7 +312,8 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             Animation enemyAnimation = new Animation();
             
             // Initialize the animation with the correct animation information
-            enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, 47, 61, 8, 30, Color.White, 1f, true);
+            int enemyFrameCount = 8;
+            enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount , this.enemyTexture.Height, enemyFrameCount, 30, Color.White, 1f, true);
             
             // Randomly generate the position of the enemy
             Vector2 position = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2, this.random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
@@ -468,7 +470,8 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
         private void AddExplosion(Vector2 position)
         {
             Animation explosion = new Animation();
-            explosion.Initialize(this.explosionTexture, position, 134, 134, 12, 45, Color.White, 1f, false);
+            int explosionFrameCount = 12;
+            explosion.Initialize(this.explosionTexture, position, this.explosionTexture.Width / explosionFrameCount,this.explosionTexture.Height, explosionFrameCount, 45, Color.White, 1f, false);
             this.explosions.Add(explosion);
         }
         
