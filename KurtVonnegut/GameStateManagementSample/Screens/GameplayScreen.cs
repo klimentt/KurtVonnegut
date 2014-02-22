@@ -160,7 +160,7 @@ namespace GameStateManagementSample
                 //solid objects texture
                 this.solidTexture = this.content.Load<Texture2D>("solid");
 
-                this.solids[0].Initialize(this.solidTexture, new Vector2(400,300));
+                this.solids[0].Initialize(this.solidTexture, new Vector2(400,300), 1);
                 
                 this.font = this.content.Load<SpriteFont>("gameFont");
                 

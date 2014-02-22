@@ -7,6 +7,7 @@ namespace GameStateManagementSample
 {
     public class Solid
     {
+        protected float Scale {get ; private set;}
         public Texture2D Texture;
 
         public Vector2 Position;
@@ -28,15 +29,19 @@ namespace GameStateManagementSample
             }
         }
 
-        public void Initialize(Texture2D texture, Vector2 position)
+        public virtual void Initialize(Texture2D texture, Vector2 position, float scale)
         {
+
+            this.Scale = scale;
             this.Texture = texture;
             this.Position = position;
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(this.Texture, this.Position, Color.White);
+            Rectangle destRectangle =  new Rectangle((int)this.Position.X, (int)this.Position.Y, this.Width, this.Height);
+           
+            spriteBatch.Draw(this.Texture, destRectangle, null, Color.White, 0f, new Vector2(), SpriteEffects.None, 0f);
         }
     }
 }
