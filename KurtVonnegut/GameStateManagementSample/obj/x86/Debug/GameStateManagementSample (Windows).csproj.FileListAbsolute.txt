@@ -75,3 +75,4 @@ C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateMana
 C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\GameStateManagementSample.exe
 C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\GameStateManagementSample.pdb
+C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\turretProjectile.xnb

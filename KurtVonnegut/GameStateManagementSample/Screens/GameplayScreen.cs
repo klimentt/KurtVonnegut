@@ -51,6 +51,7 @@ namespace GameStateManagementSample
         //projectiles
         private Texture2D projectileTexture;
         private readonly List<Projectile> projectiles;
+        private Texture2D turretProjTexture;
         
         //solid objects
         private Texture2D solidTexture;
@@ -159,6 +160,7 @@ namespace GameStateManagementSample
                 
                 //projectile
                 this.projectileTexture = this.content.Load<Texture2D>("laser");
+                this.turretProjTexture = this.content.Load<Texture2D>("turretProjectile");
                 
                 //effect explosions
                 this.explosionTexture = this.content.Load<Texture2D>("explosion");
@@ -414,14 +416,14 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             Rectangle rectangle1 = new Rectangle((int)obj.Position.X - obj.Width / 2, (int)obj.Position.Y - obj.Height / 2, obj.Width, obj.Height);
             Rectangle rectangle2;
             //check with enemies 
-            for (int j = index + 1; j < this.enemies.Count; j++)
-            {
-                rectangle2 = new Rectangle((int)this.enemies[j].Position.X - this.enemies[j].Width / 2, (int)this.enemies[j].Position.Y - this.enemies[j].Height / 2, this.enemies[j].Width, this.enemies[j].Height);
-                if (rectangle1.Intersects(rectangle2))
-                {
-                    return true;
-                }
-            }
+            //for (int j = index + 1; j < this.enemies.Count; j++)
+            //{
+            //    rectangle2 = new Rectangle((int)this.enemies[j].Position.X - this.enemies[j].Width / 2, (int)this.enemies[j].Position.Y - this.enemies[j].Height / 2, this.enemies[j].Width, this.enemies[j].Height);
+            //    if (rectangle1.Intersects(rectangle2))
+            //    {
+            //        return true;
+            //    }
+            //}
             //check with walls
             for (int j = 0; j < this.solids.Count; j++)
             {
@@ -547,7 +549,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
         private void AddTurretProjectile(Turret tur)
         {
             Projectile projectile = new Projectile();
-            projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.projectileTexture, new Vector2(tur.Position.X, tur.Position.Y), tur);
+            projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.turretProjTexture, new Vector2(tur.Position.X, tur.Position.Y), tur);
             this.projectiles.Add(projectile);
         }
 

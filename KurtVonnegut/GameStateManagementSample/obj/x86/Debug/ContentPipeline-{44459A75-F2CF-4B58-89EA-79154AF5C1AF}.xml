@@ -163,6 +163,15 @@
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\backgroundMusic.xnb</Output>
       <Time>2014-02-22T15:57:54.5887892+02:00</Time>
     </Item>
+    <Item>
+      <Source>turretProjectile.png</Source>
+      <Name>turretProjectile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\turretProjectile.xnb</Output>
+      <Time>2014-02-22T19:58:25.6171969+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{44459A75-F2CF-4B58-89EA-79154AF5C1AF}</ContentProjectGUID>

@@ -8,8 +8,8 @@ using System.Text;
 namespace GameStateManagementSample
 {
     public class Turret : Solid, IRotatable, IFireble, IGameObject
-    {
-        private const float FIRE_DELAY = 0.80f;
+    {a
+        private const float FIRE_DELAY = 1.80f;
         // The rate of fire of the projectile laser
         public TimeSpan FireTime { get; set; }
         public TimeSpan PreviousFireTime { get; set; }
