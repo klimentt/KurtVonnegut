@@ -7,6 +7,12 @@ namespace GameStateManagementSample
 {
     public class Enemy
     {
+
+        protected const float DEF_SPEED = 2.0f;
+        protected const int HEALTH = 10;
+        protected const int DAMAGE = 50;
+        protected const int SCORE_VALUE = 50;
+
         // Animation representing the enemy
         public Animation EnemyAnimation;
 
@@ -25,13 +31,10 @@ namespace GameStateManagementSample
         // The amount of score the enemy will give to the player
         public int Value;
 
-        private const float DEF_SPEED = 2.0f;
-        private const int HEALTH = 10;
-        private const int DAMAGE = 50;
-        private const int SCORE_VALUE = 50;
+        
 
         // The speed at which the enemy moves
-        private float enemyMoveSpeed;
+        protected virtual float EnemyMoveSpeed { get; set; }
 
         // Get the width of the enemy ship
         public int Width
@@ -51,7 +54,7 @@ namespace GameStateManagementSample
             }
         }
 
-        public void Initialize(Animation animation, Vector2 position)
+        public virtual void Initialize(Animation animation, Vector2 position)
         {
             // Load the enemy ship texture
             this.EnemyAnimation = animation;
@@ -69,16 +72,16 @@ namespace GameStateManagementSample
             this.Damage = DAMAGE;
 
             // Set how fast the enemy moves
-            this.enemyMoveSpeed = DEF_SPEED;
+            this.EnemyMoveSpeed = DEF_SPEED;
 
             // Set the score value of the enemy
             this.Value = SCORE_VALUE;
         }
 
-        public void Update(GameTime gameTime)
+        public virtual void Update(GameTime gameTime)
         {
             // The enemy always moves to the left so decrement it's x position
-            this.Position.X -= this.enemyMoveSpeed;
+            this.Position.X -= this.EnemyMoveSpeed;
 
             // Update the position of the Animation
             this.EnemyAnimation.Position = this.Position;
@@ -95,7 +98,7 @@ namespace GameStateManagementSample
             }
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
             // Draw the animation
             this.EnemyAnimation.Draw(spriteBatch);

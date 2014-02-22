@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GameStateManagementSample
 {
-    public class Projectile
+    public class Projectile : IRotatable
     {
         // The rate of fire of the projectile laser
         public static TimeSpan fireTime;
