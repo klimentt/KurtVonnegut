@@ -22,7 +22,7 @@ namespace GameStateManagementSample
         public int Damage;
 
         private const int DAMAGE = 15;
-        private const float SPEED = 20;
+        private const float SPEED = 17;
 
         // Represents the viewable boundary of the game
         private Viewport viewport;
