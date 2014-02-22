@@ -10,16 +10,21 @@ namespace GameStateManagementSample
 {
     public class Player : IRotatable
     {
-        // Position of the Player relative to the upper left side of the screen
-        public Vector2 Position;
+        
 
         private const int DEF_HP = 100;
         private const float INIT_MOVESPEED = 5.0f;
-        private Vector2 initialPos;
+        private const float FIRE_DELAY = 0.15f;
 
         //fields
-        
+        private Vector2 initialPos;
         //constructors
+
+        // The rate of fire of the projectile laser
+        public TimeSpan FireTime { get; private set; }
+        public TimeSpan PreviousFireTime { get; set; }
+        // Position of the Player relative to the upper left side of the screen
+        public Vector2 Position;
         public Player()
         {
             this.PlayerMoveSpeed = INIT_MOVESPEED;
@@ -71,6 +76,9 @@ namespace GameStateManagementSample
 
             // Set the player health
             this.Health = DEF_HP;
+
+            // Set the laser to fire every quarter second
+            FireTime = TimeSpan.FromSeconds(FIRE_DELAY);
         }
 
         public void Update(KeyboardState currentKeyboardState, MouseState currentMouseState, ScreenManager game, GameTime gameTime, List<Solid> solids)

@@ -7,9 +7,7 @@ namespace GameStateManagementSample
 {
     public class Projectile : IRotatable
     {
-        // The rate of fire of the projectile laser
-        public static TimeSpan fireTime;
-        public static TimeSpan previousFireTime;
+        
 
         // Image representing the Projectile
         public Texture2D Texture;
@@ -25,7 +23,6 @@ namespace GameStateManagementSample
 
         private const int DAMAGE = 15;
         private const float SPEED = 20;
-        private const float FIRE_DELAY = 0.15f;
 
         // Represents the viewable boundary of the game
         private Viewport viewport;
@@ -59,8 +56,7 @@ namespace GameStateManagementSample
             this.Position = position;
             this.viewport = viewport;
             this.Rotation = shooter.Rotation;
-            // Set the laser to fire every quarter second
-            fireTime = TimeSpan.FromSeconds(FIRE_DELAY);
+
 
             this.Active = true;
 

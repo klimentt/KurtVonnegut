@@ -227,10 +227,10 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 this.player.Update(this.currentKeyboardState, this.currentMouseState, this.ScreenManager, gameTime, this.solids);
                 if (this.currentKeyboardState.IsKeyDown(Keys.Space))
                 {
-                    if (gameTime.TotalGameTime - Projectile.previousFireTime > Projectile.fireTime)
+                    if (gameTime.TotalGameTime - this.player.PreviousFireTime > this.player.FireTime)
                     {
                         // Reset our current time
-                        Projectile.previousFireTime = gameTime.TotalGameTime;
+                        this.player.PreviousFireTime = gameTime.TotalGameTime;
                         
                         // Add the projectile, but add it to the front and center of the player
                         this.AddProjectile(player.Position + new Vector2(-player.Width / 2, -player.Height / 2));
