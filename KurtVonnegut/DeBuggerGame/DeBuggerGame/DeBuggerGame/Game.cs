@@ -46,10 +46,13 @@ namespace DeBuggerGame
         //loot
         Texture2D Nana;
         Texture2D Cafe;
+        Texture2D NDrink;
         Texture2D Board;
         Texture2D Mouse;
-        
-        
+        Texture2D Monitor;
+        Texture2D Coin;
+        Texture2D Gem;
+                
         List<Item> loot;
 
         // enemy spawn rate
@@ -122,8 +125,9 @@ namespace DeBuggerGame
 
             // load background resources
 
-            mainBackground = Content.Load<Texture2D>("circuitBoard");
+            mainBackground = Content.Load<Texture2D>("matrixBackground");            
 
+            // load animation resources
             Ant = Content.Load<Texture2D>("ant");
             AntFire = Content.Load<Texture2D>("ant_ghost");
             Moth = Content.Load<Texture2D>("moth");
@@ -132,8 +136,12 @@ namespace DeBuggerGame
             FlyFire = Content.Load<Texture2D>("fly_ghost");
             Nana = Content.Load<Texture2D>("banana");
             Cafe = Content.Load<Texture2D>("coffee");
+            NDrink = Content.Load<Texture2D>("energy_drink");
             Board = Content.Load<Texture2D>("keyboard");
             Mouse = Content.Load<Texture2D>("mouse");
+            Monitor = Content.Load<Texture2D>("monitor");
+            Coin = Content.Load<Texture2D>("coin");
+            Gem = Content.Load<Texture2D>("gem");
         }
 
         /// <summary>
@@ -192,7 +200,7 @@ namespace DeBuggerGame
                 case 0:
                     {
                         enemy = new Ant();
-                        enemyAnimation.Initialize(Ant, Vector2.Zero, 32, 32, 16, 1000, Color.LightGray, 1, true);
+                        enemyAnimation.Initialize(Ant, Vector2.Zero, 32, 32, 16, 1000, Color.White, 1, true);
                     }
                     break;
                 case 1:
@@ -204,7 +212,7 @@ namespace DeBuggerGame
                 case 2:
                     {
                         enemy = new Moth();
-                        enemyAnimation.Initialize(Moth, Vector2.Zero, 40, 40, 12, 1000, Color.LightGray, 1, true);
+                        enemyAnimation.Initialize(Moth, Vector2.Zero, 40, 40, 12, 1000, Color.White, 1, true);
 
                     }
                     break;
@@ -218,7 +226,7 @@ namespace DeBuggerGame
                 case 4:
                     {
                         enemy = new Fly();
-                        enemyAnimation.Initialize(Fly, Vector2.Zero, 60, 60, 24, 1000, Color.LightGray, 0.5f, true);
+                        enemyAnimation.Initialize(Fly, Vector2.Zero, 60, 60, 24, 1000, Color.White, 0.5f, true);
 
                     }
                     break;
@@ -241,49 +249,63 @@ namespace DeBuggerGame
             Animation lootAnimation = new Animation();
 
             // randomly generate loot position 
-            Vector2 position = new Vector2(random.Next(GraphicsDevice.Viewport.Width), random.Next(GraphicsDevice.Viewport.Height - 90, GraphicsDevice.Viewport.Height - 5));
+            Vector2 position = new Vector2(random.Next(GraphicsDevice.Viewport.Width), random.Next(60, GraphicsDevice.Viewport.Height - 20));
 
 
             int r = random.Next(1000);
             
             Item lootItem = new Item();
 
-            switch (r % 6)
+            switch (r % 8)
             {
                 case 0:
                     {
                         lootItem = new Banana();
-                        lootAnimation.Initialize(Nana, Vector2.Zero, 40, 40, 4, 300, Color.White, 1, true);
+                        lootAnimation.Initialize(Nana, Vector2.Zero, 40, 40, 4, 1200, Color.White, 1, true);
                     }
                     break;
                 case 1:
                     {
                         lootItem = new Keyboard();
-                        lootAnimation.Initialize(Board, Vector2.Zero, 40, 40, 4, 300, Color.White, 1, true);
+                        lootAnimation.Initialize(Board, Vector2.Zero, 40, 40, 4, 1200, Color.White, 1, true);
                     }
                     break;
                 case 2:
                     {
                         lootItem = new Mouse();
-                        lootAnimation.Initialize(Mouse, Vector2.Zero, 40, 40, 4, 300, Color.White, 1, true);
+                        lootAnimation.Initialize(Mouse, Vector2.Zero, 40, 40, 4, 1200, Color.White, 1, true);
                     }
                     break;
                 case 3:
                     {
                         lootItem = new Coffee();
-                        lootAnimation.Initialize(Cafe, Vector2.Zero, 40, 40, 4, 300, Color.White, 1, true);
+                        lootAnimation.Initialize(Cafe, Vector2.Zero, 40, 40, 4, 1200, Color.White, 1, true);
                     }
                     break;
                 case 4:
                     {
-                        
+                        lootItem = new EnergyDrink();
+                        lootAnimation.Initialize(NDrink, Vector2.Zero, 40, 40, 4, 1200, Color.White, 0.8f, true);
 
                     }
                     break;
                 case 5:
                     {
-                        
+                        lootItem = new Monitor();
+                        lootAnimation.Initialize(Monitor, Vector2.Zero, 40, 40, 4, 1200, Color.White, 0.8f, true);
 
+                    }
+                    break;
+                case 6:
+                    {
+                        lootItem = new Coin();
+                        lootAnimation.Initialize(Coin, Vector2.Zero, 60, 30, 12, 90, Color.White, 1, true);
+                    }
+                    break;
+                case 7:
+                    {
+                        lootItem = new Gem();
+                        lootAnimation.Initialize(Gem, Vector2.Zero, 60, 60, 12, 40, Color.Aquamarine, 1, true);
                     }
                     break;
             }

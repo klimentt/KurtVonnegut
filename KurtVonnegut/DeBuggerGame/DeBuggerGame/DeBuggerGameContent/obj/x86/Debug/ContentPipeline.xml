@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure_walk.xnb</Output>
-      <Time>2014-02-22T10:17:25.6679267+02:00</Time>
+      <Time>2014-02-22T17:09:42.2527785+02:00</Time>
     </Item>
     <Item>
       <Source>maleFigure_walk.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure_walk.xnb</Output>
-      <Time>2014-02-22T10:17:28.4310848+02:00</Time>
+      <Time>2014-02-22T17:08:29.6866279+02:00</Time>
     </Item>
     <Item>
       <Source>banana.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\banana.xnb</Output>
-      <Time>2014-02-22T11:38:58.8918031+02:00</Time>
+      <Time>2014-02-22T17:14:03.6837315+02:00</Time>
     </Item>
     <Item>
       <Source>keyboard.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\keyboard.xnb</Output>
-      <Time>2014-02-22T11:48:38.2079381+02:00</Time>
+      <Time>2014-02-22T17:11:46.8689061+02:00</Time>
     </Item>
     <Item>
       <Source>mouse.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\mouse.xnb</Output>
-      <Time>2014-02-22T12:08:15.2772626+02:00</Time>
+      <Time>2014-02-22T17:18:05.7385762+02:00</Time>
     </Item>
     <Item>
       <Source>coffee.png</Source>
@@ -125,7 +125,52 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\coffee.xnb</Output>
-      <Time>2014-02-22T12:31:41.658703+02:00</Time>
+      <Time>2014-02-22T17:15:26.495468+02:00</Time>
+    </Item>
+    <Item>
+      <Source>energy_drink.png</Source>
+      <Name>energy_drink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\energy_drink.xnb</Output>
+      <Time>2014-02-22T16:50:41.760546+02:00</Time>
+    </Item>
+    <Item>
+      <Source>monitor.png</Source>
+      <Name>monitor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\monitor.xnb</Output>
+      <Time>2014-02-22T17:16:38.3995807+02:00</Time>
+    </Item>
+    <Item>
+      <Source>coin.png</Source>
+      <Name>coin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\coin.xnb</Output>
+      <Time>2014-02-22T16:43:48.2858966+02:00</Time>
+    </Item>
+    <Item>
+      <Source>gem.png</Source>
+      <Name>gem</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\gem.xnb</Output>
+      <Time>2014-02-22T17:20:10.6827226+02:00</Time>
+    </Item>
+    <Item>
+      <Source>matrixBackground.png</Source>
+      <Name>matrixBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\matrixBackground.xnb</Output>
+      <Time>2014-02-22T17:07:17.7075109+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

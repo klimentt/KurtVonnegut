@@ -14,6 +14,8 @@
 
         #endregion
 
+
+
         #region properties
 
         public int Width
@@ -45,12 +47,11 @@
         }
 
         public bool Active { get; set; }
-
         
-
         #endregion
+                
 
-        
+
         #region constructors
 
         public AnimatedObject()
@@ -59,6 +60,8 @@
         }
 
         #endregion
+
+
 
         #region methods
 

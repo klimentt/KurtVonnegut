@@ -8,14 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.GameObject" Collapsed="true">
-    <Position X="11.75" Y="0.5" Width="1.5" />
+    <Position X="15.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Animation" Collapsed="true">
-    <Position X="25.5" Y="0.5" Width="1.5" />
+    <Position X="32.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIQAAARAgQAAAwAgAAEAAARCAGAAAACAAAAAAAAACAA=</HashCode>
       <FileName>Animation.cs</FileName>
@@ -29,18 +29,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Item" Collapsed="true">
-    <Position X="19.75" Y="3.25" Width="1.5" />
+    <Position X="23" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DeBuggerGame.Coffee" Collapsed="true">
+  <Class Name="DeBuggerGame.EnergyDrink" Collapsed="true">
     <Position X="16.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>GameObject\AnimatedObject\Item\Consummable\Coffee\Coffee.cs</FileName>
-      <NewMemberFileName>GameObject\AnimatedObject\Item\Consummable\Banana\Banana.cs</NewMemberFileName>
+      <FileName>GameObject\AnimatedObject\Item\Consummable\EnergyDrink\EnergyDrink.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Enemy" Collapsed="true">
@@ -86,7 +85,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.AnimatedObject" Collapsed="true">
-    <Position X="11.75" Y="1.75" Width="1.5" />
+    <Position X="15.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAABAAAAwAgAAAAIMAAAAAAAAAgAAAAAAAAYAA=</HashCode>
       <FileName>GameObject\AnimatedObject\AnimatedObject.cs</FileName>
@@ -101,29 +100,28 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Consummable" Collapsed="true">
-    <Position X="17.5" Y="4.75" Width="1.5" />
+    <Position X="18.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Consummable\Consummable.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Weapon" Collapsed="true">
-    <Position X="22" Y="4.75" Width="1.5" />
+    <Position X="27.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DeBuggerGame.Mouse" Collapsed="true">
-    <Position X="23" Y="6.25" Width="1.5" />
+  <Class Name="DeBuggerGame.Monitor" Collapsed="true">
+    <Position X="27.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs</FileName>
-      <NewMemberFileName>GameObject\AnimatedObject\Item\Weapon\Keyboard\Keyboard.cs</NewMemberFileName>
+      <FileName>GameObject\AnimatedObject\Item\Weapon\Monitor\Monitor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Keyboard" Collapsed="true">
-    <Position X="20.75" Y="6.25" Width="1.5" />
+    <Position X="25.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Keyboard\Keyboard.cs</FileName>
@@ -136,8 +134,29 @@
       <FileName>GameObject\AnimatedObject\Item\Consummable\Banana\Banana.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="DeBuggerGame.Coffee" Collapsed="true">
+    <Position X="20.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Consummable\Coffee\Coffee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Mouse" Collapsed="true">
+    <Position X="29.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Currency" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Currency\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="DeBuggerGame.IAnimateable" Collapsed="true">
-    <Position X="25.5" Y="1.75" Width="1.5" />
+    <Position X="32.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IAnimateable.cs</FileName>

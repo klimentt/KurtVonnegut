@@ -120,7 +120,12 @@
     <Compile Include="GameObject\AnimatedObject\Agent\Enemy\FireFly\FireFly.cs" />
     <Compile Include="GameObject\AnimatedObject\Agent\Enemy\FireMoth\FireMoth.cs" />
     <Compile Include="GameObject\AnimatedObject\Agent\Enemy\Fly\Fly.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Consummable\EnergyDrink\EnergyDrink.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Currency\Coin\Coin.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Currency\Currency.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Currency\Gem\Gem.cs" />
     <Compile Include="GameObject\AnimatedObject\Item\Weapon\Keyboard\Keyboard.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Weapon\Monitor\Monitor.cs" />
     <Compile Include="GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs" />
     <Compile Include="GameObject\AnimatedObject\Item\Weapon\Weapon.cs" />
     <Compile Include="GameObject\GameObject.cs" />
