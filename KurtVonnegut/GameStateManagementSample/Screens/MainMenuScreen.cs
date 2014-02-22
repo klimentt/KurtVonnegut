@@ -72,9 +72,9 @@ namespace GameStateManagementSample
         /// </summary>
         protected override void OnCancel(PlayerIndex playerIndex)
         {
-            const string message = "Are you sure you want to exit this sample?";
+            const string MESSAGE = "Are you sure you want to exit this sample?";
 
-            MessageBoxScreen confirmExitMessageBox = new MessageBoxScreen(message);
+            MessageBoxScreen confirmExitMessageBox = new MessageBoxScreen(MESSAGE);
             
             confirmExitMessageBox.Accepted += this.ConfirmExitMessageBoxAccepted;
             

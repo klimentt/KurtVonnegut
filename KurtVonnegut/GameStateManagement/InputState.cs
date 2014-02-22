@@ -25,7 +25,7 @@ namespace GameStateManagement
     /// </summary>
     public class InputState
     {
-        public const int MaxInputs = 4;
+        public const int MAX_INPUTS = 4;
 
         public readonly KeyboardState[] CurrentKeyboardStates;
         public readonly GamePadState[] CurrentGamePadStates;
@@ -44,13 +44,13 @@ namespace GameStateManagement
         /// </summary>
         public InputState()
         {
-            this.CurrentKeyboardStates = new KeyboardState[MaxInputs];
-            this.CurrentGamePadStates = new GamePadState[MaxInputs];
+            this.CurrentKeyboardStates = new KeyboardState[MAX_INPUTS];
+            this.CurrentGamePadStates = new GamePadState[MAX_INPUTS];
 
-            this.LastKeyboardStates = new KeyboardState[MaxInputs];
-            this.LastGamePadStates = new GamePadState[MaxInputs];
+            this.LastKeyboardStates = new KeyboardState[MAX_INPUTS];
+            this.LastGamePadStates = new GamePadState[MAX_INPUTS];
 
-            this.GamePadWasConnected = new bool[MaxInputs];
+            this.GamePadWasConnected = new bool[MAX_INPUTS];
         }
         
         /// <summary>
@@ -58,7 +58,7 @@ namespace GameStateManagement
         /// </summary>
         public void Update()
         {
-            for (int i = 0; i < MaxInputs; i++)
+            for (int i = 0; i < MAX_INPUTS; i++)
             {
                 this.LastKeyboardStates[i] = this.CurrentKeyboardStates[i];
                 this.LastGamePadStates[i] = this.CurrentGamePadStates[i];

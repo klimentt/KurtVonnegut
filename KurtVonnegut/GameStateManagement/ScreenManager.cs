@@ -34,7 +34,7 @@ namespace GameStateManagement
     {
         #region Fields
         
-        private const string StateFilename = "ScreenManagerState.xml";
+        private const string STATE_FILENAME = "ScreenManagerState.xml";
         
         private readonly List<GameScreen> screens = new List<GameScreen>();
         private readonly List<GameScreen> tempScreensList = new List<GameScreen>();

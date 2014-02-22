@@ -61,12 +61,12 @@ namespace GameStateManagementSample
         /// </summary>
         public MessageBoxScreen(string message, bool includeUsageText)
         {
-            const string usageText = "\nA button, Space, Enter = ok" +
+            const string USAGE_TEXT = "\nA button, Space, Enter = ok" +
 "\nB button, Esc = cancel"; 
             
             if (includeUsageText)
             {
-                this.message = string.Format("{0}{1}", message, usageText);
+                this.message = string.Format("{0}{1}", message, USAGE_TEXT);
             }
             else
             {
@@ -163,13 +163,13 @@ namespace GameStateManagementSample
             Vector2 textPosition = (viewportSize - textSize) / 2;
             
             // The background includes a border somewhat larger than the text itself.
-            const int hPad = 32;
-            const int vPad = 16;
+            const int H_PAD = 32;
+            const int V_PAD = 16;
             
-            Rectangle backgroundRectangle = new Rectangle((int)textPosition.X - hPad,
-                (int)textPosition.Y - vPad,
-                (int)textSize.X + hPad * 2,
-                (int)textSize.Y + vPad * 2);
+            Rectangle backgroundRectangle = new Rectangle((int)textPosition.X - H_PAD,
+                (int)textPosition.Y - V_PAD,
+                (int)textSize.X + H_PAD * 2,
+                (int)textSize.Y + V_PAD * 2);
             
             // Fade the popup alpha during transitions.
             Color color = Color.White * this.TransitionAlpha;

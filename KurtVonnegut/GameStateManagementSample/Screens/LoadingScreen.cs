@@ -141,19 +141,19 @@ namespace GameStateManagementSample
                 SpriteBatch spriteBatch = this.ScreenManager.SpriteBatch;
                 SpriteFont font = this.ScreenManager.Font;
                 
-                const string message = "Loading...";
+                const string MESSAGE = "Loading...";
                 
                 // Center the text in the viewport.
                 Viewport viewport = this.ScreenManager.GraphicsDevice.Viewport;
                 Vector2 viewportSize = new Vector2(viewport.Width, viewport.Height);
-                Vector2 textSize = font.MeasureString(message);
+                Vector2 textSize = font.MeasureString(MESSAGE);
                 Vector2 textPosition = (viewportSize - textSize) / 2;
                 
                 Color color = Color.White * this.TransitionAlpha;
                 
                 // Draw the text.
                 spriteBatch.Begin();
-                spriteBatch.DrawString(font, message, textPosition, color);
+                spriteBatch.DrawString(font, MESSAGE, textPosition, color);
                 spriteBatch.End();
             }
         }

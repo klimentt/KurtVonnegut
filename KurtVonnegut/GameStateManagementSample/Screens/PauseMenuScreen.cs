@@ -51,9 +51,9 @@ namespace GameStateManagementSample
         /// </summary>
         private void QuitGameMenuEntrySelected(object sender, PlayerIndexEventArgs e)
         {
-            const string message = "Are you sure you want to quit this game?";
+            const string MESSAGE = "Are you sure you want to quit this game?";
             
-            MessageBoxScreen confirmQuitMessageBox = new MessageBoxScreen(message);
+            MessageBoxScreen confirmQuitMessageBox = new MessageBoxScreen(MESSAGE);
 
             confirmQuitMessageBox.Accepted += this.ConfirmQuitMessageBoxAccepted;
             

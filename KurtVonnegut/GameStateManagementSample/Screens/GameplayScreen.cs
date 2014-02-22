@@ -30,7 +30,7 @@ namespace GameStateManagementSample
     /// </summary>
     public class GameplayScreen : GameScreen
     {
-        public GraphicsDeviceManager graphics;
+        public GraphicsDeviceManager Graphics;
         private SpriteBatch spriteBatch;
         private readonly Player player;
         private KeyboardState currentKeyboardState;
@@ -46,7 +46,7 @@ namespace GameStateManagementSample
         private TimeSpan previousSpawnTime;
 
         // A random number generator
-        public static Random random;
+        public static Random Random;
         
         //projectiles
         private Texture2D projectileTexture;
@@ -121,7 +121,7 @@ namespace GameStateManagementSample
             this.turrets.Add(new Turret());
             
             // Initialize our random number generator
-            GameplayScreen.random = new Random();
+            GameplayScreen.Random = new Random();
             
             this.score = 0;
         }
@@ -346,7 +346,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount , this.enemyTexture.Height, enemyFrameCount, 30, Color.White, 1f, true);
             
             // Randomly generate the position of the enemy
-            Vector2 position = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2,  GameplayScreen.random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
+            Vector2 position = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2,  GameplayScreen.Random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
             
             // Create an enemy
             Enemy enemy = new Enemy();
