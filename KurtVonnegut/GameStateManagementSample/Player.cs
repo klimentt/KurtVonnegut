@@ -10,8 +10,6 @@ namespace GameStateManagementSample
 {
     public class Player : IRotatable, IFireble, IGameObject
     {
-        
-
         private const int DEF_HP = 100;
         private const float INIT_MOVESPEED = 8.0f;
         private const float FIRE_DELAY = 0.15f;
@@ -120,9 +118,7 @@ namespace GameStateManagementSample
                 this.Position = this.initialPos;
             }
             //rotates towards the mouse
-            float distanceX = this.Position.X - this.Width / 2 - currentMouseState.X;
-            float distanceY = this.Position.Y - this.Height / 2 - currentMouseState.Y;
-            this.Rotation = (float)Math.Atan2(distanceY, distanceX) - MathHelper.Pi;
+            RotateTowards(new Vector2(currentMouseState.X, currentMouseState.Y));
 
             this.Position = new Vector2(MathHelper.Clamp(this.Position.X, this.Width, game.GraphicsDevice.Viewport.Width), MathHelper.Clamp(this.Position.Y, this.Height, game.GraphicsDevice.Viewport.Height)); ;
             
@@ -134,6 +130,13 @@ namespace GameStateManagementSample
         {
             this.PlayerAnimation.Draw(spriteBatch, this);
             //spriteBatch.Draw(this.PlayerAnimation, this.Position, null, Color.White,this.Rotation, new Vector2(this.PlayerAnimation.Width/2, this.PlayerAnimation.Height/2) , 1f, SpriteEffects.None, 0f);
+        }
+
+        public void RotateTowards(Vector2 position)
+        {
+            float distanceX = this.Position.X - this.Width / 2 - position.X;
+            float distanceY = this.Position.Y - this.Height / 2 - position.Y;
+            this.Rotation = (float)Math.Atan2(distanceY, distanceX) - MathHelper.Pi;
         }
     }
 }

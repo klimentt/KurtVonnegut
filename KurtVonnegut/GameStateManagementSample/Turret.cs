@@ -28,5 +28,12 @@ namespace GameStateManagementSample
 
             spriteBatch.Draw(this.Texture, destRectangle, null, Color.White, this.Rotation, new Vector2(this.Width/2, this.Height/2), SpriteEffects.None, 0f);
         }
+
+        public void RotateTowards(Vector2 position)
+        {
+            float distanceX = this.Position.X - this.Width / 2 - position.X;
+            float distanceY = this.Position.Y - this.Height / 2 - position.Y;
+            this.Rotation = (float)Math.Atan2(distanceY, distanceX) - MathHelper.Pi;
+        }
     }
 }

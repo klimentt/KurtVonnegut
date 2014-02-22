@@ -83,5 +83,12 @@ namespace GameStateManagementSample
         {
             spriteBatch.Draw(this.Texture, this.Position, null, Color.White, this.Rotation, new Vector2(this.Width / 2, this.Height / 2), 1f, SpriteEffects.None, 0f);
         }
+
+
+
+        public void RotateTowards(Vector2 position)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

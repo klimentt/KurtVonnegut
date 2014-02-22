@@ -69,6 +69,7 @@
     <Compile Include="Enemy.cs" />
     <Compile Include="FlyingEnemy.cs" />
     <Compile Include="GameStateManagementGame.cs" />
+    <Compile Include="IAggressive.cs" />
     <Compile Include="IFireble.cs" />
     <Compile Include="IGameObject.cs" />
     <Compile Include="IRotatable.cs" />
