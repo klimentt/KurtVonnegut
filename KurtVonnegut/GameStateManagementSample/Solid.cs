@@ -5,12 +5,12 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GameStateManagementSample
 {
-    public class Solid
+    public class Solid : IGameObject
     {
         protected float Scale {get ; private set;}
         public Texture2D Texture;
 
-        public Vector2 Position;
+        public Vector2 Position { get; set; }
 
         public int Width
         {

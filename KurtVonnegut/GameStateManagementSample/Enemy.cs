@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GameStateManagementSample
 {
-    public class Enemy
+    public class Enemy : IGameObject
     {
 
         protected const float DEF_SPEED = 2.0f;
@@ -17,7 +17,7 @@ namespace GameStateManagementSample
         public Animation EnemyAnimation;
 
         // The position of the enemy ship relative to the top left corner of thescreen
-        public Vector2 Position;
+        public Vector2 Position { get; set; }
 
         // The state of the Enemy Ship
         public bool Active;
@@ -81,7 +81,7 @@ namespace GameStateManagementSample
         public virtual void Update(GameTime gameTime)
         {
             // The enemy always moves to the left so decrement it's x position
-            this.Position.X -= this.EnemyMoveSpeed;
+            this.Position -= new Vector2(this.EnemyMoveSpeed, 0);
 
             // Update the position of the Animation
             this.EnemyAnimation.Position = this.Position;

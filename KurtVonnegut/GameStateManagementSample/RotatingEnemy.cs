@@ -6,7 +6,7 @@ using System.Text;
 
 namespace GameStateManagementSample
 {
-    public class RotatingEnemy : Enemy, IRotatable
+    public class RotatingEnemy : Enemy, IRotatable, IGameObject
     {
         protected new const float DEF_SPEED = 2.0f;
         protected new const int HEALTH = 10;
@@ -19,8 +19,7 @@ namespace GameStateManagementSample
             // can move sideways by rotation
             float offsetX = (float)Math.Cos(this.Rotation);
             float offsetY = (float)Math.Sin(this.Rotation);
-            this.Position.X += this.EnemyMoveSpeed * offsetX;
-            this.Position.Y += this.EnemyMoveSpeed * offsetY;
+            this.Position += new Vector2(this.EnemyMoveSpeed * offsetX, this.EnemyMoveSpeed * offsetY);
 
             // Update the position of the Animation
             this.EnemyAnimation.Position = this.Position;

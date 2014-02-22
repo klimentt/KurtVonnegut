@@ -7,11 +7,11 @@ using System.Text;
 
 namespace GameStateManagementSample
 {
-    public class Turret : Solid, IRotatable
+    public class Turret : Solid, IRotatable, IFireble, IGameObject
     {
-        private const float FIRE_DELAY = 0.15f;
+        private const float FIRE_DELAY = 0.80f;
         // The rate of fire of the projectile laser
-        public TimeSpan FireTime { get; private set; }
+        public TimeSpan FireTime { get; set; }
         public TimeSpan PreviousFireTime { get; set; }
         public float Rotation { get; set; }
 

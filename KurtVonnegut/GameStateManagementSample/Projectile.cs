@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GameStateManagementSample
 {
-    public class Projectile : IRotatable
+    public class Projectile : IRotatable, IGameObject
     {
         
 
@@ -13,7 +13,7 @@ namespace GameStateManagementSample
         public Texture2D Texture;
 
         // Position of the Projectile relative to the upper left side of the screen
-        public Vector2 Position;
+        public Vector2 Position { get; set; }
 
         // State of the Projectile
         public bool Active;
@@ -70,8 +70,7 @@ namespace GameStateManagementSample
             // can move sideways by rotation
             float offsetX = (float)Math.Cos(this.Rotation);
             float offsetY = (float)Math.Sin(this.Rotation);
-            this.Position.X += this.projectileMoveSpeed * offsetX;
-            this.Position.Y += this.projectileMoveSpeed * offsetY;
+            this.Position += new Vector2(this.projectileMoveSpeed * offsetX, this.projectileMoveSpeed * offsetY);
 
             // Deactivate the bullet if it goes out of screen
             if (this.Position.X + this.Texture.Width / 2 > this.viewport.Width)

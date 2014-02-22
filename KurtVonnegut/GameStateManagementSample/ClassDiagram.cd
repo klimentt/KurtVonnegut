@@ -6,11 +6,12 @@
       <HashCode>AARACACABAAQQwAgAAAAAEAAAAAAAAAgIAAgAAAAAgA=</HashCode>
       <FileName>Enemy.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameStateManagementSample.Player" BaseTypeListCollapsed="true">
     <Position X="15.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQACAAABAgAA4AkAAQAgEAAAAAAAAAgAAACAAAAAAA=</HashCode>
+      <HashCode>AAQACBAABAgAC4AkAAQAgEAAAAAAAAAwAAACAAAAAAA=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -18,7 +19,7 @@
   <Class Name="GameStateManagementSample.Projectile" BaseTypeListCollapsed="true">
     <Position X="17.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAACABAAQC4AgBAAAAEAAAAEAAAAgQAIAABAAAgA=</HashCode>
+      <HashCode>AAQAAACABAAAA4AgBAAAAEAAAAEAAAAgQAIAAAAAAgA=</HashCode>
       <FileName>Projectile.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -37,11 +38,12 @@
       <HashCode>AAAAAAAABAAAAwAgAAIAAEAAAAAAAAAAAAIAAAAAAAA=</HashCode>
       <FileName>Solid.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameStateManagementSample.Turret">
     <Position X="11.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAABAAAAAAC4AAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
       <FileName>Turret.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

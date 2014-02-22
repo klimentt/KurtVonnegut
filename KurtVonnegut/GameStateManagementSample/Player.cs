@@ -8,12 +8,12 @@ using Microsoft.Xna.Framework.Input;
 
 namespace GameStateManagementSample
 {
-    public class Player : IRotatable, IFireble
+    public class Player : IRotatable, IFireble, IGameObject
     {
         
 
         private const int DEF_HP = 100;
-        private const float INIT_MOVESPEED = 5.0f;
+        private const float INIT_MOVESPEED = 8.0f;
         private const float FIRE_DELAY = 0.15f;
 
         //fields
@@ -24,7 +24,7 @@ namespace GameStateManagementSample
         public TimeSpan FireTime { get; set; }
         public TimeSpan PreviousFireTime { get; set; }
         // Position of the Player relative to the upper left side of the screen
-        public Vector2 Position;
+        public Vector2 Position { get; set; }
         public Player()
         {
             this.PlayerMoveSpeed = INIT_MOVESPEED;
@@ -86,19 +86,19 @@ namespace GameStateManagementSample
             Vector2 oldPosition = this.Position;
             if (currentKeyboardState.IsKeyDown(Keys.A))
             {
-                this.Position.X -= this.PlayerMoveSpeed;
+                this.Position -=  new Vector2(this.PlayerMoveSpeed, 0);
             }
             if (currentKeyboardState.IsKeyDown(Keys.D))
             {
-                this.Position.X += this.PlayerMoveSpeed;
+                this.Position += new Vector2(this.PlayerMoveSpeed, 0);
             }
             if (currentKeyboardState.IsKeyDown(Keys.W))
             {
-                this.Position.Y -= this.PlayerMoveSpeed;
+                this.Position -= new Vector2(0, this.PlayerMoveSpeed);
             }
             if (currentKeyboardState.IsKeyDown(Keys.S))
             {
-                this.Position.Y += this.PlayerMoveSpeed;
+                this.Position += new Vector2(0, this.PlayerMoveSpeed);
             }
             Rectangle rectangle1;
             Rectangle rectangle2;
@@ -124,8 +124,8 @@ namespace GameStateManagementSample
             float distanceY = this.Position.Y - this.Height / 2 - currentMouseState.Y;
             this.Rotation = (float)Math.Atan2(distanceY, distanceX) - MathHelper.Pi;
 
-            this.Position.X = MathHelper.Clamp(this.Position.X, this.Width, game.GraphicsDevice.Viewport.Width);
-            this.Position.Y = MathHelper.Clamp(this.Position.Y, this.Height, game.GraphicsDevice.Viewport.Height);
+            this.Position = new Vector2(MathHelper.Clamp(this.Position.X, this.Width, game.GraphicsDevice.Viewport.Width), MathHelper.Clamp(this.Position.Y, this.Height, game.GraphicsDevice.Viewport.Height)); ;
+            
             this.PlayerAnimation.Position = this.Position;
             this.PlayerAnimation.Update(gameTime);
         }
