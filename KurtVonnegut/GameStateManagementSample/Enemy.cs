@@ -11,7 +11,7 @@ namespace GameStateManagementSample
         protected const float DEF_SPEED = 2.0f;
         protected const int HEALTH = 10;
         protected const int DAMAGE = 50;
-        protected const int SCORE_VALUE = 50;
+        protected const int XP_VALUE = 50;
 
         // Animation representing the enemy
         public Animation EnemyAnimation;
@@ -75,7 +75,7 @@ namespace GameStateManagementSample
             this.EnemyMoveSpeed = DEF_SPEED;
 
             // Set the score value of the enemy
-            this.Value = SCORE_VALUE;
+            this.Value = XP_VALUE;
         }
 
         public virtual void Update(GameTime gameTime)

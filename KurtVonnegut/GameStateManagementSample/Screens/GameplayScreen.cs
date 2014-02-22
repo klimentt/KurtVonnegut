@@ -62,7 +62,7 @@ namespace GameStateManagementSample
         private readonly List<Animation> explosions;
         
         //Number that holds the player score
-        private int score;
+        private int xp;
         // The font used to display UI elements
         private SpriteFont font;
         
@@ -123,7 +123,7 @@ namespace GameStateManagementSample
             // Initialize our random number generator
             GameplayScreen.Random = new Random();
             
-            this.score = 0;
+            this.xp = 0;
         }
         
         /// <summary>
@@ -321,7 +321,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 this.explosions[i].Draw(this.spriteBatch);
             }
             // Draw the score
-            this.spriteBatch.DrawString(this.font, string.Format("Score: {0}", this.score), new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y), Color.White);
+            this.spriteBatch.DrawString(this.font, string.Format("XP: {0}", this.xp), new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y), Color.White);
             // Draw the player health
             this.spriteBatch.DrawString(this.font, string.Format("Health: {0}", this.player.Health), new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y + 30), Color.White);
             this.spriteBatch.End();
@@ -381,11 +381,11 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                         // Add an explosion
                         this.AddExplosion(enemies[i].Position);
                         //Add to the player's score
-                        this.score += this.enemies[i].Value;
+                        this.xp += this.enemies[i].Value;
                     }
                     else
                     {
-                        this.score -= this.enemies[i].Value;
+                        this.xp -= this.enemies[i].Value;
                     }
                     this.enemies.RemoveAt(i);
                 }

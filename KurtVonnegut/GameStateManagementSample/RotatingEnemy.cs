@@ -11,7 +11,7 @@ namespace GameStateManagementSample
         protected new const float DEF_SPEED = 2.0f;
         protected new const int HEALTH = 10;
         protected new const int DAMAGE = 50;
-        protected new const int SCORE_VALUE = 50;
+        protected new const int XP_VALUE = 50;
         public float Rotation { get; set; }
 
 
