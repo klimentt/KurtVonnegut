@@ -104,3 +104,5 @@ C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGa
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\coin.xnb
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\gem.xnb
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\matrixBackground.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\intro.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\intro.wmv

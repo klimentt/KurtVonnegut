@@ -172,6 +172,16 @@
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\matrixBackground.xnb</Output>
       <Time>2014-02-22T17:07:17.7075109+02:00</Time>
     </Item>
+    <Item>
+      <Source>intro.wmv</Source>
+      <Name>intro</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\intro.xnb</Output>
+      <Extra>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\intro.wmv</Extra>
+      <Time>2014-02-22T18:19:58.552937+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

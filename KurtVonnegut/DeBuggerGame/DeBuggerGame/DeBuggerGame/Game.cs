@@ -15,9 +15,14 @@ namespace DeBuggerGame
     {
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
-        
+
+        // for intro
+        Video video;
+        VideoPlayer videoPlayer;
+        Texture2D videoTexture;
+
         // represents player
-        private Player player;
+        public Player player;
 
         // texture used
         //private string playerTexture = "maleFigure_walk";
@@ -113,8 +118,12 @@ namespace DeBuggerGame
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            
+            // load video resources
+            video = Content.Load<Video>("intro");
+            videoPlayer = new VideoPlayer();
 
-            // Load the player resources
+            // load the player resources
             PlayerAnimation = new Animation();
             Texture2D playerTexture = Content.Load<Texture2D>("maleFigure_walk");
             PlayerAnimation.Initialize(playerTexture, Vector2.Zero, playerTexture.Width / 8, playerTexture.Height, 8, 80, Color.White, 1, true);
@@ -160,6 +169,15 @@ namespace DeBuggerGame
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            // play intro
+            //if (videoPlayer.State == MediaState.Stopped)
+            //{
+            //    videoPlayer.IsLooped = false;
+            //    videoPlayer.Play(video);
+            //}
+
+         
+            
             // save previous state of keyboard
             previousKeyboardState = currentKeyboardState;
 
@@ -175,7 +193,7 @@ namespace DeBuggerGame
             // update loot
             UpdateLoot(gameTime);
 
-
+            
             // ...
 
 
@@ -395,6 +413,27 @@ namespace DeBuggerGame
             GraphicsDevice.Clear(Color.Black);
 
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.Additive);
+
+            // play video
+            
+            if (videoPlayer.State != MediaState.Stopped)
+                videoTexture = videoPlayer.GetTexture();
+                        
+            Rectangle screen = new Rectangle
+                (
+                GraphicsDevice.Viewport.X,
+                GraphicsDevice.Viewport.Y,
+                GraphicsDevice.Viewport.Width,
+                GraphicsDevice.Viewport.Height
+                );
+                        
+            if (videoTexture != null)
+            {
+                spriteBatch.Begin();
+                spriteBatch.Draw(videoTexture, screen, Color.White);
+                spriteBatch.End();
+            }
+
 
             // draw background
             spriteBatch.Draw(mainBackground, Vector2.Zero, Color.White);
