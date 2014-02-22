@@ -234,7 +234,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 //Update the player
                 this.player.Update(this.currentKeyboardState, this.currentMouseState, this.ScreenManager, gameTime, this.solids);
                 //fire projectiles from player when needed
-                if (this.currentKeyboardState.IsKeyDown(Keys.Space))
+                if (this.currentMouseState.LeftButton == ButtonState.Pressed)
                 {
                     if (gameTime.TotalGameTime - this.player.PreviousFireTime > this.player.FireTime)
                     {

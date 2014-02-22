@@ -14,6 +14,7 @@ namespace GameStateManagementSample
         protected new const int SCORE_VALUE = 50;
         public float Rotation { get; set; }
 
+
         public override void Update(GameTime gameTime)
         {
             // can move sideways by rotation

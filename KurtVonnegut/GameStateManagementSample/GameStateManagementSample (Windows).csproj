@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Animation.cs" />
     <Compile Include="Enemy.cs" />
+    <Compile Include="FlyingEnemy.cs" />
     <Compile Include="GameStateManagementGame.cs" />
     <Compile Include="IFireble.cs" />
     <Compile Include="IGameObject.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Screens\PlayerIndexEventArgs.cs" />
     <Compile Include="Solid.cs" />
     <Compile Include="Turret.cs" />
+    <Compile Include="WalkingEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
