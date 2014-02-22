@@ -259,7 +259,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 }
                 
                 //collision detection update
-                this.UpdateCollision();
+                this.UpdateCollision(gameTime);
                 //update enemies and add new ones/remove old
                 this.UpdateEnemies(gameTime);
                 this.UpdateProjectiles();
@@ -403,8 +403,8 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 }
             }
         }
-        
-        private void UpdateCollision()
+
+        private void UpdateCollision(GameTime gameTime)
         {
             // Use the Rectangle's built-in intersect function to
             // determine if two objects are overlapping
@@ -442,13 +442,18 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 // other
                 if (rectangle1.Intersects(rectangle2))
                 {
+
                     // Subtract the health from the player based on
                     // the enemy damage
-                    this.player.Health -= this.enemies[i].Damage;
+                    if (gameTime.TotalGameTime - this.enemies[i].PreviousFireTime > this.enemies[i].FireTime)
+                    { 
+                        this.player.Health -= this.enemies[i].Damage;
+                        this.enemies[i].PreviousFireTime = gameTime.TotalGameTime;
+                    }
 
                     // Since the enemy collided with the player
                     // destroy it
-                    this.enemies[i].Health = 0;
+                    //this.enemies[i].Health = 0; 
                     
                     // If the player health is less than zero we died
                     if (this.player.Health <= 0)

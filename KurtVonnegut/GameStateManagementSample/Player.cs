@@ -76,7 +76,7 @@ namespace GameStateManagementSample
             this.Health = DEF_HP;
 
             // Set the laser to fire every quarter second
-            FireTime = TimeSpan.FromSeconds(FIRE_DELAY);
+            this.FireTime = TimeSpan.FromSeconds(FIRE_DELAY);
         }
 
         public void Update(KeyboardState currentKeyboardState, MouseState currentMouseState, ScreenManager game, GameTime gameTime, List<Solid> solids)

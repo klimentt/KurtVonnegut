@@ -7,12 +7,16 @@ using System.Text;
 
 namespace GameStateManagementSample
 {
-    public class RotatingEnemy : Enemy, IRotatable, IGameObject, IAggressive
+    public class RotatingEnemy : Enemy, IRotatable, IGameObject, IAggressive, IFireble
     {
         protected new const float DEF_SPEED = 5.0f;
         protected new const int HEALTH = 10;
-        protected new const int DAMAGE = 50;
+        protected new const int DAMAGE = 5;
         protected new const int XP_VALUE = 50;
+        protected const float ATTACK_SPEED = 1.2f;
+
+        public TimeSpan FireTime { get; set; }
+        public TimeSpan PreviousFireTime { get; set; }
         public float Rotation { get; set; }
         public float AggroRange { get; set; }
 
@@ -20,12 +24,15 @@ namespace GameStateManagementSample
 
         public void Initialize(Animation animation, Vector2 position, float rotation, float aggroRange)
         {
+            this.FireTime = TimeSpan.FromSeconds(ATTACK_SPEED);
+            this.PreviousFireTime = TimeSpan.FromSeconds(0);
             this.AggroRange = aggroRange;
             this.Rotation = rotation;
             this.IsInAggroRange = false;
+            //call base, its important to be here as we are writing over properties below
             base.Initialize(animation, position);
-            this.Health = HEALTH;
 
+            this.Health = HEALTH;
             // Set the amount of damage the enemy can do
             this.Damage = DAMAGE;
 
