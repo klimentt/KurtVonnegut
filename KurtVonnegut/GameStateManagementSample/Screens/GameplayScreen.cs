@@ -365,7 +365,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             {
                 this.previousSpawnTime = gameTime.TotalGameTime;
 
-                // Add an Enemy
+                //Add an Enemy
                 this.AddEnemy();
             }
             
@@ -375,7 +375,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 //we save the prev position of the object
                 Vector2 prevPos = new Vector2(this.enemies[i].Position.X, this.enemies[i].Position.Y);
                 this.enemies[i].Update(gameTime);
-                if (CollidesWithObject(this.enemies[i]))
+                if (CollidesWithObject(this.enemies[i], i))
                 {
                     this.enemies[i].Position = prevPos;
                 }
@@ -409,14 +409,38 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             }
         }
   
-        private bool CollidesWithObject(IGameObject obj)
+        private bool CollidesWithObject(IGameObject obj, int index = 0)
         {
             Rectangle rectangle1 = new Rectangle((int)obj.Position.X - obj.Width / 2, (int)obj.Position.Y - obj.Height / 2, obj.Width, obj.Height);
             Rectangle rectangle2;
             //check with enemies 
-
-            //TODO:
-            throw new NotImplementedException();
+            for (int j = index + 1; j < this.enemies.Count; j++)
+            {
+                rectangle2 = new Rectangle((int)this.enemies[j].Position.X - this.enemies[j].Width / 2, (int)this.enemies[j].Position.Y - this.enemies[j].Height / 2, this.enemies[j].Width, this.enemies[j].Height);
+                if (rectangle1.Intersects(rectangle2))
+                {
+                    return true;
+                }
+            }
+            //check with walls
+            for (int j = 0; j < this.solids.Count; j++)
+            {
+                rectangle2 = new Rectangle((int)this.solids[j].Position.X - this.solids[j].Width / 2, (int)this.solids[j].Position.Y - this.solids[j].Height / 2, this.solids[j].Width, this.solids[j].Height);
+                if (rectangle1.Intersects(rectangle2))
+                {
+                    return true;
+                }
+            }
+            //check with turrets
+            for (int j = 0; j < this.turrets.Count; j++)
+            {
+                rectangle2 = new Rectangle((int)this.turrets[j].Position.X - this.turrets[j].Width / 2, (int)this.turrets[j].Position.Y - this.turrets[j].Height / 2, this.turrets[j].Width, this.turrets[j].Height);
+                if (rectangle1.Intersects(rectangle2))
+                {
+                    return true;
+                }
+            }
+            return false;
             
         }
 
@@ -452,7 +476,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             // Do the collision between the player and the enemies
             for (int i = 0; i < this.enemies.Count; i++)
             {
-                rectangle2 = new Rectangle((int)this.enemies[i].Position.X, (int)this.enemies[i].Position.Y, this.enemies[i].Width, this.enemies[i].Height);
+                rectangle2 = new Rectangle((int)this.enemies[i].Position.X - this.enemies[i].Width / 2, (int)this.enemies[i].Position.Y - this.enemies[i].Height / 2, this.enemies[i].Width, this.enemies[i].Height);
                 
                 // Determine if the two objects collided with each
                 // other
@@ -481,20 +505,20 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
 
             foreach (var solid in this.solids)
             {
-                rectangle1 = new Rectangle((int)solid.Position.X, (int)solid.Position.Y, solid.Width, solid.Height);
+                rectangle1 = new Rectangle((int)solid.Position.X - solid.Width / 2, (int)solid.Position.Y - solid.Height / 2, solid.Width, solid.Height);
                 
                 // Do the collision between the solids and the enemies
-                for (int i = 0; i < this.enemies.Count; i++)
-                {
-                    rectangle2 = new Rectangle((int)this.enemies[i].Position.X, (int)this.enemies[i].Position.Y, this.enemies[i].Width, this.enemies[i].Height);
+                //for (int i = 0; i < this.enemies.Count; i++)
+                //{
+                //    rectangle2 = new Rectangle((int)this.enemies[i].Position.X, (int)this.enemies[i].Position.Y, this.enemies[i].Width, this.enemies[i].Height);
                     
-                    // Determine if the two objects collided with each
-                    // other
-                    if (rectangle1.Intersects(rectangle2))
-                    {
-                        this.enemies[i].Health = 0;
-                    }
-                }
+                //    // Determine if the two objects collided with each
+                //    // other
+                //    if (rectangle1.Intersects(rectangle2))
+                //    {
+                //        this.enemies[i].Health = 0;
+                //    }
+                //}
                 for (int i = 0; i < this.projectiles.Count; i++)
                 {
                     rectangle2 = new Rectangle((int)this.projectiles[i].Position.X - this.projectiles[i].Width / 2, (int)this.projectiles[i].Position.Y - this.projectiles[i].Height / 2, this.projectiles[i].Width, this.projectiles[i].Height);

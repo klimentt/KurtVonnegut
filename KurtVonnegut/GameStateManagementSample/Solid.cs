@@ -40,8 +40,8 @@ namespace GameStateManagementSample
         public virtual void Draw(SpriteBatch spriteBatch)
         {
             Rectangle destRectangle =  new Rectangle((int)this.Position.X, (int)this.Position.Y, this.Width, this.Height);
-           
-            spriteBatch.Draw(this.Texture, destRectangle, null, Color.White, 0f, new Vector2(), SpriteEffects.None, 0f);
+
+            spriteBatch.Draw(this.Texture, destRectangle, null, Color.White, 0f, new Vector2(this.Width / 2, this.Height / 2), SpriteEffects.None, 0f);
         }
     }
 }

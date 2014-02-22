@@ -104,7 +104,7 @@ namespace GameStateManagementSample
 
             foreach (var solid in solids)
             {
-                rectangle2 = new Rectangle((int)solid.Position.X , (int)solid.Position.Y, solid.Width, solid.Height);
+                rectangle2 = new Rectangle((int)solid.Position.X - solid.Width / 2, (int)solid.Position.Y - solid.Height / 2, solid.Width, solid.Height);
                 if (rectangle1.Intersects(rectangle2))
                 {
                     this.Position = oldPosition;
