@@ -9,7 +9,7 @@ namespace GameStateManagementSample
 {
     public class RotatingEnemy : Enemy, IRotatable, IGameObject, IAggressive
     {
-        protected new const float DEF_SPEED = 2.0f;
+        protected new const float DEF_SPEED = 5.0f;
         protected new const int HEALTH = 10;
         protected new const int DAMAGE = 50;
         protected new const int XP_VALUE = 50;
@@ -24,6 +24,16 @@ namespace GameStateManagementSample
             this.Rotation = rotation;
             this.IsInAggroRange = false;
             base.Initialize(animation, position);
+            this.Health = HEALTH;
+
+            // Set the amount of damage the enemy can do
+            this.Damage = DAMAGE;
+
+            // Set how fast the enemy moves
+            this.EnemyMoveSpeed = DEF_SPEED;
+
+            // Set the score value of the enemy
+            this.Value = XP_VALUE;
         }
 
         public override void Update(GameTime gameTime)
