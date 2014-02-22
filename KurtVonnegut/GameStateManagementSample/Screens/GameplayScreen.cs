@@ -372,8 +372,13 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             // Update the Enemies
             for (int i = this.enemies.Count - 1; i >= 0; i--)
             {
+                //we save the prev position of the object
+                Vector2 prevPos = new Vector2(this.enemies[i].Position.X, this.enemies[i].Position.Y);
                 this.enemies[i].Update(gameTime);
-                
+                if (CollidesWithObject(this.enemies[i]))
+                {
+                    this.enemies[i].Position = prevPos;
+                }
                 if (this.enemies[i].Active == false)
                 {
                     if (this.enemies[i].Health <= 0)
@@ -402,6 +407,17 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                     enemies[i].RotateTowards(player.Position);
                 }
             }
+        }
+  
+        private bool CollidesWithObject(IGameObject obj)
+        {
+            Rectangle rectangle1 = new Rectangle((int)obj.Position.X - obj.Width / 2, (int)obj.Position.Y - obj.Height / 2, obj.Width, obj.Height);
+            Rectangle rectangle2;
+            //check with enemies 
+
+            //TODO:
+            throw new NotImplementedException();
+            
         }
 
         private void UpdateCollision(GameTime gameTime)
