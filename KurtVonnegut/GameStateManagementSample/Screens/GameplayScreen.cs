@@ -425,6 +425,10 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             //check with walls
             for (int j = 0; j < this.solids.Count; j++)
             {
+                if (this.solids[j] is FlyingEnemy)
+                {
+                    continue; 
+                }
                 rectangle2 = new Rectangle((int)this.solids[j].Position.X - this.solids[j].Width / 2, (int)this.solids[j].Position.Y - this.solids[j].Height / 2, this.solids[j].Width, this.solids[j].Height);
                 if (rectangle1.Intersects(rectangle2))
                 {
