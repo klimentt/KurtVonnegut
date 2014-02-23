@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2014-02-23T14:04:35.3839766+02:00</Time>
+      <Time>2014-02-23T15:06:59.8549349+02:00</Time>
     </Item>
     <Item>
       <Source>blank.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\bgLayer1.xnb</Output>
-      <Time>2014-02-23T14:04:35.3899877+02:00</Time>
+      <Time>2014-02-16T00:08:11.5186249+02:00</Time>
     </Item>
     <Item>
       <Source>bgLayer2.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\bgLayer2.xnb</Output>
-      <Time>2014-02-23T14:04:35.3959919+02:00</Time>
+      <Time>2014-02-16T00:45:47.2106431+02:00</Time>
     </Item>
     <Item>
       <Source>endMenu.png</Source>
