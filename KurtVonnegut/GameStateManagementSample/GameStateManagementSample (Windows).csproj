@@ -65,9 +65,33 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Animation.cs" />
+    <Compile Include="GameObject\Animation\Animation.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="FlyingEnemy.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Agent.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\Ant\Ant.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\EnemyAgent.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\FireAnt\FireAnt.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\FireFly\FireFly.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\FireMoth\FireMoth.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\Fly\Fly.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\Moth\Moth.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\PlayerFigure\PlayerFigure.cs" />
+    <Compile Include="GameObject\AnimatedObject\AnimatedObject.cs" />
+    <Compile Include="GameObject\AnimatedObject\IAnimateable.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Consummable\Banana\Banana.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Consummable\Coffee\Coffee.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Consummable\Consummable.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Consummable\EnergyDrink\EnergyDrink.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Currency\Coin\Coin.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Currency\Currency.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Currency\Gem\Gem.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Item.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Weapon\Keyboard\Keyboard.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Weapon\Monitor\Monitor.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs" />
+    <Compile Include="GameObject\AnimatedObject\Item\Weapon\Weapon.cs" />
+    <Compile Include="GameObject\GameObject.cs" />
     <Compile Include="GameStateManagementGame.cs" />
     <Compile Include="IAggressive.cs" />
     <Compile Include="IFireble.cs" />
@@ -75,7 +99,7 @@
     <Compile Include="IRotatable.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Projectile.cs" />
+    <Compile Include="GameObject\Projectile\Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RotatingEnemy.cs" />
     <Compile Include="ScreenFactory.cs" />
@@ -159,7 +183,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="GameObject\GameObjectHierarchy.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
   <!--

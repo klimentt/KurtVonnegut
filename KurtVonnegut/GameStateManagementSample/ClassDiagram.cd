@@ -1,39 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="GameStateManagementSample.Enemy">
-    <Position X="11" Y="0.75" Width="1.5" />
+  <Class Name="GameStateManagementSample.Projectile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AARACACABAAQQwAgAAAAAEAAAAAAAAAgIAAgAAAAAgA=</HashCode>
-      <FileName>Enemy.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="GameStateManagementSample.Player" BaseTypeListCollapsed="true">
-    <Position X="15.25" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAQACBAABAgAC4AkAAQAgEAAAAAAAAAwAAACAAAAAAA=</HashCode>
-      <FileName>Player.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="GameStateManagementSample.Projectile" BaseTypeListCollapsed="true">
-    <Position X="17.5" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAQAAACABAAAA4AgBAAAAEAAAAEAAAAgQAIAAAAAAgA=</HashCode>
+      <HashCode>AAQAAACABAAAA4AgBAAAAEAAAAEAAAAgQgIAAAAAAgA=</HashCode>
       <FileName>Projectile.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="GameStateManagementSample.RotatingEnemy">
-    <Position X="13.5" Y="4.5" Width="1.5" />
+  <Class Name="GameStateManagementSample.RotatingEnemy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AARAAAAAAAAAAoAAAAAAAAAAAAAAAAAAIAAAAAAAAgA=</HashCode>
+      <HashCode>AgQAABAAAAAAA4AAAAAAAAAAAAAAIAAQIiAgAAAAAgA=</HashCode>
       <FileName>RotatingEnemy.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameStateManagementSample.Solid">
-    <Position X="9.25" Y="2" Width="1.5" />
+    <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAwAgAAIAAEAAAAAAAAAAAAIAAAAAAAA=</HashCode>
       <FileName>Solid.cs</FileName>
@@ -41,17 +25,17 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameStateManagementSample.Turret">
-    <Position X="11.25" Y="6.5" Width="1.5" />
+    <Position X="0.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAABAAAAAAC4AAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAABAAAAAAC4AAAAAAAAAAAAAAAAAQAgAAAAAAAAA=</HashCode>
       <FileName>Turret.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="GameStateManagementSample.IRotatable">
-    <Position X="7.75" Y="0.75" Width="1.5" />
+  <Interface Name="GameStateManagementSample.IRotatable" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>IRotatable.cs</FileName>
     </TypeIdentifier>
   </Interface>
