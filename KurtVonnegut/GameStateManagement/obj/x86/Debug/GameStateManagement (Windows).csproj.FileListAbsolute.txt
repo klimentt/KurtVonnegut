@@ -16,3 +16,9 @@ C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateMana
 C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagement\obj\x86\Debug\GameStateManagement.dll
 C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagement\obj\x86\Debug\GameStateManagement.pdb
+C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagement\bin\x86\Debug\GameStateManagement.dll
+C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagement\bin\x86\Debug\GameStateManagement.pdb
+C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagement\obj\x86\Debug\GameStateManagement (Windows).csprojResolveAssemblyReference.cache
+C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagement\obj\x86\Debug\GameStateManagement.dll
+C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagement\obj\x86\Debug\GameStateManagement.pdb

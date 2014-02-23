@@ -1,3 +1,4 @@
 C:\Users\Nikki\Desktop\GameStateManagementSample\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
 D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
 C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
+C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
