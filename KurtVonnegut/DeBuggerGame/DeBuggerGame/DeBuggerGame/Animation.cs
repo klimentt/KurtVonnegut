@@ -6,6 +6,7 @@
     using Microsoft.Xna.Framework.Graphics;
 
     public class Animation        
+        : GameObject
     {
         #region fields
 
@@ -54,6 +55,15 @@
 
         // position
         public Vector2 Position { get; set; }
+
+        #endregion
+
+        #region constructors
+
+        public Animation()
+            : base()
+        {
+        }
 
         #endregion
 

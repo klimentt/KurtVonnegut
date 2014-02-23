@@ -19,3 +19,6 @@ Content\gem.xnb
 Content\matrixBackground.xnb
 Content\intro.xnb
 Content\intro.wmv
+Content\bolt.xnb
+Content\explosion.xnb
+Content\explosion_2.xnb

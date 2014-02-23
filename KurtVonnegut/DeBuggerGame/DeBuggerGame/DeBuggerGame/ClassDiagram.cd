@@ -8,14 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.GameObject" Collapsed="true">
-    <Position X="15.25" Y="0.5" Width="1.5" />
+    <Position X="18.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Animation" Collapsed="true">
-    <Position X="32.25" Y="0.5" Width="1.5" />
+    <Position X="36.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIQAAARAgQAAAwAgAAEAAARCAGAAAACAAAAAAAAACAA=</HashCode>
       <FileName>Animation.cs</FileName>
@@ -29,7 +29,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Item" Collapsed="true">
-    <Position X="23" Y="3.25" Width="1.5" />
+    <Position X="24" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Item.cs</FileName>
@@ -43,7 +43,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Enemy" Collapsed="true">
-    <Position X="8.5" Y="4.75" Width="1.5" />
+    <Position X="8.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAACAAAAAgAAAAAAAAAABAAAAASAAAAAgAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Enemy\Enemy.cs</FileName>
@@ -85,7 +85,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.AnimatedObject" Collapsed="true">
-    <Position X="15.25" Y="1.75" Width="1.5" />
+    <Position X="16.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAABAAAAwAgAAAAIMAAAAAAAAAgAAAAAAAAYAA=</HashCode>
       <FileName>GameObject\AnimatedObject\AnimatedObject.cs</FileName>
@@ -107,21 +107,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Weapon" Collapsed="true">
-    <Position X="27.5" Y="4.75" Width="1.5" />
+    <Position X="29.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Monitor" Collapsed="true">
-    <Position X="27.5" Y="6.25" Width="1.5" />
+    <Position X="29.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Monitor\Monitor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Keyboard" Collapsed="true">
-    <Position X="25.25" Y="6.25" Width="1.5" />
+    <Position X="27.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Keyboard\Keyboard.cs</FileName>
@@ -142,21 +142,42 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Mouse" Collapsed="true">
-    <Position X="29.75" Y="6.25" Width="1.5" />
+    <Position X="32" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeBuggerGame.Currency" Collapsed="true">
-    <Position X="23" Y="4.75" Width="1.5" />
+    <Position X="24" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Currency\Currency.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="DeBuggerGame.Projectile" Collapsed="true">
+    <Position X="34.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACABAAAAwAgBAAAAEAAAAAAAAAgQAIAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Projectile\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Coin" Collapsed="true">
+    <Position X="23" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Currency\Coin\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Gem" Collapsed="true">
+    <Position X="25.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Currency\Gem\Gem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="DeBuggerGame.IAnimateable" Collapsed="true">
-    <Position X="32.25" Y="1.75" Width="1.5" />
+    <Position X="39" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IAnimateable.cs</FileName>

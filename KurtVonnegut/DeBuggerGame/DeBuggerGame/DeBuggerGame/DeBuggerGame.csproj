@@ -128,6 +128,7 @@
     <Compile Include="GameObject\AnimatedObject\Item\Weapon\Monitor\Monitor.cs" />
     <Compile Include="GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs" />
     <Compile Include="GameObject\AnimatedObject\Item\Weapon\Weapon.cs" />
+    <Compile Include="GameObject\AnimatedObject\Projectile\Projectile.cs" />
     <Compile Include="GameObject\GameObject.cs" />
     <Compile Include="IAnimateable.cs" />
     <Compile Include="GameObject\AnimatedObject\Item\Item.cs" />

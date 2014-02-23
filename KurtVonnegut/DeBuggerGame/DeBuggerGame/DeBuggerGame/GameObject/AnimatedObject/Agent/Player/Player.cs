@@ -7,9 +7,13 @@
     public class Player
         : Agent
     {
-        #region properties
+        #region constructors
 
-        
+        public Player()
+            : base()
+        {
+            this.Health = 8;            
+        }
 
         #endregion
 

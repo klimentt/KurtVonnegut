@@ -182,6 +182,33 @@
       <Extra>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\intro.wmv</Extra>
       <Time>2014-02-22T18:19:58.552937+02:00</Time>
     </Item>
+    <Item>
+      <Source>bolt.png</Source>
+      <Name>bolt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\bolt.xnb</Output>
+      <Time>2014-02-23T10:52:54.9250116+02:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion.png</Source>
+      <Name>explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2014-02-23T11:57:04.7062065+02:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion_2.png</Source>
+      <Name>explosion_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\explosion_2.xnb</Output>
+      <Time>2014-02-23T10:46:03.5564827+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

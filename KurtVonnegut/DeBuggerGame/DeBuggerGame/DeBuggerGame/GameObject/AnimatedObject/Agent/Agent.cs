@@ -22,16 +22,17 @@
             {
                 if (this.health <= 0)
                 {
-                    throw new System.ApplicationException("Game over");
+                    this.Active = false;
+                    //throw new System.ApplicationException("Game over");
                 }
                 return this.health;
             }
             set
             {
-                if (value < 0 || value > 8)
-                {
-                    throw new System.ArgumentOutOfRangeException("Health must be in the range [0;8]!");
-                }
+                //if (value < 0 || value > 8)
+                //{
+                //    throw new System.ArgumentOutOfRangeException("Health must be in the range [0;8]!");
+                //}
                 this.health = value;
             }
         }
