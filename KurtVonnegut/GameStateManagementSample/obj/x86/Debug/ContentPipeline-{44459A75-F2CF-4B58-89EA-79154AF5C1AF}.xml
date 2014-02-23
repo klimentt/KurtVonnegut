@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player.xnb</Output>
-      <Time>2014-02-23T14:04:35.4670433+02:00</Time>
+      <Time>2014-02-23T15:16:50.8654957+02:00</Time>
     </Item>
     <Item>
       <Source>shipAnimation.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\shipAnimation.xnb</Output>
-      <Time>2014-02-23T14:04:35.4710235+02:00</Time>
+      <Time>2014-02-23T15:20:49.9962495+02:00</Time>
     </Item>
     <Item>
       <Source>solid.png</Source>

@@ -66,6 +66,11 @@ namespace GameStateManagementSample
         private int xp;
         // The font used to display UI elements
         private SpriteFont font;
+
+        //Gameplay Background
+
+        Microsoft.Xna.Framework.Rectangle mainframe;
+        Texture2D background;
         
         #region Fields
         
@@ -154,6 +159,10 @@ namespace GameStateManagementSample
                 Vector2 playerPosition = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y +
                                                                                                                  this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
                 this.player.Initialize(playerAnimation, playerPosition);
+
+                //background screen
+                this.mainframe = new Microsoft.Xna.Framework.Rectangle(0, 0, this.ScreenManager.GraphicsDevice.Viewport.Width, this.ScreenManager.GraphicsDevice.Viewport.Height);
+                this.background = this.content.Load<Texture2D>("bgLayer2");
                 
                 //enemy
                 this.enemyTexture = this.content.Load<Texture2D>("mineAnimation");
@@ -288,11 +297,12 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
         public override void Draw(GameTime gameTime)
         {
             // This game has a blue background. Why? Because!
-            this.ScreenManager.GraphicsDevice.Clear(ClearOptions.Target,
-                Color.CornflowerBlue, 0, 0);
+            this.ScreenManager.GraphicsDevice.Clear(Color.White);
             
             // TODO: Add your drawing code here
             this.spriteBatch.Begin();
+
+            spriteBatch.Draw(background, mainframe, Microsoft.Xna.Framework.Color.Gray);
 
             //draw projectiles
             for (int i = 0; i < this.projectiles.Count; i++)
