@@ -114,6 +114,7 @@
     <Compile Include="Screens\PauseMenuScreen.cs" />
     <Compile Include="Screens\PlayerIndexEventArgs.cs" />
     <Compile Include="Solid.cs" />
+    <Compile Include="TODO.cs" />
     <Compile Include="Turret.cs" />
     <Compile Include="WalkingEnemy.cs" />
   </ItemGroup>

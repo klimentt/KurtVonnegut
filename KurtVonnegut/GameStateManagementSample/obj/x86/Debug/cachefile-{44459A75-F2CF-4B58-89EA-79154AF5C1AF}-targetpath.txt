@@ -14,9 +14,6 @@ Content\player.xnb
 Content\shipAnimation.xnb
 Content\solid.xnb
 Content\turretProjectile.xnb
-Content\menufont.xnb
-Content\gamefont.xnb
-Content\Sounds\backgroundMusic.xnb
 Content\ant.xnb
 Content\ant_ghost.xnb
 Content\banana.xnb
@@ -39,5 +36,8 @@ Content\moth.xnb
 Content\moth_ghost.xnb
 Content\mouse.xnb
 Content\wallpaperBackground.xnb
+Content\menufont.xnb
+Content\gamefont.xnb
+Content\Sounds\backgroundMusic.xnb
 Content\intro.xnb
 Content\intro.wmv
