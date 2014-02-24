@@ -152,7 +152,7 @@ namespace GameStateManagementSample
                 
                 //player
                 Animation playerAnimation = new Animation();
-                Texture2D playerTexture = this.content.Load<Texture2D>("shipAnimation");
+                Texture2D playerTexture = this.content.Load<Texture2D>("player_2_animation");
                 int playerFrames = 8;
                 playerAnimation.Initialize(playerTexture, Vector2.Zero, playerTexture.Width / playerFrames, playerTexture.Height, playerFrames, 30, Color.White, 1f, true);
 
@@ -172,7 +172,7 @@ namespace GameStateManagementSample
                 this.turretProjTexture = this.content.Load<Texture2D>("turretProjectile");
                 
                 //effect explosions
-                this.explosionTexture = this.content.Load<Texture2D>("explosion");
+                this.explosionTexture = this.content.Load<Texture2D>("explosion_2");
                 
                 //solid objects texture
                 this.solidTexture = this.content.Load<Texture2D>("solid");
