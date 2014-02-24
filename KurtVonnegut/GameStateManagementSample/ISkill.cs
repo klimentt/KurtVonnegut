@@ -8,7 +8,8 @@ namespace GameStateManagementSample
 {
     public interface ISkill : IGameObject, IFireble
     {
+        Animation Animation { get; set; }
         Vector2 StartPosition { get; set; }
-        void Activate();
+        void Activate(IGameObject obj);
     }
 }
