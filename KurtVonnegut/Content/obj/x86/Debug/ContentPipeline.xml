@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\solid.xnb</Output>
-      <Time>2014-02-24T10:05:19.5799381+02:00</Time>
+      <Time>2014-02-24T11:24:54.2359283+02:00</Time>
     </Item>
     <Item>
       <Source>turretProjectile.png</Source>
@@ -397,6 +397,15 @@
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player_2_animation.xnb</Output>
       <Time>2014-02-24T09:13:49+02:00</Time>
+    </Item>
+    <Item>
+      <Source>roach.png</Source>
+      <Name>roach</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\roach.xnb</Output>
+      <Time>2014-02-24T11:17:30.453314+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

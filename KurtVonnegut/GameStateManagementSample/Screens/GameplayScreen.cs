@@ -163,10 +163,10 @@ namespace GameStateManagementSample
 
                 //background screen
                 this.mainframe = new Microsoft.Xna.Framework.Rectangle(0, 0, this.ScreenManager.GraphicsDevice.Viewport.Width, this.ScreenManager.GraphicsDevice.Viewport.Height);
-                this.background = this.content.Load<Texture2D>("bgLayer2");
+                this.background = this.content.Load<Texture2D>("circuitBoard");
                 
                 //enemy
-                this.enemyTexture = this.content.Load<Texture2D>("mineAnimation");
+                this.enemyTexture = this.content.Load<Texture2D>("roach");
                 enemyAnimationTextures = new List<Texture2D>();
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("ant"));
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("ant_ghost"));
