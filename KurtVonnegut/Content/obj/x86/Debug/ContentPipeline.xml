@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\gradient.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>bgLayer1.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\laser.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:00:32.7332704+02:00</Time>
     </Item>
     <Item>
       <Source>mainbackground.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mainbackground.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>mainMenu.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mainMenu.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>mine.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mine.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>mineAnimation.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mineAnimation.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>player.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>shipAnimation.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\shipAnimation.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>solid.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\solid.xnb</Output>
-      <Time>2014-02-24T08:48:17.9852958+02:00</Time>
+      <Time>2014-02-24T10:05:19.5799381+02:00</Time>
     </Item>
     <Item>
       <Source>turretProjectile.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\turretProjectile.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>ant.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\ant.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:15:40.5342581+02:00</Time>
     </Item>
     <Item>
       <Source>ant_ghost.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\ant_ghost.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:15:49.7083837+02:00</Time>
     </Item>
     <Item>
       <Source>banana.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\banana.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:30:57.6342863+02:00</Time>
     </Item>
     <Item>
       <Source>bolt.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\bolt.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:07:00.3362202+02:00</Time>
     </Item>
     <Item>
       <Source>circuitBoard.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\coffee.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:34:01.678813+02:00</Time>
     </Item>
     <Item>
       <Source>coin.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\coin.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:42:52.3181639+02:00</Time>
     </Item>
     <Item>
       <Source>energy_drink.png</Source>
@@ -215,7 +215,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\energy_drink.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:44:03.3582271+02:00</Time>
     </Item>
     <Item>
       <Source>explosion_2.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\explosion_2.xnb</Output>
-      <Time>2014-02-24T08:40:46.5860968+02:00</Time>
+      <Time>2014-02-24T09:45:40.4647813+02:00</Time>
     </Item>
     <Item>
       <Source>femaleFigure_walk.png</Source>
@@ -233,7 +233,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\femaleFigure_walk.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:08:02.567513+02:00</Time>
     </Item>
     <Item>
       <Source>fly.png</Source>
@@ -242,7 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\fly.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:48:58.6621176+02:00</Time>
     </Item>
     <Item>
       <Source>fly_ghost.png</Source>
@@ -251,7 +251,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\fly_ghost.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:49:42.0555995+02:00</Time>
     </Item>
     <Item>
       <Source>gem.png</Source>
@@ -260,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\gem.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:51:33.0639488+02:00</Time>
     </Item>
     <Item>
       <Source>heart.png</Source>
@@ -269,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\heart.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:52:21.1687003+02:00</Time>
     </Item>
     <Item>
       <Source>keyboard.png</Source>
@@ -278,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\keyboard.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:53:07.1033276+02:00</Time>
     </Item>
     <Item>
       <Source>maleFigure_walk.png</Source>
@@ -287,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\maleFigure_walk.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>matrixBackground.png</Source>
@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\matrixBackground.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>monitor.png</Source>
@@ -305,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\monitor.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:01:35.2810739+02:00</Time>
     </Item>
     <Item>
       <Source>moth.png</Source>
@@ -314,7 +314,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\moth.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:02:05.4014398+02:00</Time>
     </Item>
     <Item>
       <Source>moth_ghost.png</Source>
@@ -323,7 +323,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\moth_ghost.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:02:38.7841142+02:00</Time>
     </Item>
     <Item>
       <Source>mouse.png</Source>
@@ -332,7 +332,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mouse.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:03:07.9943806+02:00</Time>
     </Item>
     <Item>
       <Source>wallpaperBackground.png</Source>
@@ -341,7 +341,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\wallpaperBackground.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
       <Source>menufont.spritefont</Source>
@@ -387,7 +387,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player_2.xnb</Output>
-      <Time>2014-02-24T08:17:20.7746073+02:00</Time>
+      <Time>2014-02-24T10:03:42.6729106+02:00</Time>
     </Item>
     <Item>
       <Source>player_2_animation.png</Source>
@@ -396,7 +396,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player_2_animation.xnb</Output>
-      <Time>2014-02-24T08:35:26.8142306+02:00</Time>
+      <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
