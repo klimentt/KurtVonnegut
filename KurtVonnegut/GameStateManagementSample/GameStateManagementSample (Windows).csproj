@@ -97,6 +97,7 @@
     <Compile Include="IFireble.cs" />
     <Compile Include="IGameObject.cs" />
     <Compile Include="IRotatable.cs" />
+    <Compile Include="ISkill.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="GameObject\Projectile\Projectile.cs" />

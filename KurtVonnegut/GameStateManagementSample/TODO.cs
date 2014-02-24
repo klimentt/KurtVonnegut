@@ -15,8 +15,8 @@ namespace GameStateManagementSample
         //TODO: Make levels larger ( and increase screen size ) so we can have the level on the screen
         //TODO: Create a class that will hold initial positions of each enemy, player, wall, turret etc. Make all necessary classes Serializable and use files for level control
         //TODO: Move XP gain to the player class, and impliment levels
-        //TODO: Impliment player skills ( like a shield, he can change color while shielded for a duration and not take damage )
-        //TODO: Impliment an AOE skill for the player
+        //TODO: Impliment player skills ( like a shield, he can change color while shielded for a duration and not take damage ), implimenting ISkill interface
+        //TODO: Impliment an AOE skill for the player, implimenting ISkill interface
         //TODO: Fix the hitboxes. Currently I have implimented rectangle hit boxing that works badly with rotation. It can be fixed if the player and enemies hit detect with a radius instead.
         //TODO: The shoot projectile must be a skill with larger cooldown, and main attacks must be melee
         //TODO: Impliment a "Box" class that inherits "Solid" but can be moved if the player pushes it, and it has HP and can die from melee attacks
