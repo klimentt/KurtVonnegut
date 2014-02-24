@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\ant.xnb</Output>
-      <Time>2014-02-24T10:15:40.5342581+02:00</Time>
+      <Time>2014-02-24T10:38:45.0666984+02:00</Time>
     </Item>
     <Item>
       <Source>ant_ghost.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\ant_ghost.xnb</Output>
-      <Time>2014-02-24T10:15:49.7083837+02:00</Time>
+      <Time>2014-02-24T10:40:02.7026778+02:00</Time>
     </Item>
     <Item>
       <Source>banana.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\circuitBoard.xnb</Output>
-      <Time>2014-02-23T22:06:44+02:00</Time>
+      <Time>2014-02-24T10:44:48.0894598+02:00</Time>
     </Item>
     <Item>
       <Source>coffee.png</Source>
