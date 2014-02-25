@@ -6,14 +6,14 @@ using System.Text;
 
 namespace GameStateManagementSample
 {
-    public class ShieldSkill : Skill, ISkill
+    public class AreaOfEffectSkill : Skill, ISkill
     {
-        public ShieldSkill(TimeSpan cooldown, TimeSpan duration, Animation animation, Vector2 position) : base(position, animation, cooldown)
+        public AreaOfEffectSkill(Vector2 startPosition, Animation animation, TimeSpan cooldown, float radius) : base(startPosition, animation, cooldown)
         {
-            this.Duration = duration;
+            this.Radius = radius;
         }
 
-        TimeSpan Duration { get; set; }
+        public float Radius { get; set; }
 
         public override void Activate(GameTime time)
         {
