@@ -7,6 +7,7 @@ namespace GameStateManagementSample
 {
     public class TODO
     {
+        // Test
         //TODO: IMPORTANT, look at some of the implimentations ( like hit delay on melee attacks for the enemy classes ), look the class inheritance, and if you make new classes, always inherit the existing ones. Best ones to inherit are "Solid", "Player", "FlyingEnemy", and "Enemy".
         //TODO: Integrate the classes in folder "GameObject" so they inherit "Player", or "FlyingEnemy" or "WalkingEnemy". Use the existing interfaces, and impliment everything so it works in the environment.
         //TODO: Make the player use melee weapons, and have an inventory. 
