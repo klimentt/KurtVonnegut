@@ -65,18 +65,17 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GameObject\AnimatedObject\Agent\Enemy\Roach\Roach.cs" />
     <Compile Include="GameObject\Animation\Animation.cs" />
-    <Compile Include="Enemy.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Enemy\Enemy.cs" />
     <Compile Include="FlyingEnemy.cs" />
     <Compile Include="GameObject\AnimatedObject\Agent\Agent.cs" />
-    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\Ant\Ant.cs" />
-    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\EnemyAgent.cs" />
-    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\FireAnt\FireAnt.cs" />
-    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\FireFly\FireFly.cs" />
-    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\FireMoth\FireMoth.cs" />
-    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\Fly\Fly.cs" />
-    <Compile Include="GameObject\AnimatedObject\Agent\EnemyAgent\Moth\Moth.cs" />
-    <Compile Include="GameObject\AnimatedObject\Agent\PlayerFigure\PlayerFigure.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Enemy\Ant\Ant.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Enemy\FireAnt\FireAnt.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Enemy\FireFly\FireFly.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Enemy\FireMoth\FireMoth.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Enemy\Fly\Fly.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Enemy\Moth\Moth.cs" />
     <Compile Include="GameObject\AnimatedObject\AnimatedObject.cs" />
     <Compile Include="GameObject\AnimatedObject\IAnimateable.cs" />
     <Compile Include="GameObject\AnimatedObject\Item\Consummable\Banana\Banana.cs" />
@@ -95,10 +94,10 @@
     <Compile Include="GameStateManagementGame.cs" />
     <Compile Include="IAggressive.cs" />
     <Compile Include="IFireble.cs" />
-    <Compile Include="IGameObject.cs" />
+    <Compile Include="GameObject\IGameObject.cs" />
     <Compile Include="IRotatable.cs" />
     <Compile Include="ISkill.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="GameObject\AnimatedObject\Agent\Player\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="GameObject\Projectile\Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -185,7 +184,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
-    <None Include="GameObject\GameObjectHierarchy.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

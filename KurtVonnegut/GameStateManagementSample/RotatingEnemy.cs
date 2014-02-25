@@ -55,10 +55,10 @@ namespace GameStateManagementSample
             
 
             // Update the position of the Animation
-            this.EnemyAnimation.Position = this.Position;
+            this.animation.Position = this.Position;
 
             // Update Animation
-            this.EnemyAnimation.Update(gameTime);
+            this.animation.Update(gameTime);
 
             // If  its health reaches 0 then deactivate it
             if (this.Health <= 0)
@@ -71,7 +71,7 @@ namespace GameStateManagementSample
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            this.EnemyAnimation.Draw(spriteBatch, this);
+            this.animation.Draw(spriteBatch, this);
         }
         public void RotateTowards(Vector2 position)
         {

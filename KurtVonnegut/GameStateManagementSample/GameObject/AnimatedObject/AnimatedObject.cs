@@ -5,7 +5,7 @@
     using Microsoft.Xna.Framework.Graphics;
 
     public abstract class AnimatedObject
-        : GameObject, IAnimateable
+        : GameObject, IAnimateable, IGameObject
     {
         #region fields
 
