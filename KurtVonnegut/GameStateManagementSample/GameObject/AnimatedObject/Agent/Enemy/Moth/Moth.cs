@@ -5,7 +5,7 @@
     using Microsoft.Xna.Framework.Graphics;
 
     public class Moth
-        : Enemy
+        : RotatingEnemy
     {
         public Moth()
             : base()

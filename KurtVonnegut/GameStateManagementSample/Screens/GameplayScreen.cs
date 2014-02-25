@@ -182,6 +182,8 @@ namespace GameStateManagementSample
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("fly_ghost"));
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("moth"));
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("moth_ghost"));
+                enemyAnimationTextures.Add(this.content.Load<Texture2D>("roach"));
+                enemyAnimationTextures.Add(this.content.Load<Texture2D>("roach_ghost"));
                 
                 //projectile
                 this.projectileTexture = this.content.Load<Texture2D>("laser");
@@ -371,15 +373,45 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             
             // Initialize the animation with the correct animation information
             int enemyFrameCount = 8;
-            //this.enemyTexture = this.enemyAnimationTextures[Random.Next(this.enemyAnimationTextures.Count - 1)];
-            enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount, this.enemyTexture.Height, enemyFrameCount, 30, Color.White, 1f, true);
+            
+            
             
             // Randomly generate the position of the enemy
             Vector2 position = new Vector2(GameplayScreen.Random.Next(250, this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2),  GameplayScreen.Random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
             
             // Create an enemy
 
-            RotatingEnemy enemy = new RotatingEnemy();
+            RotatingEnemy enemy; 
+
+            switch (Random.Next(9)%8)
+            {
+                case 1:
+                    enemy = new Roach();
+                    this.enemyTexture = this.enemyAnimationTextures[6];
+                    break;
+                case 2:
+                    enemy = new FireRoach();
+                    this.enemyTexture = this.enemyAnimationTextures[7];
+                    break;
+                //case 3:
+                //    break;
+                //case 4:
+                //    break;
+                //case 5:
+                //    break;
+                //case 6:
+                //    break;
+                //case 7:
+                //    break;
+                //case 8:
+                //    break;
+                default:
+                    enemy = new Roach();
+                    break;
+
+            }
+
+            enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount, this.enemyTexture.Height, enemyFrameCount, 30, Color.White, 1f, true);
             
             // Initialize the enemy
             enemy.Initialize(enemyAnimation, position, 0, 300);

@@ -5,7 +5,7 @@
     using Microsoft.Xna.Framework.Graphics;
 
     public class FireFly
-        : Enemy
+        : RotatingEnemy
     {
         public FireFly()
             : base()

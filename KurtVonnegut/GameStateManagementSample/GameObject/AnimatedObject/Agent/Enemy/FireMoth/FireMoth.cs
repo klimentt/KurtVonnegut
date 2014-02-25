@@ -5,7 +5,7 @@
     using Microsoft.Xna.Framework.Graphics;
 
     public class FireMoth
-        : Enemy
+        : RotatingEnemy
     {
         public FireMoth()
             : base()

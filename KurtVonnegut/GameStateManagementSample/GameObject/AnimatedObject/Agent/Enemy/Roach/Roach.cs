@@ -5,7 +5,7 @@
     using Microsoft.Xna.Framework.Graphics;
 
     public class Roach
-        : Enemy
+        : RotatingEnemy
     {
         public Roach()
             : base()

@@ -5,7 +5,7 @@
     using Microsoft.Xna.Framework.Graphics;
 
     public class Fly
-        : Enemy
+        : RotatingEnemy
     {
         public Fly()
             : base()

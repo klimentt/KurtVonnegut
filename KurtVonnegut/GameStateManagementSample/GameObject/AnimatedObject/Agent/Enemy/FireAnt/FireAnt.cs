@@ -5,7 +5,7 @@
     using Microsoft.Xna.Framework.Graphics;
 
     public class FireAnt
-        : Enemy
+        : RotatingEnemy
     {
         public FireAnt()
             : base()
