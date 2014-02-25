@@ -8,9 +8,8 @@ namespace GameStateManagementSample
 {
     public class AreaOfEffectSkill : Skill, ISkill
     {
-        public AreaOfEffectSkill(Vector2 startPosition, Animation animation, TimeSpan cooldown, float radius) : base(startPosition, animation, cooldown)
+        public AreaOfEffectSkill()
         {
-            this.Radius = radius;
         }
 
         public float Radius { get; set; }
@@ -18,6 +17,13 @@ namespace GameStateManagementSample
         public override void Activate(GameTime time)
         {
             this.PreviousFireTime = time.TotalGameTime;
+        }
+
+        public void Initialize(Vector2 startPosition, Animation animation, TimeSpan cooldown, float radius)
+        {
+            base.Initialize(startPosition, animation, cooldown);
+
+            this.Radius = radius;
         }
     }
 }

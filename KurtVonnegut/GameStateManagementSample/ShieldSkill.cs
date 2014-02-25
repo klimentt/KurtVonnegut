@@ -8,9 +8,8 @@ namespace GameStateManagementSample
 {
     public class ShieldSkill : Skill, ISkill
     {
-        public ShieldSkill(TimeSpan cooldown, TimeSpan duration, Animation animation, Vector2 position) : base(position, animation, cooldown)
+        public ShieldSkill()
         {
-            this.Duration = duration;
         }
 
         TimeSpan Duration { get; set; }
@@ -18,6 +17,12 @@ namespace GameStateManagementSample
         public override void Activate(GameTime time)
         {
             this.PreviousFireTime = time.TotalGameTime;
+        }
+
+        public void Initialize(Vector2 startPosition, Animation animation, TimeSpan cooldown, TimeSpan duration)
+        {
+            base.Initialize(startPosition, animation, cooldown);
+            this.Duration = duration;
         }
     }
 }

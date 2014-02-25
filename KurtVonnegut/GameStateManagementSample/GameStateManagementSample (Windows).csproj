@@ -66,6 +66,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AreaOfEffectSkill.cs" />
+    <Compile Include="Box.cs" />
     <Compile Include="GameObject\AnimatedObject\Agent\Enemy\FireRoach\FireRoach.cs" />
     <Compile Include="GameObject\AnimatedObject\Agent\Enemy\Roach\Roach.cs" />
     <Compile Include="GameObject\Animation\Animation.cs" />

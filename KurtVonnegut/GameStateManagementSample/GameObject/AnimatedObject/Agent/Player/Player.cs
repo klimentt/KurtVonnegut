@@ -24,9 +24,6 @@ namespace GameStateManagementSample
         
         public Player()
         {
-            this.PlayerMoveSpeed = INIT_MOVESPEED;
-            this.Rotation = 0;
-            this.Inventory = new List<Item>();
         }
 
         //properties
@@ -44,7 +41,9 @@ namespace GameStateManagementSample
         public override void Initialize(Animation animation, Vector2 position)
         {
             this.animation = animation;
-
+            this.Inventory = new List<Item>();
+            this.PlayerMoveSpeed = INIT_MOVESPEED;
+            this.Rotation = 0;
             // Set the starting position of the player around the middle of the screen and to the back
             this.Position = position;
             this.initialPos = position;
