@@ -36,11 +36,11 @@ Content\moth.xnb
 Content\moth_ghost.xnb
 Content\mouse.xnb
 Content\wallpaperBackground.xnb
+Content\player_2.xnb
+Content\player_2_animation.xnb
+Content\roach.xnb
 Content\menufont.xnb
 Content\gamefont.xnb
 Content\Sounds\backgroundMusic.xnb
 Content\intro.xnb
 Content\intro.wmv
-Content\player_2.xnb
-Content\player_2_animation.xnb
-Content\roach.xnb
