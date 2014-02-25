@@ -369,12 +369,13 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             // Initialize the animation with the correct animation information
             int enemyFrameCount = 8;
             //this.enemyTexture = this.enemyAnimationTextures[Random.Next(this.enemyAnimationTextures.Count - 1)];
-            enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount, this.enemyTexture.Height, enemyFrameCount, 600, Color.Black, 1f, true);
+            enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount, this.enemyTexture.Height, enemyFrameCount, 30, Color.White, 1f, true);
             
             // Randomly generate the position of the enemy
             Vector2 position = new Vector2(GameplayScreen.Random.Next(250, this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2),  GameplayScreen.Random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
             
             // Create an enemy
+
             RotatingEnemy enemy = new RotatingEnemy();
             
             // Initialize the enemy
