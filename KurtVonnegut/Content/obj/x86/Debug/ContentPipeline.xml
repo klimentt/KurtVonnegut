@@ -110,24 +110,6 @@
       <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
     <Item>
-      <Source>player.png</Source>
-      <Name>player</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player.xnb</Output>
-      <Time>2014-02-24T09:13:49+02:00</Time>
-    </Item>
-    <Item>
-      <Source>shipAnimation.png</Source>
-      <Name>shipAnimation</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\shipAnimation.xnb</Output>
-      <Time>2014-02-24T09:13:49+02:00</Time>
-    </Item>
-    <Item>
       <Source>solid.png</Source>
       <Name>solid</Name>
       <Importer>TextureImporter</Importer>
@@ -225,15 +207,6 @@
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\explosion_2.xnb</Output>
       <Time>2014-02-24T09:45:40.4647813+02:00</Time>
-    </Item>
-    <Item>
-      <Source>femaleFigure_walk.png</Source>
-      <Name>femaleFigure_walk</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\femaleFigure_walk.xnb</Output>
-      <Time>2014-02-24T10:08:02.567513+02:00</Time>
     </Item>
     <Item>
       <Source>fly.png</Source>
@@ -381,6 +354,42 @@
       <Time>2014-02-24T09:05:21.7548408+02:00</Time>
     </Item>
     <Item>
+      <Source>roach.png</Source>
+      <Name>roach</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\roach.xnb</Output>
+      <Time>2014-02-24T11:17:30.453314+02:00</Time>
+    </Item>
+    <Item>
+      <Source>player.png</Source>
+      <Name>player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player.xnb</Output>
+      <Time>2014-02-24T09:13:49+02:00</Time>
+    </Item>
+    <Item>
+      <Source>shipAnimation.png</Source>
+      <Name>shipAnimation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\shipAnimation.xnb</Output>
+      <Time>2014-02-24T09:13:49+02:00</Time>
+    </Item>
+    <Item>
+      <Source>femaleFigure_walk.png</Source>
+      <Name>femaleFigure_walk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\femaleFigure_walk.xnb</Output>
+      <Time>2014-02-24T10:08:02.567513+02:00</Time>
+    </Item>
+    <Item>
       <Source>player_2.png</Source>
       <Name>player_2</Name>
       <Importer>TextureImporter</Importer>
@@ -397,15 +406,6 @@
       <Options>None</Options>
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player_2_animation.xnb</Output>
       <Time>2014-02-24T09:13:49+02:00</Time>
-    </Item>
-    <Item>
-      <Source>roach.png</Source>
-      <Name>roach</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\roach.xnb</Output>
-      <Time>2014-02-24T11:17:30.453314+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

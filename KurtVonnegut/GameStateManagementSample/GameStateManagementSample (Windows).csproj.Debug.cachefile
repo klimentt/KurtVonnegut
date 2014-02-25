@@ -10,8 +10,6 @@ Content\mainbackground.xnb
 Content\mainMenu.xnb
 Content\mine.xnb
 Content\mineAnimation.xnb
-Content\player.xnb
-Content\shipAnimation.xnb
 Content\solid.xnb
 Content\turretProjectile.xnb
 Content\ant.xnb
@@ -23,7 +21,6 @@ Content\coffee.xnb
 Content\coin.xnb
 Content\energy_drink.xnb
 Content\explosion_2.xnb
-Content\femaleFigure_walk.xnb
 Content\fly.xnb
 Content\fly_ghost.xnb
 Content\gem.xnb
@@ -40,7 +37,10 @@ Content\menufont.xnb
 Content\gamefont.xnb
 Content\Sounds\backgroundMusic.xnb
 Content\intro.xnb
+Content\roach.xnb
+Content\player.xnb
+Content\shipAnimation.xnb
+Content\femaleFigure_walk.xnb
 Content\player_2.xnb
 Content\player_2_animation.xnb
-Content\roach.xnb
 Content\intro.wmv

@@ -4,33 +4,26 @@
     using Microsoft.Xna.Framework;
     using Microsoft.Xna.Framework.Graphics;
 
-
-    namespace GameStateManagementSample
+    public class FireFly
+        : Enemy
     {
-        using System;
-        using Microsoft.Xna.Framework;
-        using Microsoft.Xna.Framework.Graphics;
-
-        public class FireFly
-            : Enemy
+        public FireFly()
+            : base()
         {
-            public FireFly()
-                : base()
-            {
-                this.Value = 8;
+            this.Value = 8;
 
-                // activate enemy 
-                this.Active = true;
+            // activate enemy 
+            this.Active = true;
 
-                // set enemy health 
-                this.Health = 30;
+            // set enemy health 
+            this.Health = 30;
 
-                // set enemy damage
-                this.Damage = 12;
+            // set enemy damage
+            this.Damage = 12;
 
-                // set enemy speed
-                this.EnemyMoveSpeed = 1.1f;
-            }
+            // set enemy speed
+            this.EnemyMoveSpeed = 1.1f;
         }
     }
 }
+
