@@ -39,8 +39,12 @@ Content\wallpaperBackground.xnb
 Content\player_2.xnb
 Content\player_2_animation.xnb
 Content\roach.xnb
+Content\roach_ghost.xnb
 Content\menufont.xnb
 Content\gamefont.xnb
 Content\Sounds\backgroundMusic.xnb
+Content\Sounds\roach_smashed.xnb
+Content\Sounds\shot.xnb
+Content\Sounds\turretLaunch.xnb
 Content\intro.xnb
 Content\intro.wmv

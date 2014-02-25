@@ -4,3 +4,5 @@ C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\Content\obj\x
 C:\Users\KT\Desktop\KurtVonnegut\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
 C:\Users\Thoth\Documents\GitHub\KurtVonnegut\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
+C:\Users\Vase\Desktop\rival_version\KurtVonnegut-master\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
+C:\Users\Thoth\Desktop\DeBugger\KurtVonnegut\KurtVonnegut\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache

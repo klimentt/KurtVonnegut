@@ -1,13 +1,17 @@
+
 #region File Description
+
 //-----------------------------------------------------------------------------
 // MainMenuScreen.cs
 //
 // Microsoft XNA Community Game Platform
 // Copyright (C) Microsoft Corporation. All rights reserved.
 //-----------------------------------------------------------------------------
+
 #endregion
+
 #region Using Statements
-using GameStateManagementSample.Screens;
+
 using Microsoft.Xna.Framework;
 
 #endregion
@@ -30,19 +34,16 @@ namespace GameStateManagementSample
             MenuEntry playGameMenuEntry = new MenuEntry("Play Game");
             MenuEntry optionsMenuEntry = new MenuEntry("Options");
             MenuEntry exitMenuEntry = new MenuEntry("Exit");
-            MenuEntry chooseCharacterEntry = new MenuEntry("Choose Character");
             
             // Hook up menu event handlers.
             playGameMenuEntry.Selected += this.PlayGameMenuEntrySelected;
             optionsMenuEntry.Selected += this.OptionsMenuEntrySelected;
             exitMenuEntry.Selected += this.OnCancel;
-            chooseCharacterEntry.Selected += this.ChooseCharacterEntrySelected;
             
             // Add entries to the menu.
             this.MenuEntries.Add(playGameMenuEntry);
             this.MenuEntries.Add(optionsMenuEntry);
             this.MenuEntries.Add(exitMenuEntry);
-            this.MenuEntries.Add(chooseCharacterEntry);
         }
 
         #endregion
@@ -57,14 +58,7 @@ namespace GameStateManagementSample
             LoadingScreen.Load(this.ScreenManager, true, e.PlayerIndex,
                 new GameplayScreen());
         }
-
-        private void ChooseCharacterEntrySelected(object sender, PlayerIndexEventArgs e)
-        {
-            LoadingScreen.Load(this.ScreenManager, true, e.PlayerIndex,
-                new CharacterSelectionScreen());
-        }
-
-                
+        
         /// <summary>
         /// Event handler for when the Options menu entry is selected.
         /// </summary>

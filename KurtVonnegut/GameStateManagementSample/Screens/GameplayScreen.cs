@@ -18,6 +18,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Audio;
 
 #endregion
 
@@ -45,6 +46,8 @@ namespace GameStateManagementSample
         // The rate at which the enemies appear
         private readonly TimeSpan enemySpawnTime;
         private TimeSpan previousSpawnTime;
+        private SoundEffect roachSmashed;
+        
 
         // A random number generator
         public static Random Random;
@@ -58,10 +61,12 @@ namespace GameStateManagementSample
         private Texture2D solidTexture;
         private List<Solid> solids;
         private List<Turret> turrets;
+        private SoundEffect turretSound;
         
         //handle effects
         private Texture2D explosionTexture;
         private readonly List<Animation> explosions;
+        private SoundEffect shotSound;
         
         //Number that holds the player score
         private int xp;
@@ -148,7 +153,10 @@ namespace GameStateManagementSample
                 this.gameFont = this.content.Load<SpriteFont>("gamefont");
                 // Create a new SpriteBatch, which can be used to draw textures.
                 this.spriteBatch = new SpriteBatch(this.ScreenManager.GraphicsDevice);
-                
+
+                this.roachSmashed = content.Load<SoundEffect>(("Sounds\\roach_smashed"));
+                this.shotSound = content.Load<SoundEffect>(("Sounds\\shot"));
+                this.turretSound = content.Load<SoundEffect>(("Sounds\\turretLaunch"));
                 // TODO: use this.Content to load your game content here
                 
                 //player
@@ -170,10 +178,12 @@ namespace GameStateManagementSample
                 enemyAnimationTextures = new List<Texture2D>();
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("ant"));
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("ant_ghost"));
-                //enemyAnimationTextures.Add(this.content.Load<Texture2D>("fly"));
-                //enemyAnimationTextures.Add(this.content.Load<Texture2D>("fly_ghost"));
+                enemyAnimationTextures.Add(this.content.Load<Texture2D>("fly"));
+                enemyAnimationTextures.Add(this.content.Load<Texture2D>("fly_ghost"));
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("moth"));
                 enemyAnimationTextures.Add(this.content.Load<Texture2D>("moth_ghost"));
+                enemyAnimationTextures.Add(this.content.Load<Texture2D>("roach"));
+                enemyAnimationTextures.Add(this.content.Load<Texture2D>("roach_ghost"));
                 
                 //projectile
                 this.projectileTexture = this.content.Load<Texture2D>("laser");
@@ -363,14 +373,49 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             
             // Initialize the animation with the correct animation information
             int enemyFrameCount = 8;
-            //this.enemyTexture = this.enemyAnimationTextures[Random.Next(this.enemyAnimationTextures.Count - 1)];
-            enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount, this.enemyTexture.Height, enemyFrameCount, 600, Color.Black, 1f, true);
+            
+            
             
             // Randomly generate the position of the enemy
             Vector2 position = new Vector2(GameplayScreen.Random.Next(250, this.ScreenManager.GraphicsDevice.Viewport.Width + this.enemyTexture.Width / 2),  GameplayScreen.Random.Next(100, this.ScreenManager.GraphicsDevice.Viewport.Height - 100));
             
             // Create an enemy
-            RotatingEnemy enemy = new RotatingEnemy();
+
+            RotatingEnemy enemy; 
+
+            switch (Random.Next(9)%8)
+            {
+                case 1:
+                    enemy = new Roach();
+                    this.enemyTexture = this.enemyAnimationTextures[6];
+                    break;
+                case 2:
+                    enemy = new FireRoach();
+                    this.enemyTexture = this.enemyAnimationTextures[7];
+                    break;
+                case 3:
+                    enemy = new Fly();
+                    this.enemyTexture = this.enemyAnimationTextures[2];
+                    break;
+                case 4:
+                    enemy = new FireFly();
+                    this.enemyTexture = this.enemyAnimationTextures[3];
+                    break;
+                //case 5:
+                //    break;
+                //case 6:
+                //    break;
+                //case 7:
+                //    break;
+                //case 8:
+                //    break;
+                default:
+                    enemy = new Roach();
+                    break;
+
+            }
+
+            enemyAnimation.Initialize(this.enemyTexture, Vector2.Zero, this.enemyTexture.Width / enemyFrameCount, this.enemyTexture.Height, enemyFrameCount, 30, Color.White, 1f, true);
             
             // Initialize the enemy
             enemy.Initialize(enemyAnimation, position, 0, 300);
@@ -533,17 +578,17 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 rectangle1 = new Rectangle((int)solid.Position.X - solid.Width / 2, (int)solid.Position.Y - solid.Height / 2, solid.Width, solid.Height);
                 
                 // Do the collision between the solids and the enemies
-                //for (int i = 0; i < this.enemies.Count; i++)
-                //{
-                //    rectangle2 = new Rectangle((int)this.enemies[i].Position.X, (int)this.enemies[i].Position.Y, this.enemies[i].Width, this.enemies[i].Height);
+                for (int i = 0; i < this.enemies.Count; i++)
+                {
+                    rectangle2 = new Rectangle((int)this.enemies[i].Position.X, (int)this.enemies[i].Position.Y, this.enemies[i].Width, this.enemies[i].Height);
                     
-                //    // Determine if the two objects collided with each
-                //    // other
-                //    if (rectangle1.Intersects(rectangle2))
-                //    {
-                //        this.enemies[i].Health = 0;
-                //    }
-                //}
+                    // Determine if the two objects collided with each
+                    // other
+                    if (rectangle1.Intersects(rectangle2))
+                    {
+                        this.enemies[i].Health = 0;
+                    }
+                }
                 for (int i = 0; i < this.projectiles.Count; i++)
                 {
                     rectangle2 = new Rectangle((int)this.projectiles[i].Position.X - this.projectiles[i].Width / 2, (int)this.projectiles[i].Position.Y - this.projectiles[i].Height / 2, this.projectiles[i].Width, this.projectiles[i].Height);
@@ -563,6 +608,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             Projectile projectile = new Projectile();
             projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.projectileTexture, position, this.player);
             this.projectiles.Add(projectile);
+            SoundCaller shotFired = new SoundCaller(this.shotSound);
         }
 
         private void AddTurretProjectile(Turret tur)
@@ -570,6 +616,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             Projectile projectile = new Projectile();
             projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.turretProjTexture, new Vector2(tur.Position.X, tur.Position.Y), tur);
             this.projectiles.Add(projectile);
+            SoundCaller turretShotFired = new SoundCaller(this.turretSound);
         }
 
         private void UpdateProjectiles()
@@ -592,6 +639,8 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             int explosionFrameCount = 12;
             explosion.Initialize(this.explosionTexture, position, this.explosionTexture.Width / explosionFrameCount,this.explosionTexture.Height, explosionFrameCount, 45, Color.White, 1f, false);
             this.explosions.Add(explosion);
+            SoundCaller explosionSound = new SoundCaller(this.roachSmashed);
+            //
         }
         
         private void UpdateExplosions(GameTime gameTime)
