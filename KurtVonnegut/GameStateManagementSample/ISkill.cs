@@ -10,6 +10,6 @@ namespace GameStateManagementSample
     {
         Animation Animation { get; set; }
         Vector2 StartPosition { get; set; }
-        void Activate(IGameObject obj);
+        void Activate(GameTime time);
     }
 }

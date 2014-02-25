@@ -362,3 +362,7 @@ C:\Users\Thoth\Desktop\DeBugger\KurtVonnegut\KurtVonnegut\GameStateManagementSam
 C:\Users\Thoth\Desktop\DeBugger\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Thoth\Desktop\DeBugger\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\GameStateManagementSample.exe
 C:\Users\Thoth\Desktop\DeBugger\KurtVonnegut\KurtVonnegut\GameStateManagementSample\obj\x86\Debug\GameStateManagementSample.pdb
+C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\roach_ghost.xnb
+C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\roach_smashed.xnb
+C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\shot.xnb
+C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\turretLaunch.xnb

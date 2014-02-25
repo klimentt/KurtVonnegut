@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2014-02-24T19:04:38.5503681+02:00</Time>
+      <Time>2014-02-25T22:30:24.3211206+02:00</Time>
     </Item>
     <Item>
       <Source>blank.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\blank.xnb</Output>
-      <Time>2014-02-24T19:04:38.5953707+02:00</Time>
+      <Time>2014-02-25T22:30:24.3671232+02:00</Time>
     </Item>
     <Item>
       <Source>gradient.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\gradient.xnb</Output>
-      <Time>2014-02-24T19:04:38.6273725+02:00</Time>
+      <Time>2014-02-25T22:30:24.3941248+02:00</Time>
     </Item>
     <Item>
       <Source>bgLayer1.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\bgLayer1.xnb</Output>
-      <Time>2014-02-24T19:04:38.5723694+02:00</Time>
+      <Time>2014-02-25T22:30:24.3441219+02:00</Time>
     </Item>
     <Item>
       <Source>bgLayer2.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\bgLayer2.xnb</Output>
-      <Time>2014-02-24T19:04:38.5933706+02:00</Time>
+      <Time>2014-02-25T22:30:24.3651231+02:00</Time>
     </Item>
     <Item>
       <Source>endMenu.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\endMenu.xnb</Output>
-      <Time>2014-02-24T19:04:38.6093715+02:00</Time>
+      <Time>2014-02-25T22:30:24.381124+02:00</Time>
     </Item>
     <Item>
       <Source>explosion.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\explosion.xnb</Output>
-      <Time>2014-02-24T19:04:38.6133717+02:00</Time>
+      <Time>2014-02-25T22:30:24.3851243+02:00</Time>
     </Item>
     <Item>
       <Source>laser.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\laser.xnb</Output>
-      <Time>2014-02-24T19:04:38.6813756+02:00</Time>
+      <Time>2014-02-25T22:30:24.4651288+02:00</Time>
     </Item>
     <Item>
       <Source>mainbackground.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mainbackground.xnb</Output>
-      <Time>2014-02-24T19:04:38.688376+02:00</Time>
+      <Time>2014-02-25T22:30:24.4731293+02:00</Time>
     </Item>
     <Item>
       <Source>mainMenu.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mainMenu.xnb</Output>
-      <Time>2014-02-24T19:04:38.6853758+02:00</Time>
+      <Time>2014-02-25T22:30:24.4701291+02:00</Time>
     </Item>
     <Item>
       <Source>mine.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mine.xnb</Output>
-      <Time>2014-02-24T19:04:38.6963765+02:00</Time>
+      <Time>2014-02-25T22:30:24.4801297+02:00</Time>
     </Item>
     <Item>
       <Source>mineAnimation.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mineAnimation.xnb</Output>
-      <Time>2014-02-24T19:04:38.6973765+02:00</Time>
+      <Time>2014-02-25T22:30:24.4821298+02:00</Time>
     </Item>
     <Item>
       <Source>player.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player.xnb</Output>
-      <Time>2014-02-24T19:04:38.7313785+02:00</Time>
+      <Time>2014-02-25T22:30:24.5311326+02:00</Time>
     </Item>
     <Item>
       <Source>shipAnimation.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\shipAnimation.xnb</Output>
-      <Time>2014-02-24T19:04:38.7363788+02:00</Time>
+      <Time>2014-02-25T22:30:24.538133+02:00</Time>
     </Item>
     <Item>
       <Source>solid.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\solid.xnb</Output>
-      <Time>2014-02-24T19:04:38.7373788+02:00</Time>
+      <Time>2014-02-25T22:30:24.5391331+02:00</Time>
     </Item>
     <Item>
       <Source>turretProjectile.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\turretProjectile.xnb</Output>
-      <Time>2014-02-24T19:04:38.7383789+02:00</Time>
+      <Time>2014-02-25T22:30:24.5401331+02:00</Time>
     </Item>
     <Item>
       <Source>ant.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\ant.xnb</Output>
-      <Time>2014-02-24T19:04:38.5053655+02:00</Time>
+      <Time>2014-02-25T22:30:24.275118+02:00</Time>
     </Item>
     <Item>
       <Source>ant_ghost.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\ant_ghost.xnb</Output>
-      <Time>2014-02-24T19:04:38.5073657+02:00</Time>
+      <Time>2014-02-25T22:30:24.2771181+02:00</Time>
     </Item>
     <Item>
       <Source>banana.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\banana.xnb</Output>
-      <Time>2014-02-24T19:04:38.5523682+02:00</Time>
+      <Time>2014-02-25T22:30:24.3231207+02:00</Time>
     </Item>
     <Item>
       <Source>bolt.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\bolt.xnb</Output>
-      <Time>2014-02-24T19:04:38.5963707+02:00</Time>
+      <Time>2014-02-25T22:30:24.3681233+02:00</Time>
     </Item>
     <Item>
       <Source>circuitBoard.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\circuitBoard.xnb</Output>
-      <Time>2014-02-24T19:04:38.6023711+02:00</Time>
+      <Time>2014-02-25T22:30:24.3741236+02:00</Time>
     </Item>
     <Item>
       <Source>coffee.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\coffee.xnb</Output>
-      <Time>2014-02-24T19:04:38.6033712+02:00</Time>
+      <Time>2014-02-25T22:30:24.3751237+02:00</Time>
     </Item>
     <Item>
       <Source>coin.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\coin.xnb</Output>
-      <Time>2014-02-24T19:04:38.6053713+02:00</Time>
+      <Time>2014-02-25T22:30:24.3771238+02:00</Time>
     </Item>
     <Item>
       <Source>energy_drink.png</Source>
@@ -215,7 +215,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\energy_drink.xnb</Output>
-      <Time>2014-02-24T19:04:38.6103716+02:00</Time>
+      <Time>2014-02-25T22:30:24.3821241+02:00</Time>
     </Item>
     <Item>
       <Source>explosion_2.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\explosion_2.xnb</Output>
-      <Time>2014-02-24T19:04:38.6143718+02:00</Time>
+      <Time>2014-02-25T22:30:24.3871244+02:00</Time>
     </Item>
     <Item>
       <Source>femaleFigure_walk.png</Source>
@@ -233,7 +233,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\femaleFigure_walk.xnb</Output>
-      <Time>2014-02-24T19:04:38.6163719+02:00</Time>
+      <Time>2014-02-25T22:30:24.3881244+02:00</Time>
     </Item>
     <Item>
       <Source>fly.png</Source>
@@ -242,7 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\fly.xnb</Output>
-      <Time>2014-02-24T19:04:38.6193721+02:00</Time>
+      <Time>2014-02-25T22:30:24.3891245+02:00</Time>
     </Item>
     <Item>
       <Source>fly_ghost.png</Source>
@@ -251,7 +251,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\fly_ghost.xnb</Output>
-      <Time>2014-02-24T19:04:38.6223722+02:00</Time>
+      <Time>2014-02-25T22:30:24.3911246+02:00</Time>
     </Item>
     <Item>
       <Source>gem.png</Source>
@@ -260,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\gem.xnb</Output>
-      <Time>2014-02-24T19:04:38.6263725+02:00</Time>
+      <Time>2014-02-25T22:30:24.3931247+02:00</Time>
     </Item>
     <Item>
       <Source>heart.png</Source>
@@ -269,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\heart.xnb</Output>
-      <Time>2014-02-24T19:04:38.6283726+02:00</Time>
+      <Time>2014-02-25T22:30:24.3951248+02:00</Time>
     </Item>
     <Item>
       <Source>keyboard.png</Source>
@@ -278,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\keyboard.xnb</Output>
-      <Time>2014-02-24T19:04:38.6793755+02:00</Time>
+      <Time>2014-02-25T22:30:24.4631287+02:00</Time>
     </Item>
     <Item>
       <Source>maleFigure_walk.png</Source>
@@ -287,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\maleFigure_walk.xnb</Output>
-      <Time>2014-02-24T19:04:38.6893761+02:00</Time>
+      <Time>2014-02-25T22:30:24.4741294+02:00</Time>
     </Item>
     <Item>
       <Source>matrixBackground.png</Source>
@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\matrixBackground.xnb</Output>
-      <Time>2014-02-24T19:04:38.6933763+02:00</Time>
+      <Time>2014-02-25T22:30:24.4781296+02:00</Time>
     </Item>
     <Item>
       <Source>monitor.png</Source>
@@ -305,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\monitor.xnb</Output>
-      <Time>2014-02-24T19:04:38.6983766+02:00</Time>
+      <Time>2014-02-25T22:30:24.4831299+02:00</Time>
     </Item>
     <Item>
       <Source>moth.png</Source>
@@ -314,7 +314,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\moth.xnb</Output>
-      <Time>2014-02-24T19:04:38.6993766+02:00</Time>
+      <Time>2014-02-25T22:30:24.4841299+02:00</Time>
     </Item>
     <Item>
       <Source>moth_ghost.png</Source>
@@ -323,7 +323,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\moth_ghost.xnb</Output>
-      <Time>2014-02-24T19:04:38.7013768+02:00</Time>
+      <Time>2014-02-25T22:30:24.502131+02:00</Time>
     </Item>
     <Item>
       <Source>mouse.png</Source>
@@ -332,7 +332,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\mouse.xnb</Output>
-      <Time>2014-02-24T19:04:38.7023768+02:00</Time>
+      <Time>2014-02-25T22:30:24.503131+02:00</Time>
     </Item>
     <Item>
       <Source>wallpaperBackground.png</Source>
@@ -341,7 +341,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\wallpaperBackground.xnb</Output>
-      <Time>2014-02-24T19:04:38.7453793+02:00</Time>
+      <Time>2014-02-25T22:30:24.5471335+02:00</Time>
     </Item>
     <Item>
       <Source>menufont.spritefont</Source>
@@ -350,7 +350,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\menufont.xnb</Output>
-      <Time>2014-02-24T19:04:38.6943764+02:00</Time>
+      <Time>2014-02-25T22:30:24.4791296+02:00</Time>
     </Item>
     <Item>
       <Source>gamefont.spritefont</Source>
@@ -359,7 +359,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\gamefont.xnb</Output>
-      <Time>2014-02-24T19:04:38.6243724+02:00</Time>
+      <Time>2014-02-25T22:30:24.3921247+02:00</Time>
     </Item>
     <Item>
       <Source>Sounds\backgroundMusic.wav</Source>
@@ -368,7 +368,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\backgroundMusic.xnb</Output>
-      <Time>2014-02-24T19:04:38.5043655+02:00</Time>
+      <Time>2014-02-25T22:30:24.2451163+02:00</Time>
     </Item>
     <Item>
       <Source>intro.wmv</Source>
@@ -378,7 +378,7 @@
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\intro.xnb</Output>
       <Extra>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\intro.wmv</Extra>
-      <Time>2014-02-24T19:04:38.6783754+02:00</Time>
+      <Time>2014-02-25T22:30:24.4621287+02:00</Time>
     </Item>
     <Item>
       <Source>player_2.png</Source>
@@ -387,7 +387,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player_2.xnb</Output>
-      <Time>2014-02-24T19:04:38.7323785+02:00</Time>
+      <Time>2014-02-25T22:30:24.5321327+02:00</Time>
     </Item>
     <Item>
       <Source>player_2_animation.png</Source>
@@ -396,7 +396,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player_2_animation.xnb</Output>
-      <Time>2014-02-24T19:04:38.7343786+02:00</Time>
+      <Time>2014-02-25T22:30:24.5341328+02:00</Time>
     </Item>
     <Item>
       <Source>roach.png</Source>
@@ -405,7 +405,43 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\roach.xnb</Output>
-      <Time>2014-02-24T19:04:38.7353787+02:00</Time>
+      <Time>2014-02-25T22:30:24.5351328+02:00</Time>
+    </Item>
+    <Item>
+      <Source>roach_ghost.png</Source>
+      <Name>roach_ghost</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\roach_ghost.xnb</Output>
+      <Time>2014-02-25T22:30:24.537133+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\roach_smashed.wav</Source>
+      <Name>Sounds\roach_smashed</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\roach_smashed.xnb</Output>
+      <Time>2014-02-25T22:30:24.2541168+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\shot.wav</Source>
+      <Name>Sounds\shot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\shot.xnb</Output>
+      <Time>2014-02-25T22:30:24.258117+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\turretLaunch.wav</Source>
+      <Name>Sounds\turretLaunch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nikki\Desktop\Telerik\Ilian\Git\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\turretLaunch.xnb</Output>
+      <Time>2014-02-25T22:30:24.2731179+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
