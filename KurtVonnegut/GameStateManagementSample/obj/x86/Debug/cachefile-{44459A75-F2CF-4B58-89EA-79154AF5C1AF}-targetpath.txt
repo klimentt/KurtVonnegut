@@ -44,3 +44,5 @@ Content\shipAnimation.xnb
 Content\femaleFigure_walk.xnb
 Content\player_2.xnb
 Content\player_2_animation.xnb
+Content\Sounds\roach_smashed.xnb
+Content\Sounds\shot.xnb

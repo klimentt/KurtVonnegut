@@ -407,6 +407,24 @@
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player_2_animation.xnb</Output>
       <Time>2014-02-24T09:13:49+02:00</Time>
     </Item>
+    <Item>
+      <Source>Sounds\roach_smashed.wav</Source>
+      <Name>Sounds\roach_smashed</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\roach_smashed.xnb</Output>
+      <Time>2014-02-25T07:38:44.0579332+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\shot.wav</Source>
+      <Name>Sounds\shot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\shot.xnb</Output>
+      <Time>2014-02-25T07:39:43.0053048+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

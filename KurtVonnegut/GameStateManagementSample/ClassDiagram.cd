@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="GameStateManagementSample.Moth" Collapsed="true">
-    <Position X="7.25" Y="6.25" Width="1.5" />
+    <Position X="12" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Enemy\Moth\Moth.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Agent" Collapsed="true">
-    <Position X="8.5" Y="3.25" Width="1.5" />
+    <Position X="13.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Agent.cs</FileName>
@@ -16,7 +16,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameStateManagementSample.Roach" Collapsed="true">
-    <Position X="9.5" Y="6.25" Width="1.5" />
+    <Position X="14.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Enemy\Roach\Roach.cs</FileName>
@@ -24,28 +24,28 @@
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Fly" Collapsed="true">
-    <Position X="11.75" Y="6.25" Width="1.5" />
+    <Position X="16.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Enemy\Fly\Fly.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Banana" Collapsed="true">
-    <Position X="16.25" Y="6.25" Width="1.5" />
+    <Position X="21" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Consummable\Banana\Banana.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Consummable" Collapsed="true">
-    <Position X="18.5" Y="4.75" Width="1.5" />
+    <Position X="23.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Consummable\Consummable.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.AnimatedObject" Collapsed="true">
-    <Position X="17.5" Y="1.75" Width="1.5" />
+    <Position X="22.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAABAAAAwAgAAAAIMAAAAAAAAAgAAAAAAAAYAA=</HashCode>
       <FileName>GameObject\AnimatedObject\AnimatedObject.cs</FileName>
@@ -53,98 +53,98 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameStateManagementSample.EnergyDrink" Collapsed="true">
-    <Position X="18.5" Y="6.25" Width="1.5" />
+    <Position X="23.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Consummable\EnergyDrink\EnergyDrink.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.GameObject" Collapsed="true">
-    <Position X="19.75" Y="0.5" Width="1.5" />
+    <Position X="22.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Coffee" Collapsed="true">
-    <Position X="20.75" Y="6.25" Width="1.5" />
+    <Position X="25.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Consummable\Coffee\Coffee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Item" Collapsed="true">
-    <Position X="24.25" Y="3.25" Width="1.5" />
+    <Position X="29" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Currency" Collapsed="true">
-    <Position X="24.25" Y="4.75" Width="1.5" />
+    <Position X="29" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Currency\Currency.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Coin" Collapsed="true">
-    <Position X="23" Y="6.25" Width="1.5" />
+    <Position X="27.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Currency\Coin\Coin.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Gem" Collapsed="true">
-    <Position X="25.25" Y="6.25" Width="1.5" />
+    <Position X="30" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Currency\Gem\Gem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Weapon" Collapsed="true">
-    <Position X="29.75" Y="4.75" Width="1.5" />
+    <Position X="34.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.KeyboardWep" Collapsed="true">
-    <Position X="27.5" Y="6.25" Width="1.5" />
+    <Position X="32.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Keyboard\Keyboard.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.MouseWep" Collapsed="true">
-    <Position X="29.75" Y="6.25" Width="1.5" />
+    <Position X="34.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.MonitorWep" Collapsed="true">
-    <Position X="32" Y="6.25" Width="1.5" />
+    <Position X="36.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Item\Weapon\Monitor\Monitor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.FireAnt" Collapsed="true">
-    <Position X="14" Y="6.25" Width="1.5" />
+    <Position X="18.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Enemy\FireAnt\FireAnt.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Animation" Collapsed="true">
-    <Position X="36.5" Y="1.75" Width="1.5" />
+    <Position X="41.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAARAgQAAAwAgAAEAAARCAGAAAACgAAAAAAAACAA=</HashCode>
       <FileName>GameObject\Animation\Animation.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameStateManagementSample.Projectile" Collapsed="true">
-    <Position X="34.25" Y="1.75" Width="1.5" />
+    <Position X="39" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAACABAAAA4AgBAAAAEAAAAEAAAAgQgIAAAAAAgA=</HashCode>
       <FileName>GameObject\Projectile\Projectile.cs</FileName>
@@ -152,7 +152,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameStateManagementSample.Player" Collapsed="true">
-    <Position X="2.75" Y="4.75" Width="1.5" />
+    <Position X="7.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQACBAAAAAAC4AEAAQAgAAAAAAAAAAQAgACAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Player\Player.cs</FileName>
@@ -160,7 +160,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameStateManagementSample.Enemy" Collapsed="true">
-    <Position X="9.5" Y="4.75" Width="1.5" />
+    <Position X="14.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQACACAAAAQAwAAAAAAAAAAAAAAAAAAICAgAAAAAgA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Enemy\Enemy.cs</FileName>
@@ -168,49 +168,78 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameStateManagementSample.Ant" Collapsed="true">
-    <Position X="5" Y="6.25" Width="1.5" />
+    <Position X="9.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\Agent\Enemy\Ant\Ant.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="GameStateManagementSample.IGameObject" Collapsed="true">
-    <Position X="1.25" Y="0.5" Width="1.5" />
+  <Class Name="GameStateManagementSample.FlyingEnemy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlyingEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameStateManagementSample.Sound" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Sound\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagementSample.SoundSubscriber" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Sound\SoundSubscriber\SoundSubscriber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagementSample.SoundPublisher" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>GameObject\Sound\SoundPublisher\SoundPublisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GameStateManagementSample.IGameObject">
+    <Position X="1.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAgAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\IGameObject.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameStateManagementSample.IAnimateable" Collapsed="true">
-    <Position X="40.75" Y="0.5" Width="1.5" />
+    <Position X="45.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject\AnimatedObject\IAnimateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameStateManagementSample.IRotatable" Collapsed="true">
-    <Position X="39" Y="1.25" Width="1.5" />
+    <Position X="43.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>IRotatable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameStateManagementSample.IFireble" Collapsed="true">
-    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Position X="4.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
       <FileName>IFireble.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameStateManagementSample.IAggressive" Collapsed="true">
-    <Position X="39" Y="0.5" Width="1.5" />
+    <Position X="43.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
       <FileName>IAggressive.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameStateManagementSample.ISkill" Collapsed="true">
-    <Position X="1.25" Y="1.75" Width="1.5" />
+    <Position X="1.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ISkill.cs</FileName>

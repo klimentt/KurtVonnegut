@@ -91,6 +91,10 @@
     <Compile Include="GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs" />
     <Compile Include="GameObject\AnimatedObject\Item\Weapon\Weapon.cs" />
     <Compile Include="GameObject\GameObject.cs" />
+    <Compile Include="GameObject\Sound\Sound.cs" />
+    <Compile Include="GameObject\Sound\SoundCaller\SoundCaller.cs" />
+    <Compile Include="GameObject\Sound\SoundPublisher\SoundPublisher.cs" />
+    <Compile Include="GameObject\Sound\SoundSubscriber\SoundSubscriber.cs" />
     <Compile Include="GameStateManagementGame.cs" />
     <Compile Include="IAggressive.cs" />
     <Compile Include="IFireble.cs" />
@@ -185,7 +189,9 @@
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="GameObject\AnimatedObject\Agent\Enemy\FlyingEnemy\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
   <!--
