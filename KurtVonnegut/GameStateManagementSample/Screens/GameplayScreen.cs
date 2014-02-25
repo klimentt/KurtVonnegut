@@ -393,10 +393,14 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                     enemy = new FireRoach();
                     this.enemyTexture = this.enemyAnimationTextures[7];
                     break;
-                //case 3:
-                //    break;
-                //case 4:
-                //    break;
+                case 3:
+                    enemy = new Fly();
+                    this.enemyTexture = this.enemyAnimationTextures[2];
+                    break;
+                case 4:
+                    enemy = new FireFly();
+                    this.enemyTexture = this.enemyAnimationTextures[3];
+                    break;
                 //case 5:
                 //    break;
                 //case 6:
