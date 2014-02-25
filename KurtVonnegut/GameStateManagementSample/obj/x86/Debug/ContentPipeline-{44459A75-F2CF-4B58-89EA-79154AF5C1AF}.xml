@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\ant.xnb</Output>
-      <Time>2014-02-24T18:24:47.0440262+02:00</Time>
+      <Time>2014-02-25T17:36:09.8648073+02:00</Time>
     </Item>
     <Item>
       <Source>ant_ghost.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\ant_ghost.xnb</Output>
-      <Time>2014-02-24T18:24:47.0470296+02:00</Time>
+      <Time>2014-02-25T17:36:09.9228432+02:00</Time>
     </Item>
     <Item>
       <Source>banana.png</Source>
@@ -242,7 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\fly.xnb</Output>
-      <Time>2014-02-24T18:24:47.1602059+02:00</Time>
+      <Time>2014-02-25T17:36:10.0028979+02:00</Time>
     </Item>
     <Item>
       <Source>fly_ghost.png</Source>
@@ -251,7 +251,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\fly_ghost.xnb</Output>
-      <Time>2014-02-24T18:24:47.1632042+02:00</Time>
+      <Time>2014-02-25T17:36:10.0729437+02:00</Time>
     </Item>
     <Item>
       <Source>gem.png</Source>
@@ -368,7 +368,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\roach.xnb</Output>
-      <Time>2014-02-24T18:24:47.3254913+02:00</Time>
+      <Time>2014-02-25T17:36:10.2570678+02:00</Time>
     </Item>
     <Item>
       <Source>menufont.spritefont</Source>
