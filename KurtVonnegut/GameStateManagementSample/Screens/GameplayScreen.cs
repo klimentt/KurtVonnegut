@@ -47,7 +47,7 @@ namespace GameStateManagementSample
         private readonly TimeSpan enemySpawnTime;
         private TimeSpan previousSpawnTime;
         private SoundEffect roachSmashed;
-        private SoundEffect shotSound;
+        
 
         // A random number generator
         public static Random Random;
@@ -61,10 +61,12 @@ namespace GameStateManagementSample
         private Texture2D solidTexture;
         private List<Solid> solids;
         private List<Turret> turrets;
+        private SoundEffect turretSound;
         
         //handle effects
         private Texture2D explosionTexture;
         private readonly List<Animation> explosions;
+        private SoundEffect shotSound;
         
         //Number that holds the player score
         private int xp;
@@ -154,6 +156,7 @@ namespace GameStateManagementSample
 
                 this.roachSmashed = content.Load<SoundEffect>(("Sounds\\roach_smashed"));
                 this.shotSound = content.Load<SoundEffect>(("Sounds\\shot"));
+                this.turretSound = content.Load<SoundEffect>(("Sounds\\turretLaunch"));
                 // TODO: use this.Content to load your game content here
                 
                 //player
@@ -569,7 +572,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             Projectile projectile = new Projectile();
             projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.projectileTexture, position, this.player);
             this.projectiles.Add(projectile);
-            SoundCaller explosionSound = new SoundCaller(this.shotSound);
+            SoundCaller shotFired = new SoundCaller(this.shotSound);
         }
 
         private void AddTurretProjectile(Turret tur)
@@ -577,6 +580,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             Projectile projectile = new Projectile();
             projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.turretProjTexture, new Vector2(tur.Position.X, tur.Position.Y), tur);
             this.projectiles.Add(projectile);
+            SoundCaller turretShotFired = new SoundCaller(this.turretSound);
         }
 
         private void UpdateProjectiles()

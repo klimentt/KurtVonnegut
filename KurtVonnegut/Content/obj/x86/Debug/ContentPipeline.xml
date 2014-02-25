@@ -425,6 +425,15 @@
       <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\shot.xnb</Output>
       <Time>2014-02-25T07:39:43.0053048+02:00</Time>
     </Item>
+    <Item>
+      <Source>Sounds\turretLaunch.wav</Source>
+      <Name>Sounds\turretLaunch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\turretLaunch.xnb</Output>
+      <Time>2014-02-25T09:18:28.9342485+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

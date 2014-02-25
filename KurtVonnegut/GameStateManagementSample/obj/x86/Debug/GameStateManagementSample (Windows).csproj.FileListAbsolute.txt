@@ -237,3 +237,4 @@ C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSamp
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\player_2_animation.xnb
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\roach_smashed.xnb
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\shot.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\GameStateManagementSample\bin\x86\Debug\Content\Sounds\turretLaunch.xnb
