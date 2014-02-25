@@ -26,9 +26,12 @@ namespace GameStateManagementSample
         {
             this.PlayerMoveSpeed = INIT_MOVESPEED;
             this.Rotation = 0;
+            this.Inventory = new List<Item>();
         }
 
         //properties
+        public IList<Item> Inventory { get; private set; }
+
         public float Rotation { get; set; }
 
         public float PlayerMoveSpeed { get; set; }
@@ -119,6 +122,24 @@ namespace GameStateManagementSample
             float distanceX = this.Position.X - this.Width / 2 - position.X;
             float distanceY = this.Position.Y - this.Height / 2 - position.Y;
             this.Rotation = (float)Math.Atan2(distanceY, distanceX) - MathHelper.Pi;
+        }
+
+        public void PickUpItem(Item item)
+        {
+            this.Inventory.Add(item);
+        }
+
+        public void DropItem(Item item)
+        {
+            if (this.Inventory.Contains(item))
+            {
+                int index = this.Inventory.IndexOf(item);
+                this.Inventory.RemoveAt(index);
+            }
+            else
+            {
+                throw new InvalidOperationException();
+            }
         }
     }
 }
