@@ -12,8 +12,8 @@
 
 using System;
 using GameStateManagement;
-    
-namespace GameStateManagementSample
+
+namespace DeBuggerGame
 {
     /// <summary>
     /// Our game's implementation of IScreenFactory which can handle creating the screens

@@ -18,7 +18,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 #endregion
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     /// <summary>
     /// The loading screen coordinates transitions between the menu system and the

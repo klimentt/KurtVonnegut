@@ -19,7 +19,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 #endregion
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     /// <summary>
     /// The background screen sits behind all the other menu screens.
