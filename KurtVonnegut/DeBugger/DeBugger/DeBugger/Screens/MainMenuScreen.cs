@@ -1,17 +1,13 @@
-﻿
-#region File Description
-
+﻿#region File Description
 //-----------------------------------------------------------------------------
 // MainMenuScreen.cs
 //
 // Microsoft XNA Community Game Platform
 // Copyright (C) Microsoft Corporation. All rights reserved.
 //-----------------------------------------------------------------------------
-
 #endregion
-
 #region Using Statements
-
+using DeBugger.Screens;
 using Microsoft.Xna.Framework;
 
 #endregion
@@ -33,17 +29,17 @@ namespace DeBugger
         {
             // Create our menu entries.
             MenuEntry playGameMenuEntry = new MenuEntry("Play Game");
-            MenuEntry optionsMenuEntry = new MenuEntry("Options");
+            MenuEntry characterMenuEntry = new MenuEntry("Character");
             MenuEntry exitMenuEntry = new MenuEntry("Exit");
 
             // Hook up menu event handlers.
             playGameMenuEntry.Selected += this.PlayGameMenuEntrySelected;
-            optionsMenuEntry.Selected += this.OptionsMenuEntrySelected;
+            characterMenuEntry.Selected += this.CharacterMenuEntrySelected;
             exitMenuEntry.Selected += this.OnCancel;
 
             // Add entries to the menu.
             this.MenuEntries.Add(playGameMenuEntry);
-            this.MenuEntries.Add(optionsMenuEntry);
+            this.MenuEntries.Add(characterMenuEntry);
             this.MenuEntries.Add(exitMenuEntry);
         }
 
@@ -63,9 +59,9 @@ namespace DeBugger
         /// <summary>
         /// Event handler for when the Options menu entry is selected.
         /// </summary>
-        private void OptionsMenuEntrySelected(object sender, PlayerIndexEventArgs e)
+        private void CharacterMenuEntrySelected(object sender, PlayerIndexEventArgs e)
         {
-            this.ScreenManager.AddScreen(new OptionsMenuScreen(), e.PlayerIndex);
+            this.ScreenManager.AddScreen(new CharacterSelectionScreen(), e.PlayerIndex);
         }
 
         /// <summary>
