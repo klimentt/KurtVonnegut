@@ -46,7 +46,7 @@ namespace DeBugger.Screens
         /// Constructor.
         /// </summary>
         public CharacterSelectionScreen()
-            : base("Customize your hero:")
+            : base("Hero:")
         {
             // Create our menu entries.
             this.raceMenuEntry = new MenuEntry(string.Empty);
@@ -75,8 +75,8 @@ namespace DeBugger.Screens
         /// </summary>
         private void SetMenuEntryText()
         {
-            this.raceMenuEntry.Text = string.Format("Select your DeBugger: {0}", currentRace);
-            this.weaponMenuEntry.Text = string.Format("Weapon of Choice: {0}", weapons[currentWeapon]);
+            this.raceMenuEntry.Text = string.Format("<{0}>", currentRace);
+            this.weaponMenuEntry.Text = string.Format("Weapon: {0}", weapons[currentWeapon]);
             this.genderMenuEntry.Text = string.Format("Gender: {0}", gender ? "Male" : "Female");
         }
 

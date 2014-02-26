@@ -188,7 +188,7 @@ namespace DeBugger
                     plTexture = "maleFigure_walk";
                 }
                 Texture2D playerTexture = this.content.Load<Texture2D>(plTexture);
-                int playerFrames = 8;
+                int playerFrames = 1;
                 playerAnimation.Initialize(playerTexture, Vector2.Zero, playerTexture.Width / playerFrames, playerTexture.Height, playerFrames, 30, Color.White, 1f, true);
 
                 Vector2 playerPosition = new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y +
