@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeBugger", "DeBugger\DeBugger\DeBugger.csproj", "{935B74B4-0073-4D31-9F8B-EF6905B018B2}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "DeBuggerContent", "DeBugger\DeBuggerContent\DeBuggerContent.contentproj", "{D7ED9DE2-7A48-46FD-8D07-6220FE7DD91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStateManagement (Windows)", "DeBugger\GameStateManagement\GameStateManagement (Windows).csproj", "{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{935B74B4-0073-4D31-9F8B-EF6905B018B2}.Debug|x86.ActiveCfg = Debug|x86
+		{935B74B4-0073-4D31-9F8B-EF6905B018B2}.Debug|x86.Build.0 = Debug|x86
+		{935B74B4-0073-4D31-9F8B-EF6905B018B2}.Release|x86.ActiveCfg = Release|x86
+		{935B74B4-0073-4D31-9F8B-EF6905B018B2}.Release|x86.Build.0 = Release|x86
+		{D7ED9DE2-7A48-46FD-8D07-6220FE7DD91D}.Debug|x86.ActiveCfg = Debug|x86
+		{D7ED9DE2-7A48-46FD-8D07-6220FE7DD91D}.Release|x86.ActiveCfg = Release|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|x86.ActiveCfg = Debug|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|x86.Build.0 = Debug|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|x86.ActiveCfg = Release|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DeBugger.GameObject" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.SoundSubscriber" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\SoundSubscriber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Sound" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.SoundPublisher" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>GameObjects\SoundPublisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Animation" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAARAgQAAAwAgAAEAAARCAGAAAACgAAAAAAAACAA=</HashCode>
+      <FileName>GameObjects\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Projectile" Collapsed="true">
+    <Position X="55.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACABAAAA4AgBAAAAEAAAAEAAAAgQgIAAAAAAgA=</HashCode>
+      <FileName>GameObjects\Projectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.AnimatedObject" Collapsed="true">
+    <Position X="32.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAwAgAAAAIMAAAAAAAAAgAAAAAAAAYAA=</HashCode>
+      <FileName>GameObjects\AnimatedObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.Agent" Collapsed="true">
+    <Position X="23.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Agent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.Item" Collapsed="true">
+    <Position X="45" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>GameObjects\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Solid" Collapsed="true">
+    <Position X="58.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAwAgAAIAAEAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Solid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.Player" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACBAAAAAAC4AEAAQAgAAAAAAAAAAQAiACAiAAAAA=</HashCode>
+      <FileName>GameObjects\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.Enemy" Collapsed="true">
+    <Position X="24.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAAAAQAwAAAAAAAAAAAAAAAAAAICAgAAAAAgA=</HashCode>
+      <FileName>GameObjects\Enemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.RotatingEnemy" Collapsed="true">
+    <Position X="24.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAABAAAAAAA4AAAAAAAAAAAAAAIAAQIiAgAAAAAgA=</HashCode>
+      <FileName>GameObjects\RotatingEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.Ant" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Ant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.FireAnt" Collapsed="true">
+    <Position X="21.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\FireAnt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Fly" Collapsed="true">
+    <Position X="30.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Fly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.FireFly" Collapsed="true">
+    <Position X="28.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\FireFly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Moth" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Moth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.FireMoth" Collapsed="true">
+    <Position X="23.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\FireMoth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.FireRoach" Collapsed="true">
+    <Position X="26" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\FireRoach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Roach" Collapsed="true">
+    <Position X="32.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Roach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Consummable" Collapsed="true">
+    <Position X="39.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Consummable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Banana" Collapsed="true">
+    <Position X="37.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Banana.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.EnergyDrink" Collapsed="true">
+    <Position X="39.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\EnergyDrink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Coffee" Collapsed="true">
+    <Position X="41.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Coffee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Currency" Collapsed="true">
+    <Position X="45" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Coin" Collapsed="true">
+    <Position X="44" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Gem" Collapsed="true">
+    <Position X="46.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Gem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Weapon" Collapsed="true">
+    <Position X="50.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.KeyboardWep" Collapsed="true">
+    <Position X="50.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\KeyboardWep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.MonitorWep" Collapsed="true">
+    <Position X="48.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\MonitorWep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.MouseWep" Collapsed="true">
+    <Position X="53" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\MouseWep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.ScreenFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DeBugger.Box" Collapsed="true">
+    <Position X="59.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>GameObjects\Box.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.BackgroundScreen" Collapsed="true">
+    <Position X="8" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAACAAAAAAgBAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Screens\BackgroundScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.SoundCaller" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\SoundCaller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.Turret" Collapsed="true">
+    <Position X="57.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAC4AAAAAAAAAAAAAAAAAQAgAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Turret.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.FlyingEnemy" Collapsed="true">
+    <Position X="35" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\FlyingEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.GameplayScreen" Collapsed="true">
+    <Position X="10.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ikZCgOKkAIAAAhBEAACAAUAACAiABBABAIFAAEEZIgA=</HashCode>
+      <FileName>Screens\GameplayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.PauseMenuScreen" Collapsed="true">
+    <Position X="1.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Screens\PauseMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.MenuScreen" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GQQAACGAAAAAAgAAAAAAgEAAAAAAIAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Screens\MenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.MenuEntry" Collapsed="true">
+    <Position X="65.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAgAAAABABAAAAAAAAAAAAACEQAAAI=</HashCode>
+      <FileName>Screens\MenuEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.MainMenuScreen" Collapsed="true">
+    <Position X="3.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiAAAAAAAAAAAAAAAAAAAAAABAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Screens\MainMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.MessageBoxScreen" Collapsed="true">
+    <Position X="12.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQCAACAAAgBAAAAAgAAAAAAAIAAAAAAAAAAAACA=</HashCode>
+      <FileName>Screens\MessageBoxScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.OptionsMenuScreen" Collapsed="true">
+    <Position X="5.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBABAAAgAAAQAggAAAgAQAAAAAAABAAAAAAAABIACAA=</HashCode>
+      <FileName>Screens\OptionsMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.PlayerIndexEventArgs" Collapsed="true">
+    <Position X="62.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Screens\PlayerIndexEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBugger.LoadingScreen" Collapsed="true">
+    <Position X="14.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAgAAAAAAAAgAAAAAQAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Screens\LoadingScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.GameScreen" Collapsed="true">
+    <Position X="8" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameStateManagement.InputState" Collapsed="true">
+    <Position X="64" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameStateManagement.InputAction" Collapsed="true">
+    <Position X="62.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameStateManagement.ScreenManager" Collapsed="true">
+    <Position X="65.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DeBugger.AreaOfEffectSkill" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skills\AreaOfEffectSkill.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.Skill" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAFAAAAwBggAAAAEAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Skills\Skill.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.ShieldSkill" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skills\ShieldSkill.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBugger.WalkingEnemy" Collapsed="true">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\WalkingEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DeBugger.IRotatable" Collapsed="true">
+    <Position X="65.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRotatable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DeBugger.IGameObject" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAgAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DeBugger.IAnimateable" Collapsed="true">
+    <Position X="64" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAnimateable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DeBugger.IFireble" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFireble.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DeBugger.IAggressive" Collapsed="true">
+    <Position X="62.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAggressive.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DeBugger.ISkill" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAwBAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISkill.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameStateManagement.IScreenFactory" Collapsed="true">
+    <Position X="62.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="GameStateManagement.ScreenState" Collapsed="true">
+    <Position X="62.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
