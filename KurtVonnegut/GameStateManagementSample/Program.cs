@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     #if WINDOWS || XBOX
     internal static class Program
     {
         private static void Main(string[] args)
         {
-            using (GameStateManagementGame game = new GameStateManagementGame())
+            using (DeBugger game = new DeBugger())
             {
                 game.Run();
             }

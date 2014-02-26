@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     public class Player : Agent, IRotatable, IFireble, IGameObject, IAnimateable
     {

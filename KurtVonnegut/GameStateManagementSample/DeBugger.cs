@@ -15,7 +15,7 @@ using GameStateManagement;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     /// <summary>
     /// Sample showing how to manage different game states, with transitions
@@ -23,7 +23,7 @@ namespace GameStateManagementSample
     /// menu. This main game class is extremely simple: all the interesting
     /// stuff happens in the ScreenManager component.
     /// </summary>
-    public class GameStateManagementGame : Microsoft.Xna.Framework.Game
+    public class DeBugger : Microsoft.Xna.Framework.Game
     {
         private readonly GraphicsDeviceManager graphics;
         private readonly ScreenManager screenManager;
@@ -34,7 +34,7 @@ namespace GameStateManagementSample
         /// <summary>
         /// The main game constructor.
         /// </summary>
-        public GameStateManagementGame()
+        public DeBugger()
         {
             this.Content.RootDirectory = "Content";
             

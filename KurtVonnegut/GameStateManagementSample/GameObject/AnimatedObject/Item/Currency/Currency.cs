@@ -1,4 +1,4 @@
-﻿namespace GameStateManagementSample
+﻿namespace DeBuggerGame
 {
     public abstract class Currency
         : Item

@@ -2,7 +2,7 @@
 using System;
 using System.Linq;
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     public interface IRotatable
     {

@@ -14,7 +14,7 @@
 
 #endregion
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     /// <summary>
     /// The pause menu comes up over the top of the game,

@@ -3,7 +3,7 @@ using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     public class Projectile : GameObject, IRotatable, IGameObject
     {

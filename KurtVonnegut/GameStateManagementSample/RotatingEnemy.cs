@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GameStateManagementSample
+namespace DeBuggerGame
 {
     public class RotatingEnemy : Enemy, IRotatable, IGameObject, IAggressive, IFireble
     {
