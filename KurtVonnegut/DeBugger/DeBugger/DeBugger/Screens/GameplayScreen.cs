@@ -131,7 +131,7 @@ namespace DeBugger
 
             //initialize solid objects
             this.solids = new List<Solid>();
-            //TODO: temporary
+            
             for (int i = 0; i < 30; i++)
             {
                 this.solids.Add(new Solid());
@@ -139,7 +139,10 @@ namespace DeBugger
 
             //initialize turrets
             this.turrets = new List<Turret>();
-            this.turrets.Add(new Turret());
+            for (int i = 0; i < 6; i++)
+            {
+                this.turrets.Add(new Turret());
+            }
 
             // Initialize our random number generator
             GameplayScreen.Random = new Random();
@@ -223,7 +226,7 @@ namespace DeBugger
 
 
                 //add turret that uses the same texture from solid
-                this.turrets[0].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
+                InitializeTurrets();
 
                 this.font = this.content.Load<SpriteFont>("gameFont");
 
@@ -236,6 +239,16 @@ playerPosition = (Vector2)Microsoft.Phone.Shell.PhoneApplicationService.Current.
 enemyPosition = (Vector2)Microsoft.Phone.Shell.PhoneApplicationService.Current.State["EnemyPosition"];
 }
 #endif
+        }
+
+        private void InitializeTurrets()
+        {
+            this.turrets[0].Initialize(this.turretTexture, new Vector2(700, 250), 1, -1.57079633f); //1.57079633f
+            this.turrets[1].Initialize(this.turretTexture, new Vector2(700, 600), 1, -1.57079633f); //1.57079633f
+            this.turrets[2].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
+            this.turrets[3].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
+            this.turrets[4].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
+            this.turrets[5].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
         }
 
        private void InitializeSolids()
@@ -266,7 +279,6 @@ enemyPosition = (Vector2)Microsoft.Phone.Shell.PhoneApplicationService.Current.S
             this.solids[23].Initialize(this.solidTexture, new Vector2(900, 300), 1);
             this.solids[24].Initialize(this.solidTexture, new Vector2(850, 300), 1);
             this.solids[25].Initialize(this.solidTexture, new Vector2(800, 300), 1);
-
             this.solids[26].Initialize(this.solidTexture, new Vector2(750, 300), 1);
             this.solids[27].Initialize(this.solidTexture, new Vector2(700, 300), 1);
             this.solids[28].Initialize(this.solidTexture, new Vector2(700, 250), 1);
