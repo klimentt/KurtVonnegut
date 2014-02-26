@@ -35,9 +35,12 @@ namespace DeBugger
         public GameStateManagementGame()
         {
             this.Content.RootDirectory = "Content";
-
             this.IsMouseVisible = true;
             this.graphics = new GraphicsDeviceManager(this);
+
+            this.graphics.PreferredBackBufferWidth = 1366;
+            this.graphics.PreferredBackBufferHeight = 768;
+            this.graphics.IsFullScreen = true;
             this.TargetElapsedTime = TimeSpan.FromTicks(333333);
             this.Window.Title = "DeBugger by Team Kurt Vonnegut"; // Add Window Title
 
