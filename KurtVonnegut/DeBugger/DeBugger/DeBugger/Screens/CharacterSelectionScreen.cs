@@ -16,22 +16,22 @@ namespace DeBugger.Screens
     /// screen, and gives the user a chance to configure the game
     /// in various hopefully useful ways.
     /// </summary>
-    internal class CharacterSelectionScreen : MenuScreen
+    public class CharacterSelectionScreen : MenuScreen
     {
         #region Fields
 
         private readonly MenuEntry raceMenuEntry;
         private readonly MenuEntry weaponMenuEntry;
         private readonly MenuEntry genderMenuEntry;
-
-        private enum Race
+        //TODO: Move to a separate file
+        public enum Race
         {
             Programmer,
             Designer,
             Administrator,
         }
 
-        private static Race currentRace = Race.Programmer;
+        public static Race currentRace = Race.Programmer;
 
         private static readonly string[] weapons = { "C#", "JavaScript", "Python" };
         private static int currentWeapon = 0;

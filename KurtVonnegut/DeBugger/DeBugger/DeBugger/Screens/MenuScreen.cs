@@ -26,7 +26,7 @@ namespace DeBugger
     /// Base class for screens that contain a menu of options. The user can
     /// move up and down to select an entry, or cancel to back out of the screen.
     /// </summary>
-    abstract class MenuScreen : GameScreen
+    public abstract class MenuScreen : GameScreen
     {
         #region Fields
 
@@ -47,7 +47,7 @@ namespace DeBugger
         /// Gets the list of menu entries, so derived classes can add
         /// or change the menu contents.
         /// </summary>
-        protected IList<MenuEntry> MenuEntries
+        public IList<MenuEntry> MenuEntries
         {
             get
             {
@@ -155,7 +155,7 @@ namespace DeBugger
         /// <summary>
         /// Helper overload makes it easy to use OnCancel as a MenuEntry event handler.
         /// </summary>
-        protected void OnCancel(object sender, PlayerIndexEventArgs e)
+        public void OnCancel(object sender, PlayerIndexEventArgs e)
         {
             this.OnCancel(e.PlayerIndex);
         }

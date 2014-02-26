@@ -19,6 +19,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Audio;
+using DeBugger.Screens;
 
 #endregion
 
@@ -165,7 +166,20 @@ namespace DeBugger
 
                 //player
                 Animation playerAnimation = new Animation();
-                Texture2D playerTexture = this.content.Load<Texture2D>("player_2_animation");
+                string plTexture = "player_2_animation";
+                if (CharacterSelectionScreen.currentRace == CharacterSelectionScreen.Race.Administrator)
+                {
+                    plTexture = "player_2_animation";
+                }
+                else if (CharacterSelectionScreen.currentRace == CharacterSelectionScreen.Race.Designer)
+                {
+                    plTexture = "femaleFigure_walk";
+                }
+                else
+                {
+                    plTexture = "maleFigure_walk";
+                }
+                Texture2D playerTexture = this.content.Load<Texture2D>(plTexture);
                 int playerFrames = 8;
                 playerAnimation.Initialize(playerTexture, Vector2.Zero, playerTexture.Width / playerFrames, playerTexture.Height, playerFrames, 30, Color.White, 1f, true);
 
