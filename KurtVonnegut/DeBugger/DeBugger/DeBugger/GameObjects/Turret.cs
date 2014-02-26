@@ -15,7 +15,8 @@
         public void Initialize(Texture2D texture, Microsoft.Xna.Framework.Vector2 position, float scale, float rotation)
         {
             this.Rotation = rotation;
-            FireTime = TimeSpan.FromSeconds(FIRE_DELAY);
+            this.FireTime = TimeSpan.FromSeconds(FIRE_DELAY);
+            this.PreviousFireTime = new TimeSpan(1);
             base.Initialize(texture, position, scale);
         }
 

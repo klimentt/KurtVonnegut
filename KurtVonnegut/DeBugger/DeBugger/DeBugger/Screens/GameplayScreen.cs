@@ -243,9 +243,9 @@ enemyPosition = (Vector2)Microsoft.Phone.Shell.PhoneApplicationService.Current.S
 
         private void InitializeTurrets()
         {
-            this.turrets[0].Initialize(this.turretTexture, new Vector2(690, 250), 1, -2.35f); //1.57079633f
-            this.turrets[1].Initialize(this.turretTexture, new Vector2(690, 600), 1, 2.35f); //1.57079633f
-            this.turrets[2].Initialize(this.turretTexture, new Vector2(960, 400), 1, 0f); //1.57079633f
+            this.turrets[0].Initialize(this.turretTexture, new Vector2(650, 200), 1, -2.35f); //1.57079633f
+            this.turrets[1].Initialize(this.turretTexture, new Vector2(650, 650), 1, 2.8f); //1.57079633f
+            this.turrets[2].Initialize(this.turretTexture, new Vector2(1000, 430), 1, 0f); //1.57079633f
             this.turrets[3].Initialize(this.turretTexture, new Vector2(750, 50), 1, 3.0f); //1.57079633f
         }
 
@@ -345,15 +345,15 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                     }
                 }
 
-                foreach (var tur in this.turrets)
+                for (int i = 0; i < this.turrets.Count; i++)
                 {
-                    if (gameTime.TotalGameTime - tur.PreviousFireTime > tur.FireTime)
+                    if (gameTime.TotalGameTime - turrets[i].PreviousFireTime > turrets[i].FireTime)
                     {
                         // Reset our current time
-                        tur.PreviousFireTime = gameTime.TotalGameTime;
+                        turrets[i].PreviousFireTime = gameTime.TotalGameTime;
 
                         // Add the projectile, but add it to the front and center of the player
-                        this.AddTurretProjectile(tur);
+                        this.AddTurretProjectile(turrets[i]);
                     }
                 }
 
@@ -669,6 +669,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                     if (this.player.Health <= 0)
                     {
                         this.player.Active = false;
+                        xp = 0;
                     }
                 }
             }
