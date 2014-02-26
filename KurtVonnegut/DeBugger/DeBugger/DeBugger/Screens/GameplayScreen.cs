@@ -139,7 +139,7 @@ namespace DeBugger
 
             //initialize turrets
             this.turrets = new List<Turret>();
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 4; i++)
             {
                 this.turrets.Add(new Turret());
             }
@@ -243,12 +243,10 @@ enemyPosition = (Vector2)Microsoft.Phone.Shell.PhoneApplicationService.Current.S
 
         private void InitializeTurrets()
         {
-            this.turrets[0].Initialize(this.turretTexture, new Vector2(700, 250), 1, -1.57079633f); //1.57079633f
-            this.turrets[1].Initialize(this.turretTexture, new Vector2(700, 600), 1, -1.57079633f); //1.57079633f
-            this.turrets[2].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
-            this.turrets[3].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
-            this.turrets[4].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
-            this.turrets[5].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
+            this.turrets[0].Initialize(this.turretTexture, new Vector2(690, 250), 1, -2.35f); //1.57079633f
+            this.turrets[1].Initialize(this.turretTexture, new Vector2(690, 600), 1, 2.35f); //1.57079633f
+            this.turrets[2].Initialize(this.turretTexture, new Vector2(960, 400), 1, 0f); //1.57079633f
+            this.turrets[3].Initialize(this.turretTexture, new Vector2(750, 50), 1, 3.0f); //1.57079633f
         }
 
        private void InitializeSolids()
@@ -717,6 +715,7 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
         {
             Projectile projectile = new Projectile();
             projectile.Initialize(this.ScreenManager.GraphicsDevice.Viewport, this.turretProjTexture, new Vector2(tur.Position.X, tur.Position.Y), tur);
+            
             this.projectiles.Add(projectile);
             SoundCaller turretShotFired = new SoundCaller(this.turretSound);
         }
