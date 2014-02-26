@@ -176,7 +176,7 @@ namespace DeBugger
             float transitionOffset = (float)Math.Pow(this.TransitionPosition, 2);
 
             // start at Y = 175; each X value is generated per entry
-            Vector2 position = new Vector2(0f, 175f);
+            Vector2 position = new Vector2(0f, 310f);
 
             // update each menu entry's location in turn
             for (int i = 0; i < this.menuEntries.Count; i++)
@@ -250,9 +250,9 @@ namespace DeBugger
             float transitionOffset = (float)Math.Pow(this.TransitionPosition, 2);
 
             // Draw the menu title centered on the screen
-            Vector2 titlePosition = new Vector2(graphics.Viewport.Width / 2, 80);
+            Vector2 titlePosition = new Vector2(graphics.Viewport.Width / 2, 130);
             Vector2 titleOrigin = font.MeasureString(this.menuTitle) / 2;
-            Color titleColor = new Color(192, 192, 192) * this.TransitionAlpha;
+            Color titleColor = new Color(255, 255, 0) * this.TransitionAlpha;
             float titleScale = 1.25f;
 
             titlePosition.Y -= transitionOffset * 100;
