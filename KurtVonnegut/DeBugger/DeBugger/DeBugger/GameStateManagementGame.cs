@@ -29,8 +29,6 @@ namespace DeBugger
         private readonly ScreenManager screenManager;
         private readonly ScreenFactory screenFactory;
 
-        SpriteBatch spriteBatch;
-
         /// <summary>
         /// The main game constructor.
         /// </summary>

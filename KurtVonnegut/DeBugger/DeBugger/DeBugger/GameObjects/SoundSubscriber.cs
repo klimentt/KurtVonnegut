@@ -7,8 +7,6 @@
     
     public class SoundSubscriber : Sound
     {
-        private ContentManager content;
-
         public void Subscribe(SoundPublisher publisher)
         {
             publisher.Tick += new SoundPublisher.EventHandler(TakeAction);

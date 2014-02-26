@@ -69,7 +69,7 @@ namespace DeBugger
         /// </summary>
         protected override void OnCancel(PlayerIndex playerIndex)
         {
-            const string MESSAGE = "Are you sure you want to exit this sample?";
+            const string MESSAGE = "Are you sure you want to exit?";
 
             MessageBoxScreen confirmExitMessageBox = new MessageBoxScreen(MESSAGE);
 

@@ -38,9 +38,6 @@ namespace DeBugger.Screens
 
         private static bool gender = true;
 
-        private int selectedCharacter = 0;
-
-
         #endregion
 
         #region Initialization
