@@ -131,7 +131,11 @@ namespace DeBugger
 
             //initialize solid objects
             this.solids = new List<Solid>();
-            this.solids.Add(new Solid());//TODO: temporary
+            //TODO: temporary
+            for (int i = 0; i < 30; i++)
+            {
+                this.solids.Add(new Solid());
+            }
 
             //initialize turrets
             this.turrets = new List<Turret>();
@@ -215,7 +219,8 @@ namespace DeBugger
                 this.solidTexture = this.content.Load<Texture2D>("solid");
                 //turret texture
                 this.turretTexture = this.content.Load<Texture2D>("turret");
-                this.solids[0].Initialize(this.solidTexture, new Vector2(400, 300), 1);
+                InitializeSolids();
+
 
                 //add turret that uses the same texture from solid
                 this.turrets[0].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
@@ -231,6 +236,41 @@ playerPosition = (Vector2)Microsoft.Phone.Shell.PhoneApplicationService.Current.
 enemyPosition = (Vector2)Microsoft.Phone.Shell.PhoneApplicationService.Current.State["EnemyPosition"];
 }
 #endif
+        }
+
+       private void InitializeSolids()
+        {            
+            this.solids[0].Initialize(this.solidTexture, new Vector2(400, 300), 1);
+            this.solids[1].Initialize(this.solidTexture, new Vector2(400, 350), 1);
+            this.solids[2].Initialize(this.solidTexture, new Vector2(400, 400), 1);
+            this.solids[3].Initialize(this.solidTexture, new Vector2(400, 450), 1);
+            this.solids[4].Initialize(this.solidTexture, new Vector2(400, 500), 1);
+            this.solids[5].Initialize(this.solidTexture, new Vector2(350, 400), 1);
+            this.solids[6].Initialize(this.solidTexture, new Vector2(300, 400), 1);
+            this.solids[7].Initialize(this.solidTexture, new Vector2(250, 400), 1);
+            this.solids[8].Initialize(this.solidTexture, new Vector2(400, 550), 1);            
+            this.solids[9].Initialize(this.solidTexture, new Vector2(700, 300), 1);
+            this.solids[10].Initialize(this.solidTexture, new Vector2(700, 600), 1);
+            this.solids[11].Initialize(this.solidTexture, new Vector2(700, 550), 1);
+            this.solids[12].Initialize(this.solidTexture, new Vector2(750, 550), 1);
+            this.solids[13].Initialize(this.solidTexture, new Vector2(700, 550), 1);
+            this.solids[14].Initialize(this.solidTexture, new Vector2(800, 550), 1);
+            this.solids[15].Initialize(this.solidTexture, new Vector2(850, 550), 1);
+            this.solids[16].Initialize(this.solidTexture, new Vector2(900, 550), 1);
+            this.solids[17].Initialize(this.solidTexture, new Vector2(950, 550), 1);
+            this.solids[18].Initialize(this.solidTexture, new Vector2(950, 500), 1);
+            this.solids[19].Initialize(this.solidTexture, new Vector2(950, 450), 1);
+            this.solids[20].Initialize(this.solidTexture, new Vector2(950, 400), 1);
+            this.solids[21].Initialize(this.solidTexture, new Vector2(950, 350), 1);
+            this.solids[22].Initialize(this.solidTexture, new Vector2(950, 300), 1);
+            this.solids[23].Initialize(this.solidTexture, new Vector2(900, 300), 1);
+            this.solids[24].Initialize(this.solidTexture, new Vector2(850, 300), 1);
+            this.solids[25].Initialize(this.solidTexture, new Vector2(800, 300), 1);
+
+            this.solids[26].Initialize(this.solidTexture, new Vector2(750, 300), 1);
+            this.solids[27].Initialize(this.solidTexture, new Vector2(700, 300), 1);
+            this.solids[28].Initialize(this.solidTexture, new Vector2(700, 250), 1);
+            this.solids[29].Initialize(this.solidTexture, new Vector2(400, 250), 1);            
         }
 
         /// <summary>
@@ -347,16 +387,19 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             {
                 this.projectiles[i].Draw(this.spriteBatch);
             }
-            //draw turrets 
-            foreach (var tur in this.turrets)
-            {
-                tur.Draw(this.spriteBatch);
-            }
+            
             //draw solids
             foreach (var solid in this.solids)
             {
                 solid.Draw(this.spriteBatch);
             }
+
+            //draw turrets 
+            foreach (var tur in this.turrets)
+            {
+                tur.Draw(this.spriteBatch);
+            }
+
             //Draw player
             this.player.Draw(this.spriteBatch);
 
