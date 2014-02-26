@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace GameStateManagementSample
 {
@@ -12,12 +13,6 @@ namespace GameStateManagementSample
         {
         }
 
-        public virtual void Initialize(Vector2 startPosition, Animation animation, TimeSpan cooldown)
-        {
-            this.Animation = animation;
-            this.FireTime = cooldown;
-            this.StartPosition = startPosition;
-        }
 
         public Animation Animation {get; set; }
 
@@ -40,5 +35,23 @@ namespace GameStateManagementSample
         public TimeSpan PreviousFireTime { get; set; }
 
         public abstract void Activate(GameTime time);
+        public virtual void Initialize(Vector2 startPosition, Animation animation, TimeSpan cooldown)
+        {
+            this.Animation = animation;
+            this.FireTime = cooldown;
+            this.StartPosition = startPosition;
+        }
+
+
+        public virtual void Update(GameTime gameTime)
+        {
+            //TODO Update
+            throw new NotImplementedException();
+        }
+
+        public virtual void Draw(SpriteBatch spriteBatch)
+        {
+            this.Animation.Draw(spriteBatch);
+        }
     }
 }
