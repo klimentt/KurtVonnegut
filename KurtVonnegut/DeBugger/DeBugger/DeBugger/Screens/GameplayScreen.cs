@@ -63,6 +63,7 @@ namespace DeBugger
         private List<Solid> solids;
         private List<Turret> turrets;
         private SoundEffect turretSound;
+        private Texture2D turretTexture;
 
         //handle effects
         private Texture2D explosionTexture;
@@ -212,11 +213,12 @@ namespace DeBugger
 
                 //solid objects texture
                 this.solidTexture = this.content.Load<Texture2D>("solid");
-
+                //turret texture
+                this.turretTexture = this.content.Load<Texture2D>("turret");
                 this.solids[0].Initialize(this.solidTexture, new Vector2(400, 300), 1);
 
                 //add turret that uses the same texture from solid
-                this.turrets[0].Initialize(this.solidTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
+                this.turrets[0].Initialize(this.turretTexture, new Vector2(600, 360), 1, -1.57079633f); //1.57079633f
 
                 this.font = this.content.Load<SpriteFont>("gameFont");
 

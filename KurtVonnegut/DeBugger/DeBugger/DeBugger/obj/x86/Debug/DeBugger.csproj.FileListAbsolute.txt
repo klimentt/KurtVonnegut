@@ -158,3 +158,4 @@ C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBugger\DeBugger\DeBug
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBugger\DeBugger\DeBugger\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBugger\DeBugger\DeBugger\obj\x86\Debug\DeBugger.exe
 C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBugger\DeBugger\DeBugger\obj\x86\Debug\DeBugger.pdb
+D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBugger\DeBugger\DeBugger\bin\x86\Debug\Content\turret.xnb
