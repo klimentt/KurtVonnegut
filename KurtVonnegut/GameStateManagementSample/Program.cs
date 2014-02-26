@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     #if WINDOWS || XBOX
     internal static class Program

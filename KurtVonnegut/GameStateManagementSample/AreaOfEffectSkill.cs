@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     public class AreaOfEffectSkill : Skill, ISkill
     {

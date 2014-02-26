@@ -16,7 +16,7 @@ using Microsoft.Xna.Framework;
 
 #endregion
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     /// <summary>
     /// The main menu screen is the first thing displayed when the game starts up.

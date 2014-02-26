@@ -17,7 +17,7 @@ using Microsoft.Xna.Framework;
 
 #endregion
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     /// <summary>
     /// Custom event argument which includes the index of the player who

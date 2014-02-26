@@ -13,7 +13,7 @@
 
 #endregion
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     /// <summary>
     /// The options screen is brought up over the top of the main menu

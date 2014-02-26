@@ -22,7 +22,7 @@ using Microsoft.Xna.Framework.Audio;
 
 #endregion
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     /// <summary>
     /// This screen implements the actual game logic. It is just a

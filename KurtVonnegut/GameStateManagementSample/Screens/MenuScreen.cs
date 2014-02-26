@@ -20,7 +20,7 @@ using Microsoft.Xna.Framework.Input;
 
 #endregion
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     /// <summary>
     /// Base class for screens that contain a menu of options. The user can

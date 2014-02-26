@@ -20,7 +20,7 @@ using Microsoft.Xna.Framework.Input;
 
 #endregion
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     /// <summary>
     /// A popup message box screen, used to display "are you sure?"

@@ -15,7 +15,7 @@ using GameStateManagement;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     /// <summary>
     /// Sample showing how to manage different game states, with transitions

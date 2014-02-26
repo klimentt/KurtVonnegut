@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace DeBuggerGame
+namespace GameStateManagementSample
 {
     public abstract class Skill : ISkill
     {
