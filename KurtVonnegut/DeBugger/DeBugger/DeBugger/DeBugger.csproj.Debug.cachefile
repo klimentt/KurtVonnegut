@@ -9,7 +9,6 @@ Content\bolt.xnb
 Content\circuitBoard.xnb
 Content\coffee.xnb
 Content\coin.xnb
-Content\endMenu.xnb
 Content\energy_drink.xnb
 Content\explosion.xnb
 Content\explosion_2.xnb
@@ -21,10 +20,7 @@ Content\gradient.xnb
 Content\heart.xnb
 Content\keyboard.xnb
 Content\laser.xnb
-Content\mainbackground.xnb
-Content\mainMenu.xnb
 Content\maleFigure_walk.xnb
-Content\matrixBackground.xnb
 Content\mine.xnb
 Content\mineAnimation.xnb
 Content\monitor.xnb
@@ -39,12 +35,9 @@ Content\roach_ghost.xnb
 Content\shipAnimation.xnb
 Content\solid.xnb
 Content\turretProjectile.xnb
-Content\wallpaperBackground.xnb
-Content\intro.xnb
 Content\gamefont.xnb
 Content\menufont.xnb
 Content\Sounds\backgroundMusic.xnb
 Content\Sounds\roach_smashed.xnb
 Content\Sounds\shot.xnb
 Content\Sounds\turretLaunch.xnb
-Content\intro.wmv

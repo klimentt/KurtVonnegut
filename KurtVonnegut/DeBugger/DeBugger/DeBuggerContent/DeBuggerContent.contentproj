@@ -97,11 +97,6 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="endMenu.png">
-      <Name>endMenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
     <Compile Include="energy_drink.png">
       <Name>energy_drink</Name>
       <Importer>TextureImporter</Importer>
@@ -147,11 +142,6 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="intro.wmv">
-      <Name>intro</Name>
-      <Importer>WmvImporter</Importer>
-      <Processor>VideoProcessor</Processor>
-    </Compile>
     <Compile Include="keyboard.png">
       <Name>keyboard</Name>
       <Importer>TextureImporter</Importer>
@@ -162,23 +152,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="mainbackground.png">
-      <Name>mainbackground</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="mainMenu.png">
-      <Name>mainMenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
     <Compile Include="maleFigure_walk.png">
       <Name>maleFigure_walk</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="matrixBackground.png">
-      <Name>matrixBackground</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -249,11 +224,6 @@
     </Compile>
     <Compile Include="turretProjectile.png">
       <Name>turretProjectile</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="wallpaperBackground.png">
-      <Name>wallpaperBackground</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

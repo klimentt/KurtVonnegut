@@ -1,2 +1,3 @@
 C:\Users\Vase\Desktop\fixed\DeBugger\DeBugger\DeBuggerContent\obj\x86\Debug\DeBuggerContent.contentprojResolveAssemblyReference.cache
 D:\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBugger\DeBugger\DeBuggerContent\obj\x86\Debug\DeBuggerContent.contentprojResolveAssemblyReference.cache
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBugger\DeBugger\DeBuggerContent\obj\x86\Debug\DeBuggerContent.contentprojResolveAssemblyReference.cache
