@@ -11,6 +11,7 @@
     public class Player : Agent, IRotatable, IFireble, IGameObject, IAnimateable
     {
         private const int DEF_HP = 100;
+        private const int LVL = 1;
         private const float INIT_MOVESPEED = 8.0f;
         private const float FIRE_DELAY = 0.15f;
 
@@ -37,6 +38,9 @@
         // Amount of hit points that player has
         public int Health { get; set; }
 
+        // Level of Player
+        public int Level { get; set; }
+
         //methods
         public override void Initialize(Animation animation, Vector2 position)
         {
@@ -53,6 +57,9 @@
 
             // Set the player health
             this.Health = DEF_HP;
+
+            // Set the player level
+            this.Level = LVL;
 
             // Set the laser to fire every quarter second
             this.FireTime = TimeSpan.FromSeconds(FIRE_DELAY);
@@ -95,7 +102,10 @@
             {
                 this.Health = DEF_HP;
                 this.Position = this.initialPos;
+                this.Level = 1;
             }
+
+            
             //rotates towards the mouse
             RotateTowards(new Vector2(currentMouseState.X, currentMouseState.Y));
 

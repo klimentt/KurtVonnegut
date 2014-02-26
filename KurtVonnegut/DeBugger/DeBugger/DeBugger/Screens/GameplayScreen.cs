@@ -70,6 +70,9 @@ namespace DeBugger
 
         //Number that holds the player score
         private int xp;
+
+        // String that holds the player level
+        private string lvl;
         // The font used to display UI elements
         private SpriteFont font;
 
@@ -136,6 +139,7 @@ namespace DeBugger
             GameplayScreen.Random = new Random();
 
             this.xp = 0;
+            this.lvl = "";
         }
 
         /// <summary>
@@ -352,8 +356,11 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
             }
             // Draw the score
             this.spriteBatch.DrawString(this.font, string.Format("XP: {0}", this.xp), new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y), Color.White);
+            // Draw the player level
+            this.spriteBatch.DrawString(this.font, string.Format("Level: {0}", this.lvl), new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y + 30), Color.White);
             // Draw the player health
-            this.spriteBatch.DrawString(this.font, string.Format("Health: {0}", this.player.Health), new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y + 30), Color.White);
+            this.spriteBatch.DrawString(this.font, string.Format("Health: {0}", this.player.Health), new Vector2(this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, this.ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y + 60), Color.White);
+
             this.spriteBatch.End();
             base.Draw(gameTime);
             if (this.TransitionPosition > 0 || this.pauseAlpha > 0)
@@ -459,6 +466,8 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                         this.xp -= this.enemies[i].Value;
                     }
                     this.enemies.RemoveAt(i);
+
+
                 }
             }
             //check if player is in aggrorange
@@ -472,6 +481,28 @@ Microsoft.Phone.Shell.PhoneApplicationService.Current.State.Remove("EnemyPositio
                 {
                     enemies[i].RotateTowards(player.Position);
                 }
+            }
+
+            // Update levels
+            if (this.xp < 100)
+            {
+                this.lvl = "Noob Ninja";
+            }
+            else if (this.xp > 100 && this.xp < 300)
+            {
+                this.lvl = "Ninja Disciple";
+            }
+            else if (this.xp > 300 & this.xp < 600)
+            {
+                this.lvl = "Ninja Acolyte";
+            }
+            else if (this.xp > 600 & this.xp < 1000)
+            {
+                this.lvl = "Master Ninja";
+            }
+            else if (this.xp > 1000)
+            {
+                this.lvl = "Master DeBugger";
             }
         }
 
