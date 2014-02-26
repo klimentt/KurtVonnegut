@@ -127,6 +127,7 @@
     <Compile Include="GameObjects\FlyingEnemy.cs" />
     <Compile Include="GameObjects\GameObject.cs" />
     <Compile Include="GameObjects\Gem.cs" />
+    <Compile Include="GameObjects\HealthException.cs" />
     <Compile Include="GameObjects\Item.cs" />
     <Compile Include="GameObjects\KeyboardWep.cs" />
     <Compile Include="GameObjects\MonitorWep.cs" />
