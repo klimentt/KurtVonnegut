@@ -1,0 +1,111 @@
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.exe
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.pdb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.exe
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.pdb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.csprojResolveAssemblyReference.cache
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.exe
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.pdb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.csprojResolveAssemblyReference.cache
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.exe
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.pdb
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure.xnb
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure.xnb
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure.tga
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure.tga
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.exe
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.pdb
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.csprojResolveAssemblyReference.cache
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.exe
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.pdb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure_walk.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\wallpaperBackground.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure_walk.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\circuitBoard.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\banana.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant_ghost.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth_ghost.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly.xnb
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly_ghost.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure_walk.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\wallpaperBackground.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure_walk.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\circuitBoard.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\banana.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant_ghost.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth_ghost.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly.xnb
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly_ghost.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure_walk.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\wallpaperBackground.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure_walk.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\circuitBoard.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\banana.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant_ghost.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth_ghost.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly_ghost.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.exe
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.pdb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.csprojResolveAssemblyReference.cache
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.exe
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.pdb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.csprojResolveAssemblyReference.cache
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.exe
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.pdb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\wallpaperBackground.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\circuitBoard.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant_ghost.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly_ghost.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth_ghost.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure_walk.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure_walk.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\banana.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.exe
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.pdb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\keyboard.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\mouse.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\coffee.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\wallpaperBackground.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\circuitBoard.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\ant_ghost.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly_ghost.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth_ghost.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\fly.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\moth.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\femaleFigure_walk.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\maleFigure_walk.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\banana.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\keyboard.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\mouse.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\coffee.xnb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.exe
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\DeBuggerGame.pdb
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.csprojResolveAssemblyReference.cache
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.exe
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\obj\x86\Debug\DeBuggerGame.pdb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\energy_drink.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\monitor.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\coin.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\gem.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\matrixBackground.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\intro.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\intro.wmv
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\bolt.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\explosion.xnb
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGame\bin\x86\Debug\Content\explosion_2.xnb

@@ -1,0 +1,6 @@
+C:\Users\Vase\Desktop\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\obj\x86\Debug\DeBuggerGameContent.contentprojResolveAssemblyReference.cache
+K:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\obj\x86\Debug\DeBuggerGameContent.contentprojResolveAssemblyReference.cache
+G:\___For_exam\homeworks\OOP\Group Project 03\my version\test\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\obj\x86\Debug\DeBuggerGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Vase\Documents\GitHub\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\obj\x86\Debug\DeBuggerGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\KurtVonnegut\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\obj\x86\Debug\DeBuggerGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Vase\Documents\GitHub\backup\22.02.2014\02\KurtVonnegut\DeBuggerGame\DeBuggerGame\DeBuggerGameContent\obj\x86\Debug\DeBuggerGameContent.contentprojResolveAssemblyReference.cache

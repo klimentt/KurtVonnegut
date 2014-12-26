@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DeBuggerGame.Player" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.GameObject" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Animation" Collapsed="true">
+    <Position X="36.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAARAgQAAAwAgAAEAAARCAGAAAACAAAAAAAAACAA=</HashCode>
+      <FileName>Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Agent" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Agent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Item" Collapsed="true">
+    <Position X="24" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.EnergyDrink" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Consummable\EnergyDrink\EnergyDrink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Enemy" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAgAAAAAAAAAABAAAAASAAAAAgAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Enemy\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.FireMoth" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Enemy\FireMoth\FireMoth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Ant" Collapsed="true">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Enemy\Ant\Ant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.FireFly" Collapsed="true">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Enemy\FireFly\FireFly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Moth" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Enemy\Moth\Moth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.FireAnt" Collapsed="true">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Enemy\FireAnt\FireAnt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.AnimatedObject" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAwAgAAAAIMAAAAAAAAAgAAAAAAAAYAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\AnimatedObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeBuggerGame.Fly" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Agent\Enemy\Fly\Fly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Consummable" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Consummable\Consummable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Weapon" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Weapon\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Monitor" Collapsed="true">
+    <Position X="29.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Weapon\Monitor\Monitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Keyboard" Collapsed="true">
+    <Position X="27.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Weapon\Keyboard\Keyboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Banana" Collapsed="true">
+    <Position X="18.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Consummable\Banana\Banana.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Coffee" Collapsed="true">
+    <Position X="20.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Consummable\Coffee\Coffee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Mouse" Collapsed="true">
+    <Position X="32" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Weapon\Mouse\Mouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Currency" Collapsed="true">
+    <Position X="24" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Currency\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Projectile" Collapsed="true">
+    <Position X="34.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACABAAAAwAgBAAAAEAAAAAAAAAgQAIAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Projectile\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Coin" Collapsed="true">
+    <Position X="23" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Currency\Coin\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeBuggerGame.Gem" Collapsed="true">
+    <Position X="25.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\AnimatedObject\Item\Currency\Gem\Gem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DeBuggerGame.IAnimateable" Collapsed="true">
+    <Position X="39" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAnimateable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
